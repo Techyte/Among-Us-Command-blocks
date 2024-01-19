@@ -1,0 +1,16 @@
+{
+  "everyone": {
+    "overrides": {
+      "commands": {
+        "help": "allow",
+        "role": "deny",
+        "skin": "deny"
+      }
+    }
+  },
+  "operator": {
+    "apply": {
+      "command_block": true
+    }
+  }
+}
