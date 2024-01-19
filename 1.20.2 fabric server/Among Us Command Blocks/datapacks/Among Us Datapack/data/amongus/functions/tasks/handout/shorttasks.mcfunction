@@ -19,6 +19,6 @@ summon armor_stand 0 100 0 {NoGravity:1b,Invisible:1b,Invulnerable:1b,Marker:1b,
 
 scoreboard players set @s shorttasks 2
 
-function amongus:tasks/handout/shorttask
+function amongus:tasks/handout/type/shorttask
 
 kill @e[tag=task_handout]

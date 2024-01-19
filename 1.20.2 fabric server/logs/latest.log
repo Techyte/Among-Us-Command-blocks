@@ -1,5 +1,5 @@
-[20:58:00] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
-[20:58:00] [main/INFO]: Loading 48 mods:
+[09:13:47] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
+[09:13:47] [main/INFO]: Loading 48 mods:
 	- carpet 1.4.121+v231011
 	- fabric-api 0.91.3+1.20.2
 	   |-- fabric-api-base 0.4.33+fce67b32a0
@@ -61,24 +61,24 @@
 	   \-- player_roles_api 1.6.7
 	- skinrestorer 1.2.4+1.20.2
 	- worldedit 7.2.17+6544-56d0383
-[20:58:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Desktop/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[20:58:01] [main/INFO]: Compatibility level set to JAVA_17
-[20:58:01] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
-[20:58:02] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
-[20:58:02] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
-[20:58:02] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[20:58:13] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b0eff2]
-[20:58:13] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
-[20:58:13] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:58:15] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[20:58:15] [main/INFO]: Loaded 7 recipes
-[20:58:16] [main/INFO]: Loaded 1272 advancements
-[20:58:16] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.241 ms
-[20:58:17] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[20:58:17] [Server thread/INFO]: Loading properties
-[20:58:17] [Server thread/INFO]: Default game type: ADVENTURE
-[20:58:17] [Server thread/INFO]: Generating keypair
-[20:58:17] [Server console handler/ERROR]: Exception handling console input
+[09:13:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Desktop/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[09:13:48] [main/INFO]: Compatibility level set to JAVA_17
+[09:13:48] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
+[09:13:49] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[09:13:49] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[09:13:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[09:14:08] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@43662dc4]
+[09:14:08] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
+[09:14:09] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:14:10] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[09:14:11] [main/INFO]: Loaded 7 recipes
+[09:14:11] [main/INFO]: Loaded 1272 advancements
+[09:14:12] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.014 ms
+[09:14:13] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[09:14:13] [Server thread/INFO]: Loading properties
+[09:14:13] [Server thread/INFO]: Default game type: ADVENTURE
+[09:14:13] [Server thread/INFO]: Generating keypair
+[09:14:13] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -92,33 +92,38 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
-[20:58:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:58:17] [Server thread/INFO]: Using default channel type
-[20:58:17] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
-[20:58:17] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
-[20:58:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:58:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:58:20] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[20:58:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:58:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:58:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:58:20] [Worker-Main-8/INFO]: Preparing spawn area: 8%
-[20:58:21] [Worker-Main-8/INFO]: Preparing spawn area: 90%
-[20:58:21] [Server thread/INFO]: Time elapsed: 3034 ms
-[20:58:21] [Server thread/INFO]: Done (3.549s)! For help, type "help"
-[21:00:02] [User Authenticator #1/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
-[21:00:02] [Server thread/INFO]: Techyte[/127.0.0.1:54723] logged in with entity id 35 at (-129.04317036673464, -4.0, -23.492042041116047)
-[21:00:02] [Server thread/INFO]: Techyte joined the game
-[21:00:07] [Server thread/INFO]: Techyte lost connection: Disconnected
-[21:00:07] [Server thread/INFO]: Techyte left the game
-[21:00:12] [Server thread/INFO]: Stopping the server
-[21:00:12] [Server thread/INFO]: Stopping server
-[21:00:12] [Server thread/INFO]: Saving players
-[21:00:12] [Server thread/INFO]: Saving worlds
-[21:00:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
-[21:00:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
-[21:00:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
-[21:00:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
-[21:00:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:00:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:00:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:14:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:14:13] [Server thread/INFO]: Using default channel type
+[09:14:13] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
+[09:14:13] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
+[09:14:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:14:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:14:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:14:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:14:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:14:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:14:16] [Worker-Main-8/INFO]: Preparing spawn area: 6%
+[09:14:17] [Worker-Main-11/INFO]: Preparing spawn area: 71%
+[09:14:17] [Server thread/INFO]: Time elapsed: 3159 ms
+[09:14:17] [Server thread/INFO]: Done (3.674s)! For help, type "help"
+[09:14:53] [User Authenticator #1/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[09:14:53] [Server thread/INFO]: Techyte[/127.0.0.1:55413] logged in with entity id 35 at (-129.26348425208252, -4.0, -21.412167760800095)
+[09:14:53] [Server thread/INFO]: Techyte joined the game
+[09:17:52] [User Authenticator #2/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
+[09:17:52] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:55631] logged in with entity id 36 at (-127.20594859641365, -4.0, -23.316782789833155)
+[09:17:52] [Server thread/INFO]: Keefe_Sencen joined the game
+[09:21:12] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[09:21:12] [Server thread/INFO]: Loaded 7 recipes
+[09:21:12] [Server thread/INFO]: Loaded 1272 advancements
+[09:21:23] [Server thread/INFO]: [Keefe_Sencen: Set [shorttasks] for Keefe_Sencen to 2]
+[09:25:58] [Server thread/INFO]: Stopping the server
+[09:25:58] [Server thread/INFO]: Stopping server
+[09:25:58] [Server thread/INFO]: Saving players
+[09:25:58] [Server thread/INFO]: Saving worlds
+[09:25:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
+[09:25:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
+[09:25:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
+[09:25:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
+[09:25:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:25:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:25:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
