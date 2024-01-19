@@ -1,0 +1,1 @@
+kill @e[tag=dummyPlayer,sort=nearest,limit=1]

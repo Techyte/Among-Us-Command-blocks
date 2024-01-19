@@ -1,0 +1,1 @@
+execute as @e[tag=ventpoint] at @s run setblock ~ ~-1 ~ iron_trapdoor[open=false,half=top]

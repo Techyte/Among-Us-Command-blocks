@@ -1,0 +1,2 @@
+execute if score Manager cafeteriadoors matches 0 run function amongus:sabotages/closedoors/cafeteria
+execute unless score Manager cafeteriadoors matches 0 run function amongus:sabotages/cooldowns/cafeteria

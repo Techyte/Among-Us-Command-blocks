@@ -1,0 +1,1 @@
+scoreboard players set Manager lights_sabotage -1

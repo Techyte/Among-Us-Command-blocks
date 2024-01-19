@@ -1,0 +1,2 @@
+execute if score Manager electricaldoors matches 0 run function amongus:sabotages/closedoors/electrical
+execute unless score Manager electricaldoors matches 0 run function amongus:sabotages/cooldowns/electrical

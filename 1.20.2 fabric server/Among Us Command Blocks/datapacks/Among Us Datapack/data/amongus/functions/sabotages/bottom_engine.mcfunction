@@ -1,0 +1,2 @@
+execute if score Manager lowerenginedoors matches 0 run function amongus:sabotages/closedoors/lower_engine
+execute unless score Manager lowerenginedoors matches 0 run function amongus:sabotages/cooldowns/lower_engine

@@ -1,0 +1,2 @@
+execute if score Manager sabotageCooldown matches 0 run item replace entity @s inventory.0 with minecraft:carrot_on_a_stick{display:{Name:'[{"text":"Communications","italic":false}]'},tags:["CommsButton"],CustomModelData:49}
+execute unless score Manager sabotageCooldown matches 0 run item replace entity @s inventory.0 with minecraft:carrot_on_a_stick{display:{Name:'[{"text":"Communications","italic":false}]'},tags:["CommsNonInteractable"],CustomModelData:50}

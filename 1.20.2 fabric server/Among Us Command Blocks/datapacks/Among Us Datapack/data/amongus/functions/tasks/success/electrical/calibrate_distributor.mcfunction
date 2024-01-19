@@ -1,0 +1,4 @@
+function amongus:tasks/reset/electrical/calibrate_distributor
+function amongus:tasks/killdummyplayer
+function amongus:completetask
+tag @s remove electrical_calibrate_distributor
