@@ -1,22 +1,18 @@
-# - SHORT TASKS
-# calibrate distributor
-# chart course
-# clean o2 filter
-# divert power
-# stabilize steering
-# unlock manifolds
-# upload data
+scoreboard players set @a wiring_tasks_left 0
 
-# - LONG TASKS
-# align engine
-# empty garbage (o2 or cafeteria)
-# fuel engines
-# inspect samples
-# stabilze steering
-# submit scan
-# start reactor
+function amongus:tasks/handout/commontasks
+execute as @a[tag=!Imposter] run function amongus:tasks/handout/shorttasks
+execute as @a[tag=!Imposter] run function amongus:tasks/handout/longtasks
+execute as @a[tag=!Imposter] run function amongus:tasks/handout/readout_tasks
 
-# - COMMON TASKS
-# swipe card
-# fix wiring
+execute store result score Manager numOfPlayers if entity @a[tag=playing] 
 
+scoreboard players operation Manager shorttasks *= Manager numOfPlayers
+scoreboard players operation Manager longtasks *= Manager numOfPlayers
+scoreboard players operation Manager commontasks *= Manager numOfPlayers
+
+scoreboard players operation Manager maxCompletedTasks += Manager shorttasks
+scoreboard players operation Manager maxCompletedTasks += Manager longtasks
+scoreboard players operation Manager maxCompletedTasks += Manager commontasks
+
+scoreboard players set Manager completedTasks 0
