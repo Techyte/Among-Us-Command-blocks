@@ -10,3 +10,4 @@ playsound minecraft:door_close master @a -124 -3 -41 1 1 0.1
 playsound minecraft:door_close master @a -116 -3 -54 1 1 0.1
 
 schedule function amongus:sabotages/opendoors/storage 200
+playsound minecraft:generic master @s

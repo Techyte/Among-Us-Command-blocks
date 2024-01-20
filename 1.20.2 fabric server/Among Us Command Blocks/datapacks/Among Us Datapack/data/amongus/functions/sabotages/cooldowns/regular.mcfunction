@@ -1,1 +1,2 @@
 title @s actionbar [{"text": "Please wait ","color": "red"},{"score":{"name":"Manager","objective":"sabotageCooldown"},"color":"yellow"},{"text": " second(s)","color": "yellow"},{"text":" before sabotaging again"}]
+playsound minecraft:generic master @s

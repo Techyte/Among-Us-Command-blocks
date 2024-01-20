@@ -1,5 +1,5 @@
-[13:13:52] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
-[13:13:52] [main/INFO]: Loading 48 mods:
+[15:01:03] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
+[15:01:03] [main/INFO]: Loading 48 mods:
 	- carpet 1.4.121+v231011
 	- fabric-api 0.91.3+1.20.2
 	   |-- fabric-api-base 0.4.33+fce67b32a0
@@ -61,24 +61,24 @@
 	   \-- player_roles_api 1.6.7
 	- skinrestorer 1.2.4+1.20.2
 	- worldedit 7.2.17+6544-56d0383
-[13:13:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Desktop/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[13:13:53] [main/INFO]: Compatibility level set to JAVA_17
-[13:13:53] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
-[13:13:54] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
-[13:13:54] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
-[13:13:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[13:14:08] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b0eff2]
-[13:14:08] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
-[13:14:08] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:14:10] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[13:14:11] [main/INFO]: Loaded 7 recipes
-[13:14:11] [main/INFO]: Loaded 1272 advancements
-[13:14:12] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.316 ms
-[13:14:12] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[13:14:12] [Server thread/INFO]: Loading properties
-[13:14:12] [Server thread/INFO]: Default game type: ADVENTURE
-[13:14:12] [Server thread/INFO]: Generating keypair
-[13:14:12] [Server console handler/ERROR]: Exception handling console input
+[15:01:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Desktop/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[15:01:03] [main/INFO]: Compatibility level set to JAVA_17
+[15:01:03] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
+[15:01:04] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[15:01:04] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[15:01:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[15:01:18] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b0eff2]
+[15:01:18] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
+[15:01:18] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:01:20] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[15:01:20] [main/INFO]: Loaded 7 recipes
+[15:01:21] [main/INFO]: Loaded 1272 advancements
+[15:01:21] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.183 ms
+[15:01:22] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[15:01:22] [Server thread/INFO]: Loading properties
+[15:01:22] [Server thread/INFO]: Default game type: ADVENTURE
+[15:01:22] [Server thread/INFO]: Generating keypair
+[15:01:22] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -92,295 +92,1435 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
-[13:14:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:14:12] [Server thread/INFO]: Using default channel type
-[13:14:13] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
-[13:14:13] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
-[13:14:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:14:16] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:14:16] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:14:16] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:14:16] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:14:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:14:16] [Worker-Main-6/INFO]: Preparing spawn area: 22%
-[13:14:17] [Server thread/INFO]: Time elapsed: 3392 ms
-[13:14:17] [Server thread/INFO]: Done (3.927s)! For help, type "help"
-[13:14:20] [User Authenticator #1/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
-[13:14:20] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:58266] logged in with entity id 35 at (-121.22771095139987, -4.0, -26.21051970618683)
-[13:14:20] [Server thread/INFO]: Keefe_Sencen joined the game
-[13:14:22] [User Authenticator #2/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
-[13:14:22] [Server thread/INFO]: Techyte[/127.0.0.1:58273] logged in with entity id 36 at (-127.33765448181158, -4.0, -37.605520923886466)
-[13:14:22] [Server thread/INFO]: Techyte joined the game
-[13:14:33] [Server thread/INFO]: [Keefe_Sencen: Executed 321 command(s) from function 'amongus:tasks/handout/handouttasks']
-[13:15:58] [Server thread/INFO]: [Techyte: Reloading!]
-[13:15:58] [Server thread/INFO]: Loaded 7 recipes
-[13:15:59] [Server thread/INFO]: Loaded 1272 advancements
-[13:16:06] [Server thread/INFO]: [Techyte: Executed 42 command(s) from function 'amongus:removetasktags']
-[13:16:50] [Server thread/INFO]: [Techyte: Reloading!]
-[13:16:50] [Server thread/INFO]: Loaded 7 recipes
-[13:16:50] [Server thread/INFO]: Loaded 1272 advancements
-[13:16:57] [Server thread/INFO]: [Techyte: Removed tag 'admin_swipe_card' from 2 entities]
-[13:17:00] [Server thread/INFO]: [Techyte: Removed tag 'cafeteria_empty_garbage' from 2 entities]
-[13:17:02] [Server thread/INFO]: [Techyte: Removed tag 'communications_download' from 2 entities]
-[13:17:05] [Server thread/INFO]: [Techyte: Removed tag 'medbay_inspect_samples' from 2 entities]
-[13:17:07] [Server thread/INFO]: [Techyte: Removed tag 'medbay_submit_scan' from 2 entities]
-[13:17:10] [Server thread/INFO]: [Techyte: Removed tag 'navigation_chart_course' from 2 entities]
-[13:17:13] [Server thread/INFO]: [Techyte: Removed tag 'reactor_start_reactor' from 2 entities]
-[13:17:16] [Server thread/INFO]: [Techyte: Removed tag 'reactor_unlock_manifolds' from 2 entities]
-[13:17:20] [Server thread/INFO]: [Techyte: Removed tag 'top_engine_align_engine' from 2 entities]
-[13:17:25] [Server thread/INFO]: [Techyte: Reloading!]
-[13:17:25] [Server thread/INFO]: Loaded 7 recipes
-[13:17:25] [Server thread/INFO]: Loaded 1272 advancements
-[13:17:35] [Server thread/INFO]: [Keefe_Sencen: Set [longtasks] for Manager to 3]
-[13:17:43] [Server thread/INFO]: [Keefe_Sencen: Set [shorttasks] for Manager to 2]
-[13:17:48] [Server thread/INFO]: [Keefe_Sencen: Set [commontasks] for Manager to 1]
-[13:17:59] [Server thread/INFO]: [Keefe_Sencen: Executed 321 command(s) from function 'amongus:tasks/handout/handouttasks']
-[13:19:29] [Server thread/INFO]: [Techyte: Removed tag 'electrical_divert_power' from Keefe_Sencen]
-[13:19:33] [Server thread/INFO]: [Techyte: Removed tag 'admin_swipe_card' from Keefe_Sencen]
-[13:19:35] [Server thread/INFO]: [Techyte: Removed tag 'electrical_calibrate_distributor' from Keefe_Sencen]
-[13:19:38] [Server thread/INFO]: [Techyte: Removed tag 'medbay_submit_scan' from Keefe_Sencen]
-[13:19:41] [Server thread/INFO]: [Techyte: Removed tag 'top_engine_align_engine' from Keefe_Sencen]
-[13:19:53] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from 2 entities]
-[13:19:55] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
-[13:19:59] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'security_fix_wiring' from 2 entities]
-[13:20:03] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[13:20:03] [Server thread/INFO]: Loaded 7 recipes
-[13:20:03] [Server thread/INFO]: Loaded 1272 advancements
-[13:20:34] [Server thread/INFO]: [Keefe_Sencen: Executed 203 command(s) from function 'amongus:tasks/handout/handouttasks']
-[13:20:53] [Server thread/INFO]: [Techyte: Set [shorttasks] for Manager to 2]
-[13:20:56] [Server thread/INFO]: [Techyte: Set [longtasks] for Manager to 2]
-[13:21:02] [Server thread/INFO]: [Techyte: Set [commontasks] for Manager to 1]
-[13:21:06] [Server thread/INFO]: [Keefe_Sencen: Executed 295 command(s) from function 'amongus:tasks/handout/handouttasks']
-[13:28:02] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'cafeteria_fix_wiring' from Keefe_Sencen]
-[13:28:08] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
-[13:28:11] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_empty_garbage' from 2 entities]
-[13:28:13] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_fix_wiring' from 2 entities]
-[13:28:16] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from 2 entities]
-[13:28:19] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
-[13:28:21] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'weapons_asteroids' from 2 entities]
-[13:28:32] [Server thread/INFO]: [Keefe_Sencen: Set [shorttasks] for Manager to 0]
-[13:28:35] [Server thread/INFO]: [Keefe_Sencen: Set [shorttasks] for Manager to 2]
-[13:28:39] [Server thread/INFO]: [Keefe_Sencen: Set [longtasks] for Manager to 2]
-[13:28:42] [Server thread/INFO]: [Keefe_Sencen: Set [commontasks] for Manager to 1]
-[13:29:22] [Server thread/INFO]: [Keefe_Sencen: Executed 279 command(s) from function 'amongus:tasks/handout/handouttasks']
-[13:30:30] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[13:30:30] [Server thread/INFO]: Loaded 7 recipes
-[13:30:30] [Server thread/INFO]: Loaded 1272 advancements
-[13:30:34] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from 2 entities]
-[13:30:37] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
-[13:30:40] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
-[13:30:43] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_submit_scan' from 2 entities]
-[13:30:45] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_empty_garbage' from 2 entities]
-[13:30:48] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_unlock_manifolds' from 2 entities]
-[13:30:51] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from 2 entities]
-[13:30:59] [Server thread/INFO]: [Keefe_Sencen: Set [commontasks] for Manager to 1]
-[13:31:03] [Server thread/INFO]: [Keefe_Sencen: Set [longtasks] for Manager to 2]
-[13:31:08] [Server thread/INFO]: [Keefe_Sencen: Set [shorttasks] for Manager to 3]
-[13:31:16] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
-[13:31:16] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a short task
-[13:31:16] [Server thread/INFO]: [Not Secure] [Techyte] handing out a short task
-[13:31:16] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a long
-[13:31:16] [Server thread/INFO]: [Not Secure] [Techyte] handing out a long
-[13:31:16] [Server thread/INFO]: [Keefe_Sencen: Executed 354 command(s) from function 'amongus:tasks/handout/handouttasks']
-[13:33:59] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[13:33:59] [Server thread/INFO]: Loaded 7 recipes
-[13:33:59] [Server thread/INFO]: Loaded 1272 advancements
-[13:34:18] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'communications_download' from 2 entities]
-[13:34:21] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
-[13:34:25] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
-[13:34:27] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_fix_wiring' from 2 entities]
-[13:34:29] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_download' from 2 entities]
-[13:34:33] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_empty_garbage' from 2 entities]
-[13:34:36] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from 2 entities]
-[13:34:38] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'storage_fix_wiring' from 2 entities]
-[13:34:41] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from 2 entities]
-[13:35:11] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[13:35:11] [Server thread/INFO]: Loaded 7 recipes
-[13:35:11] [Server thread/INFO]: Loaded 1272 advancements
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
-[13:35:21] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
-[13:35:22] [Server thread/INFO]: [Keefe_Sencen: Executed 537 command(s) from function 'amongus:tasks/handout/handouttasks']
-[13:37:24] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from 2 entities]
-[13:37:26] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'communications_download' from 2 entities]
-[13:37:28] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
-[13:37:31] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
-[13:37:34] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_inspect_samples' from 2 entities]
-[13:37:36] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_submit_scan' from 2 entities]
-[13:37:38] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_chart_course' from 2 entities]
-[13:37:41] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from 2 entities]
-[13:37:44] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
-[13:37:47] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_unlock_manifolds' from 2 entities]
-[13:37:50] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'storage_fix_wiring' from 2 entities]
-[13:37:53] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from 2 entities]
-[13:37:55] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'weapons_asteroids' from 2 entities]
-[13:38:04] [Server thread/INFO]: [Keefe_Sencen: Set [shorttasks] for Manager to 2]
-[13:38:08] [Server thread/INFO]: [Keefe_Sencen: Set [longtasks] for Manager to 2]
-[13:38:12] [Server thread/INFO]: [Keefe_Sencen: Set [commontasks] for Manager to 1]
-[13:38:45] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
-[13:38:45] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:38:45] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:38:45] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:38:45] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:38:45] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
-[13:38:45] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
-[13:38:45] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
-[13:38:45] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
-[13:38:45] [Server thread/INFO]: [Keefe_Sencen: Executed 303 command(s) from function 'amongus:tasks/handout/handouttasks']
-[13:39:09] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
-[13:39:12] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
-[13:39:15] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_empty_garbage' from 2 entities]
-[13:39:19] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
-[13:39:22] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'security_fix_wiring' from 2 entities]
-[13:39:25] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from 2 entities]
-[13:39:28] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'weapons_asteroids' from 2 entities]
-[13:39:30] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'weapons_download' from 2 entities]
-[13:39:38] [Server thread/INFO]: [Keefe_Sencen: Set [shorttasks] for Manager to 2]
-[13:39:42] [Server thread/INFO]: [Keefe_Sencen: Set [longtasks] for Manager to 2]
-[13:39:46] [Server thread/INFO]: [Keefe_Sencen: Set [commontasks] for Manager to 1]
-[13:39:54] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
-[13:39:54] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:39:54] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
-[13:39:54] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:39:54] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
-[13:39:54] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
-[13:39:54] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
-[13:39:54] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
-[13:39:54] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
-[13:39:54] [Server thread/INFO]: [Keefe_Sencen: Executed 299 command(s) from function 'amongus:tasks/handout/handouttasks']
-[13:40:27] [Server thread/INFO]: [Keefe_Sencen: Set [completedTasks] for Manager to 1]
-[13:40:50] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Survival Mode]
-[13:40:51] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
-[13:40:52] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
-[13:40:53] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
-[13:42:04] [Server thread/INFO]: Keefe_Sencen lost connection: Disconnected
-[13:42:04] [Server thread/INFO]: Keefe_Sencen left the game
-[13:42:07] [User Authenticator #3/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
-[13:42:07] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:58621] logged in with entity id 315 at (-94.27340935090065, -23.077695983721945, -28.79607390110578)
-[13:42:07] [Server thread/INFO]: Keefe_Sencen joined the game
-[13:42:10] [Server thread/INFO]: Techyte lost connection: Disconnected
-[13:42:10] [Server thread/INFO]: Techyte left the game
-[13:42:12] [User Authenticator #4/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
-[13:42:12] [Server thread/INFO]: Techyte[/127.0.0.1:58632] logged in with entity id 316 at (-129.12807928188468, -4.0, -22.233158991317424)
-[13:42:12] [Server thread/INFO]: Techyte joined the game
-[13:42:33] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Survival Mode]
-[13:42:34] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
-[13:42:35] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
-[13:42:39] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
-[13:43:10] [Server thread/INFO]: [Keefe_Sencen: Set [maxCompletedTasks] for Manager to 5]
-[13:43:12] [Server thread/INFO]: <Keefe_Sencen> execute store result bossbar minecraft:completedtasks max run scoreboard players get Manager maxCompletedTasks
-[13:43:14] [Server thread/INFO]: Keefe_Sencen lost connection: Disconnected
-[13:43:14] [Server thread/INFO]: Keefe_Sencen left the game
-[13:43:16] [User Authenticator #5/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
-[13:43:16] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:58672] logged in with entity id 317 at (-129.4492478312256, -3.405793696488508, -23.63507918722258)
-[13:43:16] [Server thread/INFO]: Keefe_Sencen joined the game
-[13:43:37] [Server thread/INFO]: [Keefe_Sencen: Set [maxCompletedTasks] for Manager to 10]
-[13:44:49] [Server thread/INFO]: [Keefe_Sencen: Created new objective [temp_shorttasks]]
-[13:44:53] [Server thread/INFO]: [Keefe_Sencen: Created new objective [temp_longtasks]]
-[13:44:57] [Server thread/INFO]: [Keefe_Sencen: Created new objective [temp_commontasks]]
-[13:45:03] [Server thread/INFO]: [Keefe_Sencen: Set [shorttasks] for Manager to 2]
-[13:45:07] [Server thread/INFO]: [Keefe_Sencen: Set [longtasks] for Manager to 2]
-[13:45:12] [Server thread/INFO]: [Keefe_Sencen: Set [commontasks] for Manager to 2]
-[13:46:16] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[13:46:16] [Server thread/INFO]: Loaded 7 recipes
-[13:46:16] [Server thread/INFO]: Loaded 1272 advancements
-[13:46:40] [Server thread/INFO]: [Keefe_Sencen: Created new objective [noofimposters]]
-[13:48:23] [Server thread/INFO]: [Keefe_Sencen: Set [noofimposters] for Manager to 1]
-[14:37:59] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[14:37:59] [Server thread/INFO]: Loaded 7 recipes
-[14:37:59] [Server thread/INFO]: Loaded 1272 advancements
-[14:45:56] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[14:45:56] [Server thread/INFO]: Loaded 7 recipes
-[14:45:56] [Server thread/INFO]: Loaded 1272 advancements
-[14:46:18] [Server thread/INFO]: [Keefe_Sencen: Set [noofimposters] for Manager to 1]
-[14:46:25] [Server thread/INFO]: [Keefe_Sencen: Executed 3 command(s) from function 'amongus:start/assignimposters']
-[14:46:38] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from Techyte]
-[14:46:46] [Server thread/INFO]: [Keefe_Sencen: Executed 3 command(s) from function 'amongus:start/assignimposters']
-[14:46:54] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from Keefe_Sencen]
-[14:46:57] [Server thread/INFO]: [Keefe_Sencen: Executed 3 command(s) from function 'amongus:start/assignimposters']
-[14:46:59] [Server thread/INFO]: [Keefe_Sencen: Executed 3 command(s) from function 'amongus:start/assignimposters']
-[14:47:03] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from Keefe_Sencen]
-[14:47:04] [Server thread/INFO]: [Keefe_Sencen: Executed 3 command(s) from function 'amongus:start/assignimposters']
-[14:47:08] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from Keefe_Sencen]
-[14:47:13] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from Techyte]
-[14:49:27] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
-[14:49:30] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
-[14:49:32] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_inspect_samples' from 2 entities]
-[14:49:35] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_chart_course' from 2 entities]
-[14:49:38] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_download' from 2 entities]
-[14:49:41] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
-[14:49:44] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'security_fix_wiring' from 2 entities]
-[14:49:47] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from 2 entities]
-[14:51:15] [Server thread/INFO]: [Keefe_Sencen: Showing new title for 2 players]
-[14:51:19] [Server thread/INFO]: [Keefe_Sencen: Showing new title for 2 players]
-[14:51:23] [Server thread/INFO]: [Keefe_Sencen: Showing new title for 2 players]
-[14:51:28] [Server thread/INFO]: [Keefe_Sencen: Showing new title for 2 players]
-[14:51:31] [Server thread/INFO]: [Keefe_Sencen: Showing new title for 2 players]
-[14:52:21] [Server thread/INFO]: [Keefe_Sencen: Showing new subtitle for 2 players]
-[14:52:34] [Server thread/INFO]: [Keefe_Sencen: Showing new subtitle for 2 players]
-[14:52:55] [Server thread/INFO]: [Keefe_Sencen: Showing new subtitle for 2 players]
-[14:53:01] [Server thread/INFO]: [Keefe_Sencen: Showing new title for 2 players]
-[14:53:35] [Server thread/INFO]: [Keefe_Sencen: Showing new subtitle for 2 players]
-[14:53:40] [Server thread/INFO]: [Keefe_Sencen: Showing new title for 2 players]
-[14:53:47] [Server thread/INFO]: [Keefe_Sencen: Showing new subtitle for 2 players]
-[14:53:49] [Server thread/INFO]: [Keefe_Sencen: Showing new title for 2 players]
-[14:54:08] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[14:54:09] [Server thread/INFO]: Loaded 7 recipes
-[14:54:09] [Server thread/INFO]: Loaded 1272 advancements
-[14:54:15] [Server thread/INFO]: [Keefe_Sencen: Showing new subtitle for 2 players]
-[14:54:17] [Server thread/INFO]: [Keefe_Sencen: Showing new title for 2 players]
-[14:55:12] [Server thread/INFO]: [Keefe_Sencen: Showing new subtitle for 2 players]
-[14:55:21] [Server thread/INFO]: [Keefe_Sencen: Showing new actionbar title for 2 players]
-[14:55:30] [Server thread/INFO]: [Keefe_Sencen: Showing new actionbar title for 2 players]
-[14:56:36] [Server thread/INFO]: [Techyte: Added tag 'Imposter' to 2 entities]
-[14:57:15] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from 2 entities]
-[14:57:17] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'playing' from 2 entities]
-[14:57:30] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Survival Mode]
-[14:57:30] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
-[14:57:31] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
-[14:57:32] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
-[14:58:01] [Server thread/INFO]: [Keefe_Sencen: Set the world spawn point to 8, -60, 8 [0.0]]
-[14:59:11] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[14:59:11] [Server thread/INFO]: Loaded 7 recipes
-[14:59:11] [Server thread/INFO]: Loaded 1272 advancements
-[14:59:24] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[14:59:24] [Server thread/INFO]: Loaded 7 recipes
-[14:59:24] [Server thread/INFO]: Loaded 1272 advancements
-[15:00:13] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
-[15:00:13] [Server thread/INFO]: Loaded 7 recipes
-[15:00:13] [Server thread/INFO]: Loaded 1272 advancements
-[15:00:16] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
-[15:00:18] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Survival Mode]
-[15:00:25] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
-[15:00:26] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
-[15:00:32] [Server thread/INFO]: Stopping the server
-[15:00:33] [Server thread/INFO]: Stopping server
-[15:00:33] [Server thread/INFO]: Saving players
-[15:00:33] [Server thread/INFO]: Saving worlds
-[15:00:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
-[15:00:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
-[15:00:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
-[15:00:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
-[15:00:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:00:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:00:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:01:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:01:22] [Server thread/INFO]: Using default channel type
+[15:01:22] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
+[15:01:23] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
+[15:01:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:01:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[15:01:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[15:01:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:01:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:01:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[15:01:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[15:01:26] [Worker-Main-8/INFO]: Preparing spawn area: 13%
+[15:01:27] [Server thread/INFO]: Time elapsed: 3502 ms
+[15:01:27] [Server thread/INFO]: Done (4.114s)! For help, type "help"
+[15:01:29] [User Authenticator #1/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
+[15:01:30] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:59372] logged in with entity id 35 at (8.29903970028443, -58.70067799476003, 8.69550906161383)
+[15:01:30] [Server thread/INFO]: Keefe_Sencen joined the game
+[15:01:30] [User Authenticator #2/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[15:01:30] [Server thread/INFO]: Techyte[/127.0.0.1:59376] logged in with entity id 36 at (-129.12807928188468, -4.0, -22.233158991317424)
+[15:01:30] [Server thread/INFO]: Techyte joined the game
+[15:01:43] [Server thread/INFO]: [Keefe_Sencen: Made Techyte no longer a server operator]
+[15:01:47] [Server thread/INFO]: [Keefe_Sencen: Made Techyte a server operator]
+[15:01:48] [Server thread/INFO]: [Keefe_Sencen: Made Keefe_Sencen no longer a server operator]
+[15:01:58] [Server thread/INFO]: [Techyte: Set Keefe_Sencen's game mode to Survival Mode]
+[15:01:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=8, y=-61, z=8}
+[15:02:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=8, y=-61, z=9}
+[15:02:10] [Server thread/INFO]: [Techyte: Made Keefe_Sencen a server operator]
+[15:02:11] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:02:20] [Server thread/INFO]: [Keefe_Sencen: Removed 8 item(s) from player Keefe_Sencen]
+[15:02:22] [Server thread/INFO]: [Techyte: Removed 8 item(s) from player Techyte]
+[15:02:26] [Server thread/INFO]: Keefe_Sencen was killed
+[15:02:26] [Server thread/INFO]: [Keefe_Sencen: Killed Keefe_Sencen]
+[15:02:31] [Server thread/INFO]: Keefe_Sencen was killed
+[15:02:31] [Server thread/INFO]: [Keefe_Sencen: Killed Keefe_Sencen]
+[15:05:43] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Survival Mode]
+[15:05:44] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:05:45] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:05:46] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:05:51] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:05:52] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:06:06] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:06:06] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:06:14] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:06:14] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:10:03] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:10:04] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:12:04] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:12:09] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:12:42] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:12:43] [Server thread/INFO]: Loaded 7 recipes
+[15:12:43] [Server thread/INFO]: Loaded 1272 advancements
+[15:13:05] [Server thread/INFO]: [Keefe_Sencen: Set the time to 18000]
+[15:14:45] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[15:14:57] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:17:13] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[15:17:14] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:17:15] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:17:18] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:17:35] [Server thread/INFO]: [Keefe_Sencen: Gave 1 [Command Block] to Keefe_Sencen]
+[15:17:36] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:17:37] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:17:46] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:17:47] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:18:06] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:18:12] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:18:32] [Server thread/INFO]: [Keefe_Sencen: Set [ambianceLoop] for Manager to 0]
+[15:19:03] [Server thread/INFO]: [Keefe_Sencen: Set [ambianceLoop] for math to 0]
+[15:19:22] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:19:24] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:19:29] [Server thread/INFO]: [Techyte: Teleported Techyte to Keefe_Sencen]
+[15:20:00] [Server thread/INFO]: [Not Secure] [@] handing out a common task
+[15:20:00] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:20:00] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:20:00] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:20:00] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:20:57] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:20:57] [Server thread/INFO]: Loaded 7 recipes
+[15:20:57] [Server thread/INFO]: Loaded 1272 advancements
+[15:21:04] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'communications_download' from 2 entities]
+[15:21:08] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_inspect_samples' from 2 entities]
+[15:21:12] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_chart_course' from 2 entities]
+[15:21:16] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from 2 entities]
+[15:21:19] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'playing' from 2 entities]
+[15:21:21] [Server thread/INFO]: [Keefe_Sencen: Removed 13 item(s) from 2 players]
+[15:21:26] [Server thread/INFO]: Keefe_Sencen lost connection: Disconnected
+[15:21:26] [Server thread/INFO]: Keefe_Sencen left the game
+[15:21:31] [User Authenticator #3/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
+[15:21:32] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:59663] logged in with entity id 85 at (-121.69999998807907, -4.0, -21.81150785588692)
+[15:21:32] [Server thread/INFO]: Keefe_Sencen joined the game
+[15:21:34] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Survival Mode]
+[15:21:34] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:21:35] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:21:36] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:21:43] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[15:21:45] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[15:23:22] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:23:23] [Server thread/INFO]: Loaded 7 recipes
+[15:23:23] [Server thread/INFO]: Loaded 1272 advancements
+[15:24:18] [Server thread/INFO]: [Techyte: Set [ambianceLoop] for Manager to 0]
+[15:24:28] [Server thread/INFO]: [Keefe_Sencen: Teleported Techyte to Keefe_Sencen]
+[15:24:28] [Server thread/WARN]: Techyte moved too quickly! 134.3844228694328,-56.0,27.040010738110066
+[15:24:31] [Server thread/INFO]: [Not Secure] [@] handing out a common task
+[15:24:31] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:24:31] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:24:31] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:24:31] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:27:13] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:27:13] [Server thread/INFO]: Loaded 7 recipes
+[15:27:13] [Server thread/INFO]: Loaded 1272 advancements
+[15:28:12] [Server thread/INFO]: [Techyte: Played sound minecraft:shhhhhhh to Techyte]
+[15:28:19] [Server thread/INFO]: [Keefe_Sencen: Played sound minecraft:shhhhhhh to Keefe_Sencen]
+[15:28:25] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:28:25] [Server thread/INFO]: Loaded 7 recipes
+[15:28:25] [Server thread/INFO]: Loaded 1272 advancements
+[15:28:30] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'cafeteria_empty_garbage' from 2 entities]
+[15:28:37] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
+[15:28:42] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_submit_scan' from 2 entities]
+[15:28:45] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from 2 entities]
+[15:30:04] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:30:04] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:30:04] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:30:04] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:30:04] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:30:04] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:30:04] [Server thread/INFO]: [Keefe_Sencen: Executed 179 command(s) from function 'amongus:tasks/handout/handouttasks']
+[15:30:36] [Server thread/INFO]: [Keefe_Sencen: Set [commontasks] for Manager to 1]
+[15:31:15] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'storage_fix_wiring' from Keefe_Sencen]
+[15:35:55] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:35:55] [Server thread/INFO]: Loaded 7 recipes
+[15:35:55] [Server thread/INFO]: Loaded 1272 advancements
+[15:36:02] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from 2 entities]
+[15:36:04] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
+[15:36:07] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'storage_fix_wiring' from 2 entities]
+[15:36:20] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:36:20] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:36:20] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:36:20] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:36:20] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:36:20] [Server thread/INFO]: [Keefe_Sencen: Executed 191 command(s) from function 'amongus:tasks/handout/handouttasks']
+[15:36:37] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:36:37] [Server thread/INFO]: Loaded 7 recipes
+[15:36:37] [Server thread/INFO]: Loaded 1272 advancements
+[15:36:49] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from 2 entities]
+[15:36:52] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
+[15:36:55] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_inspect_samples' from 2 entities]
+[15:36:58] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_chart_course' from 2 entities]
+[15:37:01] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
+[15:37:08] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:37:08] [Server thread/INFO]: Loaded 7 recipes
+[15:37:08] [Server thread/INFO]: Loaded 1272 advancements
+[15:37:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:37:12] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:37:12] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:37:12] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:37:12] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:37:12] [Server thread/INFO]: [Keefe_Sencen: Executed 191 command(s) from function 'amongus:tasks/handout/handouttasks']
+[15:38:34] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:38:34] [Server thread/INFO]: Loaded 7 recipes
+[15:38:34] [Server thread/INFO]: Loaded 1272 advancements
+[15:38:40] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from 2 entities]
+[15:38:43] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
+[15:38:46] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
+[15:38:49] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
+[15:38:53] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from 2 entities]
+[15:38:57] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:38:57] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got wiring
+[15:38:57] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:38:57] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:38:57] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:38:57] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:38:57] [Server thread/INFO]: [Keefe_Sencen: Executed 146 command(s) from function 'amongus:tasks/handout/handouttasks']
+[15:39:52] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_fix_wiring' from 2 entities]
+[15:39:56] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_inspect_samples' from 2 entities]
+[15:39:59] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from 2 entities]
+[15:40:02] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_unlock_manifolds' from 2 entities]
+[15:40:04] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from 2 entities]
+[15:40:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:40:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got wiring
+[15:40:15] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:40:15] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:40:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:40:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:40:15] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:40:15] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:40:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:40:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:40:15] [Server thread/INFO]: [Keefe_Sencen: Executed 260 command(s) from function 'amongus:tasks/handout/handouttasks']
+[15:40:26] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'cafeteria_download' from 2 entities]
+[15:40:29] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'cafeteria_fix_wiring' from 2 entities]
+[15:40:31] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
+[15:40:35] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_submit_scan' from 2 entities]
+[15:40:37] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_chart_course' from 2 entities]
+[15:40:40] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_empty_garbage' from 2 entities]
+[15:40:43] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
+[15:40:46] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from 2 entities]
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got wiring
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] card swipe
+[15:40:50] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:40:50] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:40:50] [Server thread/INFO]: [Keefe_Sencen: Executed 368 command(s) from function 'amongus:tasks/handout/handouttasks']
+[15:41:40] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:41:40] [Server thread/INFO]: Loaded 7 recipes
+[15:41:40] [Server thread/INFO]: Loaded 1272 advancements
+[15:41:48] [Server thread/INFO]: [Keefe_Sencen: Set [shorttasks] for Manager to 2]
+[15:41:53] [Server thread/INFO]: [Keefe_Sencen: Set [longtasks] for Manager to 2]
+[15:41:57] [Server thread/INFO]: [Keefe_Sencen: Set [commontasks] for Manager to 1]
+[15:42:05] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from 2 entities]
+[15:42:08] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
+[15:42:12] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
+[15:42:16] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_inspect_samples' from 2 entities]
+[15:42:19] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_submit_scan' from 2 entities]
+[15:42:22] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_chart_course' from 2 entities]
+[15:42:25] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_fix_wiring' from 2 entities]
+[15:42:29] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_empty_garbage' from 2 entities]
+[15:42:31] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from 2 entities]
+[15:42:34] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
+[15:42:37] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_unlock_manifolds' from 2 entities]
+[15:42:40] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from 2 entities]
+[15:42:42] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'weapons_asteroids' from 2 entities]
+[15:42:51] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:42:51] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] card swipe
+[15:42:51] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:42:51] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:42:51] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:42:51] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:42:51] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:42:51] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:42:51] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:42:51] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:42:51] [Server thread/INFO]: [Keefe_Sencen: Executed 260 command(s) from function 'amongus:tasks/handout/handouttasks']
+[15:45:31] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:45:31] [Server thread/INFO]: Loaded 7 recipes
+[15:45:31] [Server thread/INFO]: Loaded 1272 advancements
+[15:46:04] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_fix_wiring' from 2 entities]
+[15:46:07] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from 2 entities]
+[15:46:09] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'cafeteria_download' from 2 entities]
+[15:46:11] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'cafeteria_empty_garbage' from 2 entities]
+[15:46:14] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from 2 entities]
+[15:46:18] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_submit_scan' from 2 entities]
+[15:46:21] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_unlock_manifolds' from 2 entities]
+[15:46:31] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:46:31] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got wiring
+[15:46:31] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:46:31] [Server thread/INFO]: [Not Secure] [Techyte] got filter
+[15:46:31] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:46:31] [Server thread/INFO]: [Not Secure] [Techyte] got divert
+[15:46:31] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:46:31] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got divert
+[15:46:31] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:46:31] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got upload
+[15:46:31] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:46:31] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:46:31] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:46:31] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:46:31] [Server thread/INFO]: [Keefe_Sencen: Executed 288 command(s) from function 'amongus:tasks/handout/handouttasks']
+[15:46:55] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_fix_wiring' from 2 entities]
+[15:46:58] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
+[15:47:01] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_submit_scan' from 2 entities]
+[15:47:03] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_empty_garbage' from 2 entities]
+[15:47:06] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from 2 entities]
+[15:47:09] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from 2 entities]
+[15:47:12] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'weapons_download' from 2 entities]
+[15:47:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:47:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got wiring
+[15:47:15] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:47:15] [Server thread/INFO]: [Not Secure] [Techyte] got manifolds
+[15:47:15] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:47:15] [Server thread/INFO]: [Not Secure] [Techyte] got divert
+[15:47:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:47:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got manifolds
+[15:47:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:47:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got filter
+[15:47:15] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:47:15] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:47:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:47:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:47:15] [Server thread/INFO]: [Keefe_Sencen: Executed 277 command(s) from function 'amongus:tasks/handout/handouttasks']
+[15:48:10] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[15:48:10] [Server thread/INFO]: Loaded 7 recipes
+[15:48:10] [Server thread/INFO]: Loaded 1272 advancements
+[15:48:14] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from 2 entities]
+[15:48:17] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_fix_wiring' from 2 entities]
+[15:48:19] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_inspect_samples' from 2 entities]
+[15:48:22] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from 2 entities]
+[15:48:24] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
+[15:48:27] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_unlock_manifolds' from 2 entities]
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] card swipe
+[15:48:30] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:48:30] [Server thread/INFO]: [Not Secure] [Techyte] got divert
+[15:48:30] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got calibrate
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got filter
+[15:48:30] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:48:30] [Server thread/INFO]: [Not Secure] [Techyte] got garbage
+[15:48:30] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[15:48:30] [Server thread/INFO]: [Not Secure] [Techyte] got samples
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got scan
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[15:48:30] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] got align
+[15:48:30] [Server thread/INFO]: [Keefe_Sencen: Executed 301 command(s) from function 'amongus:tasks/handout/handouttasks']
+[16:12:15] [Server thread/INFO]: [Techyte: Reloading!]
+[16:12:15] [Server thread/INFO]: Loaded 7 recipes
+[16:12:15] [Server thread/INFO]: Loaded 1272 advancements
+[16:12:23] [Server thread/INFO]: [Techyte: Reloading!]
+[16:12:23] [Server thread/INFO]: Loaded 7 recipes
+[16:12:23] [Server thread/INFO]: Loaded 1272 advancements
+[16:12:32] [Server thread/INFO]: [Techyte: Removed tag 'admin_swipe_card' from 2 entities]
+[16:12:35] [Server thread/INFO]: [Techyte: Removed tag 'electrical_calibrate_distributor' from 2 entities]
+[16:12:38] [Server thread/INFO]: [Techyte: Removed tag 'electrical_divert_power' from 2 entities]
+[16:12:41] [Server thread/INFO]: [Techyte: Removed tag 'medbay_inspect_samples' from 2 entities]
+[16:12:44] [Server thread/INFO]: [Techyte: Removed tag 'medbay_submit_scan' from 2 entities]
+[16:12:48] [Server thread/INFO]: [Techyte: Removed tag 'o2_empty_garbage' from 2 entities]
+[16:12:50] [Server thread/INFO]: [Techyte: Removed tag 'o2_filter' from 2 entities]
+[16:12:53] [Server thread/INFO]: [Techyte: Removed tag 'top_engine_align_engine' from 2 entities]
+[16:13:00] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] handing out a common task
+[16:13:00] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[16:13:00] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[16:13:00] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[16:13:00] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[16:13:00] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[16:13:00] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[16:13:00] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[16:13:00] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[16:13:00] [Server thread/INFO]: [Keefe_Sencen: Executed 258 command(s) from function 'amongus:tasks/handout/handouttasks']
+[16:13:10] [Server thread/INFO]: [Techyte: Removed tag 'cafeteria_fix_wiring' from 2 entities]
+[16:13:13] [Server thread/INFO]: [Techyte: Removed tag 'communications_download' from 2 entities]
+[16:13:15] [Server thread/INFO]: [Techyte: Removed tag 'electrical_divert_power' from 2 entities]
+[16:13:20] [Server thread/INFO]: [Techyte: Removed tag 'medbay_inspect_samples' from 2 entities]
+[16:13:23] [Server thread/INFO]: [Techyte: Removed tag 'navigation_chart_course' from 2 entities]
+[16:13:26] [Server thread/INFO]: [Techyte: Removed tag 'o2_filter' from 2 entities]
+[16:13:29] [Server thread/INFO]: [Techyte: Removed tag 'reactor_start_reactor' from 2 entities]
+[16:13:32] [Server thread/INFO]: [Techyte: Removed tag 'storage_fuel1' from 2 entities]
+[16:13:35] [Server thread/INFO]: [Techyte: Removed tag 'weapons_asteroids' from 2 entities]
+[16:15:23] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'playing' from 2 entities]
+[16:15:24] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:15:25] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:15:30] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:15:33] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:15:37] [Server thread/INFO]: [Keefe_Sencen: Removed 12 item(s) from 2 players]
+[16:15:48] [Server thread/INFO]: [Keefe_Sencen: Teleported Techyte to Keefe_Sencen]
+[16:15:48] [Server thread/WARN]: Techyte moved too quickly! 135.31646758234731,-56.0,27.248303896520735
+[16:15:48] [Server thread/WARN]: Techyte moved too quickly! 135.31646758234731,-56.0,27.248303896520735
+[16:15:55] [Server thread/INFO]: [Not Secure] [@] handing out a common task
+[16:15:55] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[16:15:55] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[16:15:55] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[16:15:55] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[16:17:23] [Server thread/INFO]: [Keefe_Sencen: Triggered [voteId] (set value to 18)]
+[16:17:32] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from 2 entities]
+[16:17:35] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_submit_scan' from 2 entities]
+[16:17:38] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_empty_garbage' from 2 entities]
+[16:17:41] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from 2 entities]
+[16:17:43] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_unlock_manifolds' from 2 entities]
+[16:17:47] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'playing' from 2 entities]
+[16:18:09] [Server thread/INFO]: [Techyte: Added Techyte to team [Alive]]
+[16:18:19] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:18:20] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:18:27] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:18:29] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:18:34] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:18:35] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:18:40] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:18:41] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:19:23] [Server thread/INFO]: [Keefe_Sencen: Removed 13 item(s) from 2 players]
+[16:19:27] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[16:19:27] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[16:19:27] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[16:19:27] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[16:19:27] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[16:20:41] [Server thread/INFO]: [Techyte: Played sound minecraft:shhhhhhh to Techyte]
+[16:20:41] [Server thread/INFO]: [Keefe_Sencen: Played sound minecraft:shhhhhhh to Keefe_Sencen]
+[16:27:01] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:27:08] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:27:32] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:27:32] [Server thread/INFO]: Loaded 7 recipes
+[16:27:32] [Server thread/INFO]: Loaded 1272 advancements
+[16:32:11] [Server thread/INFO]: [Keefe_Sencen: Created new objective [currentImposters]]
+[16:32:17] [Server thread/INFO]: [Keefe_Sencen: Created new objective [currentCrewmates]]
+[16:34:33] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:34:33] [Server thread/INFO]: Loaded 7 recipes
+[16:34:33] [Server thread/INFO]: Loaded 1272 advancements
+[16:35:09] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:35:09] [Server thread/INFO]: Loaded 7 recipes
+[16:35:09] [Server thread/INFO]: Loaded 1272 advancements
+[16:35:16] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:35:19] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:35:39] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:35:44] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:35:52] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:35:52] [Server thread/INFO]: Loaded 7 recipes
+[16:35:52] [Server thread/INFO]: Loaded 1272 advancements
+[16:36:01] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_start_reactor' from 2 entities]
+[16:36:04] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_unlock_manifolds' from 2 entities]
+[16:36:07] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'security_fix_wiring' from 2 entities]
+[16:36:10] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'storage_fuel1' from 2 entities]
+[16:38:07] [Server thread/INFO]: [Keefe_Sencen: Created new objective [handoutcommontasks]]
+[16:39:01] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[16:39:22] [Server thread/INFO]: [Keefe_Sencen: Set [noofimposters] for Manager to 1]
+[16:41:01] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:41:02] [Server thread/INFO]: Loaded 7 recipes
+[16:41:02] [Server thread/INFO]: Loaded 1272 advancements
+[16:41:37] [Server thread/INFO]: Techyte lost connection: Disconnected
+[16:41:37] [Server thread/INFO]: Techyte left the game
+[16:43:02] [User Authenticator #4/INFO]: UUID of player duel_wield is 365d59bc-d2c2-4371-b657-2590d462dc63
+[16:43:04] [Server thread/INFO]: duel_wield[/192.168.1.59:50397] logged in with entity id 420 at (8.5, -60.0, 8.5)
+[16:43:04] [Server thread/INFO]: duel_wield joined the game
+[16:43:27] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[16:44:20] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from 2 entities]
+[16:45:14] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[16:45:14] [Server thread/INFO]: [Not Secure] [duel_wield] getting short task
+[16:45:14] [Server thread/INFO]: [Not Secure] [duel_wield] getting short task
+[16:45:14] [Server thread/INFO]: [Not Secure] [duel_wield] getting long task
+[16:45:14] [Server thread/INFO]: [Not Secure] [duel_wield] getting long task
+[16:45:29] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from Keefe_Sencen]
+[16:45:33] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from duel_wield]
+[16:45:35] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_divert_power' from duel_wield]
+[16:45:38] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from duel_wield]
+[16:45:41] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'storage_fuel1' from duel_wield]
+[16:45:44] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'top_engine_align_engine' from duel_wield]
+[16:46:16] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[16:46:29] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:46:30] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[16:46:30] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:46:36] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[16:46:37] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:46:38] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:47:44] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:47:44] [Server thread/INFO]: Loaded 7 recipes
+[16:47:44] [Server thread/INFO]: Loaded 1272 advancements
+[16:47:49] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:47:53] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:52:02] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:52:03] [Server thread/INFO]: Loaded 7 recipes
+[16:52:03] [Server thread/INFO]: Loaded 1272 advancements
+[16:52:12] [Server thread/INFO]: [Keefe_Sencen: Executed 44 command(s) from function 'amongus:removehavetasktags']
+[16:52:12] [Server thread/INFO]: [duel_wield: Executed 44 command(s) from function 'amongus:removehavetasktags']
+[16:52:31] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:52:31] [Server thread/INFO]: Loaded 7 recipes
+[16:52:31] [Server thread/INFO]: Loaded 1272 advancements
+[16:52:40] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[16:52:40] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[16:52:40] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[16:52:40] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[16:52:40] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[16:53:18] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:53:18] [Server thread/INFO]: Loaded 7 recipes
+[16:53:18] [Server thread/INFO]: Loaded 1272 advancements
+[16:53:43] [Server thread/INFO]: [Keefe_Sencen: Executed 44 command(s) from function 'amongus:removehavetasktags']
+[16:53:43] [Server thread/INFO]: [duel_wield: Executed 44 command(s) from function 'amongus:removehavetasktags']
+[16:54:27] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[16:54:27] [Server thread/INFO]: Loaded 7 recipes
+[16:54:27] [Server thread/INFO]: Loaded 1272 advancements
+[16:54:33] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[16:54:33] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[16:54:33] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[16:54:33] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[16:54:33] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[16:55:58] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:55:58] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:55:59] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[16:56:19] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:56:20] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:56:21] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:56:27] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[16:56:29] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[16:56:30] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[16:57:34] [Server thread/INFO]: [Keefe_Sencen: Added duel_wield to team [Alive]]
+[16:59:23] [Server thread/INFO]: [Keefe_Sencen: Set [ambianceLoop] for Manager to 0]
+[16:59:27] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[16:59:35] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[16:59:49] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[16:59:52] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:00:33] [Server thread/INFO]: [Keefe_Sencen: Removed Techyte from any team]
+[17:00:37] [Server thread/INFO]: [Keefe_Sencen: Removed realmrdifget from any team]
+[17:00:47] [Server thread/INFO]: [Keefe_Sencen: Removed realmrdifget from any team]
+[17:00:50] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[17:00:51] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[17:01:18] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:01:21] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:01:22] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:01:23] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:01:30] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:01:31] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:01:38] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[17:01:38] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[17:01:43] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[17:02:15] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'inStorageGarbage' from duel_wield]
+[17:02:56] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:02:57] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[17:02:57] [Server thread/INFO]: Loaded 7 recipes
+[17:02:57] [Server thread/INFO]: Loaded 1272 advancements
+[17:02:58] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:03:19] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:03:22] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:03:38] [Server thread/INFO]: [Keefe_Sencen: Set [InteractionAllowed] for duel_wield to 0]
+[17:03:47] [Server thread/INFO]: [Keefe_Sencen: Set [killCooldown] for duel_wield to 0]
+[17:03:51] [Server thread/INFO]: [Keefe_Sencen: Set [ventCooldown] for duel_wield to 0]
+[17:04:17] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[17:04:17] [Server thread/INFO]: Loaded 7 recipes
+[17:04:17] [Server thread/INFO]: Loaded 1272 advancements
+[17:04:19] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[17:04:25] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[17:04:26] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[17:05:41] [Server thread/INFO]: [Keefe_Sencen: Added Keefe_Sencen to team [Alive]]
+[17:06:09] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[17:06:09] [Server thread/INFO]: Loaded 7 recipes
+[17:06:09] [Server thread/INFO]: Loaded 1272 advancements
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:10] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:11] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:12] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:13] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:14] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:15] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] checking
+[17:06:16] [Server thread/INFO]: [Not Secure] [duel_wield] checking
+[17:06:16] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[17:06:16] [Server thread/INFO]: Loaded 7 recipes
+[17:06:16] [Server thread/INFO]: Loaded 1272 advancements
+[17:06:24] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[17:06:58] [Server thread/INFO]: duel_wield lost connection: Disconnected
+[17:06:58] [Server thread/INFO]: duel_wield left the game
+[17:07:00] [User Authenticator #5/INFO]: UUID of player duel_wield is 365d59bc-d2c2-4371-b657-2590d462dc63
+[17:07:00] [Server thread/INFO]: duel_wield[/192.168.1.59:50447] logged in with entity id 564 at (-141.41, -4.0, -35.37)
+[17:07:00] [Server thread/INFO]: duel_wield joined the game
+[17:07:09] [Server thread/INFO]: [Keefe_Sencen: Teleported duel_wield to Keefe_Sencen]
+[17:07:09] [Server thread/WARN]: duel_wield moved too quickly! 150.68545164946963,-56.0,43.68077687763787
+[17:07:09] [Server thread/WARN]: duel_wield moved too quickly! 150.68545164946963,-56.0,43.68077687763787
+[17:07:17] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Imposter' from duel_wield]
+[17:07:20] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Venting' from duel_wield]
+[17:07:23] [Server thread/INFO]: [Keefe_Sencen: Teleported duel_wield to Keefe_Sencen]
+[17:07:51] [Server thread/INFO]: [Keefe_Sencen: Set [ventnumber] for duel_wield to 0]
+[17:08:02] [Server thread/INFO]: [Keefe_Sencen: Teleported duel_wield to Keefe_Sencen]
+[17:08:02] [Server thread/WARN]: duel_wield moved too quickly! 148.81517007849249,-56.0,23.848774862740967
+[17:08:02] [Server thread/WARN]: duel_wield moved too quickly! 148.81517007849249,-56.0,23.848774862740967
+[17:08:13] [Server thread/INFO]: Keefe_Sencen lost connection: Disconnected
+[17:08:13] [Server thread/INFO]: Keefe_Sencen left the game
+[17:08:15] [User Authenticator #6/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
+[17:08:15] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:60908] logged in with entity id 565 at (8.54344321251216, -60.0, 8.01548432632577)
+[17:08:15] [Server thread/INFO]: Keefe_Sencen joined the game
+[17:08:34] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:08:34] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[17:08:34] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting short task
+[17:08:34] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[17:08:34] [Server thread/INFO]: [Not Secure] [Keefe_Sencen] getting long task
+[17:09:54] [Server thread/INFO]: [Keefe_Sencen: Killed 2 entities]
+[17:10:00] [Server thread/INFO]: [Keefe_Sencen: Added Keefe_Sencen to team [Alive]]
+[17:10:48] [Server thread/INFO]: [Keefe_Sencen: Set [ventnumber] for duel_wield to 0]
+[17:11:22] [Server thread/INFO]: [Keefe_Sencen: Added tag 'Imposter' to Keefe_Sencen]
+[17:11:54] [Server thread/INFO]: [Keefe_Sencen: Reloading!]
+[17:11:55] [Server thread/INFO]: Loaded 7 recipes
+[17:11:55] [Server thread/INFO]: Loaded 1272 advancements
+[17:12:04] [Server thread/INFO]: [Keefe_Sencen: Teleported duel_wield to Keefe_Sencen]
+[17:12:07] [Server thread/INFO]: [Keefe_Sencen: Set [ventnumber] for duel_wield to 0]
+[17:12:12] [Server thread/INFO]: [Keefe_Sencen: Teleported duel_wield to Keefe_Sencen]
+[17:12:12] [Server thread/WARN]: duel_wield moved too quickly! 145.0895894868167,-55.9375,40.27295892502729
+[17:12:12] [Server thread/WARN]: duel_wield moved too quickly! 145.0895894868167,-55.9375,40.27295892502729
+[17:12:12] [Server thread/WARN]: duel_wield moved too quickly! 145.0895894868167,-55.9375,40.27295892502729
+[17:12:15] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Survival Mode]
+[17:12:16] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[17:12:16] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[17:12:18] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[17:12:25] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'Venting' from duel_wield]
+[17:12:54] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:12:54] [Server thread/INFO]: [Not Secure] [duel_wield] getting short task
+[17:12:54] [Server thread/INFO]: [Not Secure] [duel_wield] getting short task
+[17:12:54] [Server thread/INFO]: [Not Secure] [duel_wield] getting long task
+[17:12:54] [Server thread/INFO]: [Not Secure] [duel_wield] getting long task
+[17:13:31] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'admin_swipe_card' from Keefe_Sencen]
+[17:13:33] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'electrical_calibrate_distributor' from Keefe_Sencen]
+[17:13:36] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'medbay_inspect_samples' from Keefe_Sencen]
+[17:13:39] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'navigation_fix_wiring' from Keefe_Sencen]
+[17:13:42] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'o2_filter' from Keefe_Sencen]
+[17:13:45] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'reactor_unlock_manifolds' from Keefe_Sencen]
+[17:13:49] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'security_fix_wiring' from Keefe_Sencen]
+[17:13:52] [Server thread/INFO]: [Keefe_Sencen: Removed tag 'storage_fuel1' from Keefe_Sencen]
+[17:15:27] [User Authenticator #7/INFO]: UUID of player realmrfidget is a56cb71f-b662-48f5-a4b0-22e534a9eaa6
+[17:15:28] [Server thread/INFO]: realmrfidget[/192.168.1.55:63842] logged in with entity id 1311 at (-132.4781475220872, -4.0, -25.481848627487842)
+[17:15:28] [Server thread/INFO]: realmrfidget joined the game
+[17:15:43] [Server thread/INFO]: <realmrfidget> hello
+[17:15:47] [Server thread/INFO]: <Keefe_Sencen> hi
+[17:16:13] [Server thread/INFO]: [Keefe_Sencen: Added 3 members to team [Alive]]
+[17:17:32] [Server thread/INFO]: <realmrfidget> SOON MAY THE WELLERMAN COME TO BRING THE SUGAR AND TEA AND RUM
+[17:17:39] [Server thread/INFO]: <Keefe_Sencen> what
+[17:17:45] [Server thread/INFO]: <realmrfidget> its a song
+[17:18:07] [Server thread/INFO]: <duel_wield> but
+[17:18:09] [Server thread/INFO]: <Keefe_Sencen> nu uh
+[17:18:14] [Server thread/INFO]: <duel_wield> yah hu
+[17:18:15] [Server thread/INFO]: <realmrfidget> lol
+[17:18:21] [Server thread/INFO]: <Keefe_Sencen> gonna switch to Techyte gimme a sec
+[17:18:22] [Server thread/INFO]: Keefe_Sencen lost connection: Disconnected
+[17:18:22] [Server thread/INFO]: Keefe_Sencen left the game
+[17:18:25] [Server thread/INFO]: <realmrfidget> kk
+[17:18:48] [Server thread/INFO]: <realmrfidget> ur a bum bum
+[17:19:00] [Server thread/INFO]: <duel_wield> poop
+[17:19:05] [Server thread/INFO]: <realmrfidget> nu uh
+[17:19:10] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:19:10] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:19:10] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:19:10] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:19:10] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:19:22] [Server thread/INFO]: <realmrfidget> NOOOOOO
+[17:19:36] [Server thread/INFO]: duel_wield lost connection: Disconnected
+[17:19:36] [Server thread/INFO]: duel_wield left the game
+[17:19:40] [User Authenticator #8/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[17:19:40] [Server thread/INFO]: Techyte[/127.0.0.1:61109] logged in with entity id 1336 at (10.776159835645647, -57.799999952316284, 9.74704783240937)
+[17:19:40] [Server thread/INFO]: Techyte joined the game
+[17:19:41] [Server thread/INFO]: <realmrfidget> YEEEE
+[17:19:47] [Server thread/INFO]: [Techyte: Reloading!]
+[17:19:48] [Server thread/INFO]: Loaded 7 recipes
+[17:19:48] [Server thread/INFO]: Loaded 1272 advancements
+[17:19:48] [User Authenticator #9/INFO]: UUID of player duel_wield is 365d59bc-d2c2-4371-b657-2590d462dc63
+[17:19:48] [Server thread/INFO]: duel_wield[/192.168.1.59:50466] logged in with entity id 1337 at (-141.41, -4.0, -35.37)
+[17:19:48] [Server thread/INFO]: duel_wield joined the game
+[17:19:50] [Server thread/INFO]: <realmrfidget> im still a ghost
+[17:19:53] [Server thread/INFO]: <realmrfidget> NOOOOO
+[17:19:56] [Server thread/INFO]: <duel_wield> haha
+[17:19:56] [Server thread/INFO]: [Techyte: Added 3 members to team [Alive]]
+[17:20:03] [Server thread/INFO]: [Techyte: Removed tag 'cafeteria_fix_wiring' from 3 entities]
+[17:20:05] [Server thread/INFO]: [Techyte: Removed tag 'electrical_calibrate_distributor' from 3 entities]
+[17:20:09] [Server thread/INFO]: [Techyte: Removed tag 'electrical_fix_wiring' from 3 entities]
+[17:20:12] [Server thread/INFO]: [Techyte: Removed tag 'inCafeteriaWiring' from 3 entities]
+[17:20:14] [Server thread/INFO]: [Techyte: Removed tag 'medbay_inspect_samples' from 3 entities]
+[17:20:17] [Server thread/INFO]: [Techyte: Removed tag 'navigation_stabilize_steering' from 3 entities]
+[17:20:21] [Server thread/INFO]: [Techyte: Removed tag 'reactor_unlock_manifolds' from 3 entities]
+[17:20:27] [Server thread/INFO]: [Techyte: Removed tag 'inTask' from 3 entities]
+[17:20:29] [Server thread/INFO]: [Techyte: Removed tag 'top_engine_align_engine' from 3 entities]
+[17:20:33] [Server thread/INFO]: [Techyte: Removed tag 'Venting' from 3 entities]
+[17:20:35] [Server thread/INFO]: [Techyte: Removed tag 'weapons_asteroids' from 3 entities]
+[17:20:39] [Server thread/INFO]: <realmrfidget> abcde fu
+[17:20:39] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:20:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:20:58] [Server thread/INFO]: [Techyte: Set [ventnumber] for duel_wield to 0]
+[17:21:02] [Server thread/INFO]: [Techyte: Teleported duel_wield to Techyte]
+[17:21:02] [Server thread/WARN]: duel_wield moved too quickly! 153.68319717638775,-55.9375,45.22390621767744
+[17:21:02] [Server thread/WARN]: duel_wield moved too quickly! 153.68319717638775,-55.9375,45.22390621767744
+[17:21:02] [Server thread/WARN]: duel_wield moved too quickly! 153.68319717638775,-55.9375,45.22390621767744
+[17:21:02] [Server thread/WARN]: duel_wield moved too quickly! 153.68319717638775,-55.9375,45.22390621767744
+[17:21:11] [Server thread/INFO]: <realmrfidget> abcdefghijdklmnopqrstuvwxyz
+[17:21:27] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:21:27] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:21:27] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:21:27] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:21:27] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:21:27] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:21:27] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:21:27] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:21:27] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:21:41] [Server thread/INFO]: <realmrfidget> MY DED BODY
+[17:22:06] [Server thread/INFO]: <duel_wield> fix that one specific vent
+[17:22:27] [Server thread/INFO]: duel_wield lost connection: Disconnected
+[17:22:27] [Server thread/INFO]: duel_wield left the game
+[17:22:32] [Server thread/INFO]: <realmrfidget> YEEEEEEEEEEEEs
+[17:23:01] [Server thread/INFO]: <realmrfidget> I LOVE REFRIDGERATORS
+[17:23:10] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:23:10] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:23:10] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:23:10] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:23:10] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:24:03] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:24:06] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:24:18] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:24:18] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:24:18] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:24:18] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:24:18] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:24:29] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:24:29] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:24:29] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:24:29] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:24:29] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:27:52] [Server thread/INFO]: <realmrfidget> I WONNNNNN
+[17:28:01] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:28:01] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:28:01] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:28:01] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:28:01] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:28:10] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:28:12] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:28:37] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:28:37] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:28:37] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:28:37] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:28:37] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:28:54] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:28:56] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:28:57] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:29:01] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:29:09] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:29:10] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:29:34] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:29:35] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:30:54] [Server thread/INFO]: <realmrfidget> blah blah blah
+[17:30:58] [Server thread/INFO]: <realmrfidget> blah blah blah
+[17:31:02] [Server thread/INFO]: <realmrfidget> blah
+[17:31:06] [Server thread/INFO]: <realmrfidget> blah blah
+[17:31:13] [Server thread/INFO]: [realmrfidget: Triggered [voteId] (set value to 2)]
+[17:31:28] [Server thread/INFO]: <realmrfidget> OHHHHHHHH
+[17:31:32] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:31:32] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:31:32] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:31:32] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:31:32] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:32:16] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:32:16] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:32:16] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:32:16] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:32:16] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:32:23] [Server thread/INFO]: realmrfidget lost connection: Disconnected
+[17:32:23] [Server thread/INFO]: realmrfidget left the game
+[17:32:29] [User Authenticator #10/INFO]: UUID of player realmrfidget is a56cb71f-b662-48f5-a4b0-22e534a9eaa6
+[17:32:30] [Server thread/INFO]: realmrfidget[/192.168.1.55:63910] logged in with entity id 1671 at (-120.44210535539202, -4.0, -18.298470299849384)
+[17:32:30] [Server thread/INFO]: realmrfidget joined the game
+[17:32:41] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:32:41] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:32:41] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:32:41] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:32:41] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:32:44] [Server thread/INFO]: realmrfidget lost connection: Disconnected
+[17:32:44] [Server thread/INFO]: realmrfidget left the game
+[17:32:47] [User Authenticator #11/INFO]: UUID of player realmrfidget is a56cb71f-b662-48f5-a4b0-22e534a9eaa6
+[17:32:47] [Server thread/INFO]: realmrfidget[/192.168.1.55:63923] logged in with entity id 1688 at (-121.5, -4.0, -21.5)
+[17:32:47] [Server thread/INFO]: realmrfidget joined the game
+[17:32:59] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:32:59] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:32:59] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:32:59] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:32:59] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:33:00] [Server thread/INFO]: realmrfidget lost connection: Disconnected
+[17:33:00] [Server thread/INFO]: realmrfidget left the game
+[17:33:04] [User Authenticator #12/INFO]: UUID of player realmrfidget is a56cb71f-b662-48f5-a4b0-22e534a9eaa6
+[17:33:04] [Server thread/INFO]: realmrfidget[/192.168.1.55:63940] logged in with entity id 1705 at (-121.5, -4.0, -21.5)
+[17:33:04] [Server thread/INFO]: realmrfidget joined the game
+[17:33:16] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:33:16] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:33:16] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:33:16] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:33:16] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:33:17] [Server thread/INFO]: realmrfidget lost connection: Disconnected
+[17:33:17] [Server thread/INFO]: realmrfidget left the game
+[17:33:19] [User Authenticator #13/INFO]: UUID of player realmrfidget is a56cb71f-b662-48f5-a4b0-22e534a9eaa6
+[17:33:19] [Server thread/INFO]: realmrfidget[/192.168.1.55:63950] logged in with entity id 1722 at (-121.5, -4.0, -21.5)
+[17:33:19] [Server thread/INFO]: realmrfidget joined the game
+[17:33:29] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:33:29] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:33:29] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:33:29] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:33:29] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:34:15] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:34:19] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:34:20] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:34:23] [Server thread/INFO]: [Not Secure] [realmrfidget] faking
+[17:34:30] [Server thread/INFO]: <Techyte> ok what the fuck
+[17:34:43] [Server thread/INFO]: <realmrfidget> hehehehehe
+[17:35:07] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:35:07] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:35:07] [Server thread/INFO]: [Not Secure] [Techyte] getting short task
+[17:35:07] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:35:07] [Server thread/INFO]: [Not Secure] [Techyte] getting long task
+[17:35:20] [Server thread/INFO]: <Techyte> WHY DO I HAVE SO MANY TASKS
+[17:35:25] [Server thread/INFO]: <Techyte> WHY IS MY DEAD BODY WHER
+[17:35:28] [Server thread/INFO]: <Techyte> WHAT THE FUCK IS GOING ON
+[17:35:29] [Server thread/INFO]: <realmrfidget> heheheheheh
+[17:35:32] [Server thread/INFO]: [Techyte: Added Techyte to team [Alive]]
+[17:35:35] [Server thread/INFO]: [Not Secure] [Server] handing out a common task
+[17:35:35] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:35:35] [Server thread/INFO]: [Not Secure] [realmrfidget] getting short task
+[17:35:35] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:35:35] [Server thread/INFO]: [Not Secure] [realmrfidget] getting long task
+[17:35:38] [Server thread/INFO]: <realmrfidget> oh no
+[17:35:47] [Server thread/INFO]: <realmrfidget> wuh
+[17:35:47] [Server thread/INFO]: [Techyte: Added 2 members to team [Alive]]
+[17:36:16] [Server thread/INFO]: <Techyte> oh stop
+[17:36:22] [Server thread/INFO]: <realmrfidget> hahahahahha
+[17:36:41] [Server thread/INFO]: [Techyte: Executed 44 command(s) from function 'amongus:removehavetasktags']
+[17:36:41] [Server thread/INFO]: [realmrfidget: Executed 44 command(s) from function 'amongus:removehavetasktags']
+[17:36:54] [Server thread/INFO]: <Techyte> fuck you
+[17:36:55] [Server thread/INFO]: <realmrfidget> i wont
+[17:36:59] [Server thread/INFO]: <Techyte> jkjk
+[17:37:01] [Server thread/INFO]: <Techyte> alr
+[17:37:04] [Server thread/INFO]: <Techyte> umm
+[17:37:05] [Server thread/INFO]: <realmrfidget> what did i do >:(
+[17:37:06] [Server thread/INFO]: <Techyte> gimme a min
+[17:37:33] [Server thread/INFO]: <realmrfidget> why are the stairs like that
+[17:38:20] [Server thread/INFO]: <Techyte> ill fix it
+[17:38:24] [Server thread/INFO]: <realmrfidget> good
+[17:39:10] [Server thread/INFO]: <realmrfidget> 1 2 buckle my shoeeeeee 3 4 buckle some moooooore 5 6 nike kicks
+[17:39:19] [Server thread/INFO]: <Techyte> nu uh
+[17:39:30] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:39:33] [Server thread/INFO]: <realmrfidget> yu uh
+[17:39:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:39:44] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:39:45] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:39:59] [Server thread/INFO]: [Techyte: Added tag 'Imposter' to Techyte]
+[17:40:03] [Server thread/INFO]: [Techyte: Added tag 'playing' to Techyte]
+[17:40:20] [Server thread/INFO]: <realmrfidget> BREEEEEEEEEEEEAAAAAAAAAAAAADDDDDD
+[17:40:23] [Server thread/INFO]: realmrfidget lost connection: Disconnected
+[17:40:23] [Server thread/INFO]: realmrfidget left the game
+[17:41:26] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:41:28] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:41:35] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:41:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:41:46] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:41:53] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:42:03] [Server thread/INFO]: [Techyte: Added tag 'playing' to Techyte]
+[17:42:06] [Server thread/INFO]: [Techyte: Added tag 'Imposter' to Techyte]
+[17:42:12] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[17:42:18] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:43:29] [User Authenticator #14/INFO]: UUID of player duel_wield is 365d59bc-d2c2-4371-b657-2590d462dc63
+[17:43:29] [Server thread/INFO]: duel_wield[/192.168.1.59:50607] logged in with entity id 1783 at (-134.05416859267203, -4.0, -21.899771134634122)
+[17:43:29] [Server thread/INFO]: duel_wield joined the game
+[17:43:55] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:44:03] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:44:59] [Server thread/INFO]: [Techyte: Killed 9 entities]
+[17:45:08] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:45:09] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:45:12] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:45:12] [Server thread/INFO]: [Techyte: Reloading!]
+[17:45:12] [Server thread/INFO]: Loaded 7 recipes
+[17:45:12] [Server thread/INFO]: Loaded 1272 advancements
+[17:45:13] [Server thread/INFO]: [Not Secure] [duel_wield] faking
+[17:45:28] [Server thread/INFO]: <duel_wield> faking
+[17:45:38] [Server thread/INFO]: [Techyte: Reloading!]
+[17:45:38] [Server thread/INFO]: Loaded 7 recipes
+[17:45:38] [Server thread/INFO]: Loaded 1272 advancements
+[17:46:03] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[17:46:04] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:46:04] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:46:06] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:46:48] [Server thread/INFO]: [Techyte: Reloading!]
+[17:46:48] [Server thread/INFO]: Loaded 7 recipes
+[17:46:48] [Server thread/INFO]: Loaded 1272 advancements
+[17:46:58] [Server thread/INFO]: [Techyte: Removed tag 'Faking' from duel_wield]
+[17:47:00] [Server thread/INFO]: [Techyte: Removed tag 'inCommunicationsDivert' from duel_wield]
+[17:47:03] [Server thread/INFO]: [Techyte: Removed tag 'inWeaponsAsteroids' from duel_wield]
+[17:47:05] [User Authenticator #15/INFO]: UUID of player realmrfidget is a56cb71f-b662-48f5-a4b0-22e534a9eaa6
+[17:47:05] [Server thread/INFO]: realmrfidget[/192.168.1.55:63981] logged in with entity id 1788 at (7.304132700849514, -60.0, 4.603487977325053)
+[17:47:05] [Server thread/INFO]: realmrfidget joined the game
+[17:47:23] [Server thread/INFO]: [Techyte: Reloading!]
+[17:47:23] [Server thread/INFO]: Loaded 7 recipes
+[17:47:23] [Server thread/INFO]: Loaded 1272 advancements
+[17:47:30] [Server thread/INFO]: [Techyte: Removed 3 members from any team]
+[17:47:32] [Server thread/INFO]: [Techyte: Removed every effect from 3 targets]
+[17:47:50] [Server thread/INFO]: <realmrfidget> NAHAHHHHH
+[17:47:54] [Server thread/INFO]: <realmrfidget> NOOOOOOO
+[17:48:13] [Server thread/INFO]: [Techyte: Reloading!]
+[17:48:13] [Server thread/INFO]: Loaded 7 recipes
+[17:48:13] [Server thread/INFO]: Loaded 1272 advancements
+[17:48:48] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[17:48:52] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:48:53] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[17:49:57] [Server thread/INFO]: [Techyte: Executed 1 command(s) from function 'amongus:tasks/killdummyplayer']
+[17:51:07] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:51:09] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[17:51:14] [Server thread/INFO]: [Techyte: Removed tag 'inWeaponsAsteroids' from 3 entities]
+[17:51:33] [Server thread/INFO]: [Not Secure] [Techyte] success
+[17:51:56] [Server thread/INFO]: [Techyte: Reloading!]
+[17:51:56] [Server thread/INFO]: Loaded 7 recipes
+[17:51:56] [Server thread/INFO]: Loaded 1272 advancements
+[17:52:06] [Server thread/INFO]: [Techyte: Added tag 'playing' to Techyte]
+[17:53:34] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:53:43] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[17:53:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:53:46] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[17:55:46] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:55:47] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[17:55:48] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:55:52] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[17:56:15] [Server thread/INFO]: [Techyte: Added tag 'playing' to 3 entities]
+[17:56:36] [Server thread/INFO]: [Techyte: Reloading!]
+[17:56:36] [Server thread/INFO]: Loaded 7 recipes
+[17:56:36] [Server thread/INFO]: Loaded 1272 advancements
+[17:57:14] [Server thread/INFO]: [Techyte: Reloading!]
+[17:57:14] [Server thread/INFO]: Loaded 7 recipes
+[17:57:14] [Server thread/INFO]: Loaded 1272 advancements
+[17:58:15] [Server thread/INFO]: [Techyte: Reloading!]
+[17:58:15] [Server thread/INFO]: Loaded 7 recipes
+[17:58:15] [Server thread/INFO]: Loaded 1272 advancements
+[18:00:03] [Server thread/INFO]: duel_wield lost connection: Disconnected
+[18:00:03] [Server thread/INFO]: duel_wield left the game
+[18:00:29] [Server thread/INFO]: realmrfidget lost connection: Disconnected
+[18:00:29] [Server thread/INFO]: realmrfidget left the game
+[18:01:40] [Server thread/INFO]: [Techyte: Reloading!]
+[18:01:40] [Server thread/INFO]: Loaded 7 recipes
+[18:01:40] [Server thread/INFO]: Loaded 1272 advancements
+[18:17:04] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[18:17:05] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[18:17:06] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[18:17:29] [Server thread/INFO]: [Techyte: Executed 3 command(s) from function 'amongus:completetask']
+[18:17:33] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[18:17:33] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[18:17:34] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[18:17:37] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[18:17:59] [Server thread/INFO]: [Techyte: Executed 3 command(s) from function 'amongus:completetask']
+[18:19:36] [Server thread/INFO]: Techyte lost connection: Disconnected
+[18:19:36] [Server thread/INFO]: Techyte left the game
+[18:19:38] [User Authenticator #16/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[18:19:38] [Server thread/INFO]: Techyte[/127.0.0.1:61599] logged in with entity id 2201 at (-93.23685121538017, -23.44463140672207, -17.410806533504882)
+[18:19:38] [Server thread/INFO]: Techyte joined the game
+[18:20:26] [Server thread/INFO]: [Techyte: Set [maxCompletedTasks] for Manager to 6]
+[18:21:01] [Server thread/INFO]: [Techyte: Added 1 to [completedTasks] for Manager (now 3)]
+[18:22:36] [Server thread/INFO]: [Techyte: Set own game mode to Survival Mode]
+[18:22:37] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[18:22:37] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[18:22:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[18:23:36] [Server thread/INFO]: [Techyte: Played sound minecraft:shhhhhhh to Techyte]
+[18:24:35] [Server thread/INFO]: [Techyte: Reloading!]
+[18:24:35] [Server thread/INFO]: Loaded 7 recipes
+[18:24:35] [Server thread/INFO]: Loaded 1272 advancements
+[18:24:56] [Server thread/INFO]: [Techyte: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:27:05] [User Authenticator #17/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
+[18:27:06] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:55644] logged in with entity id 2220 at (8.395444258036871, -60.0, 9.409027670934165)
+[18:27:06] [Server thread/INFO]: Keefe_Sencen joined the game
+[18:27:35] [Server thread/INFO]: [Techyte: Reloading!]
+[18:27:36] [Server thread/INFO]: Loaded 7 recipes
+[18:27:36] [Server thread/INFO]: Loaded 1272 advancements
+[18:27:52] [Server thread/INFO]: [Techyte: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:27:52] [Server thread/INFO]: [Keefe_Sencen: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:28:27] [Server thread/INFO]: [Techyte: Reloading!]
+[18:28:27] [Server thread/INFO]: Loaded 7 recipes
+[18:28:27] [Server thread/INFO]: Loaded 1272 advancements
+[18:28:36] [Server thread/INFO]: [Techyte: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:28:36] [Server thread/INFO]: [Keefe_Sencen: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:30:40] [Server thread/INFO]: [Techyte: Reloading!]
+[18:30:40] [Server thread/INFO]: Loaded 7 recipes
+[18:30:40] [Server thread/INFO]: Loaded 1272 advancements
+[18:30:50] [Server thread/INFO]: [Techyte: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:30:50] [Server thread/INFO]: [Keefe_Sencen: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:31:10] [Server thread/INFO]: [Techyte: Played sound minecraft:crewmate_win to Techyte]
+[18:31:10] [Server thread/INFO]: [Keefe_Sencen: Played sound minecraft:crewmate_win to Keefe_Sencen]
+[18:31:42] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[18:31:56] [Server thread/INFO]: [Techyte: Set the time to 1000]
+[18:32:04] [Server thread/INFO]: [Techyte: Set the time to 18000]
+[18:32:06] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[18:32:38] [Server thread/INFO]: [Techyte: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:32:38] [Server thread/INFO]: [Keefe_Sencen: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:33:08] [User Authenticator #18/INFO]: UUID of player realmrfidget is a56cb71f-b662-48f5-a4b0-22e534a9eaa6
+[18:33:08] [Server thread/INFO]: realmrfidget[/192.168.1.55:64774] logged in with entity id 2343 at (9.699999988079071, -59.0, -0.6971324932044061)
+[18:33:08] [Server thread/INFO]: realmrfidget joined the game
+[18:33:16] [Server thread/INFO]: <realmrfidget> I AM HERE
+[18:33:20] [Server thread/INFO]: <realmrfidget> jk bye
+[18:33:21] [Server thread/INFO]: realmrfidget lost connection: Disconnected
+[18:33:21] [Server thread/INFO]: realmrfidget left the game
+[18:42:27] [User Authenticator #19/INFO]: UUID of player realmrfidget is a56cb71f-b662-48f5-a4b0-22e534a9eaa6
+[18:42:27] [Server thread/INFO]: realmrfidget[/192.168.1.55:65295] logged in with entity id 2344 at (11.621662590490686, -59.0, 0.5295684956832944)
+[18:42:27] [Server thread/INFO]: realmrfidget joined the game
+[18:42:39] [Server thread/INFO]: <realmrfidget> I AM HERE again
+[18:43:39] [Server thread/INFO]: <realmrfidget> COME ON BARBIE LETS GO PARTY
+[18:43:55] [Server thread/INFO]: realmrfidget lost connection: Disconnected
+[18:43:55] [Server thread/INFO]: realmrfidget left the game
+[18:52:19] [Server thread/INFO]: [Techyte: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:52:19] [Server thread/INFO]: [Keefe_Sencen: Executed 91 command(s) from function 'amongus:removehavetasktags']
+[18:52:34] [Server thread/INFO]: Techyte lost connection: Disconnected
+[18:52:34] [Server thread/INFO]: Techyte left the game
+[18:52:36] [User Authenticator #20/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[18:52:36] [Server thread/INFO]: Techyte[/127.0.0.1:55884] logged in with entity id 2603 at (2.7276325874414433, -57.799999952316284, 6.344813223862838)
+[18:52:36] [Server thread/INFO]: Techyte joined the game
+[18:52:38] [Server thread/INFO]: [Techyte: Set own game mode to Survival Mode]
+[18:52:39] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[18:52:44] [Server thread/INFO]: [Techyte: Set own game mode to Survival Mode]
+[18:52:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[18:52:55] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[18:52:58] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[18:53:01] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[18:53:04] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
+[18:54:55] [Server thread/INFO]: [Techyte: Reloading!]
+[18:54:55] [Server thread/INFO]: Loaded 7 recipes
+[18:54:55] [Server thread/INFO]: Loaded 1272 advancements
+[18:55:39] [Server thread/INFO]: [Techyte: Reloading!]
+[18:55:39] [Server thread/INFO]: Loaded 7 recipes
+[18:55:39] [Server thread/INFO]: Loaded 1272 advancements
+[19:00:41] [Server thread/INFO]: [Techyte: Reloading!]
+[19:00:41] [Server thread/INFO]: Loaded 7 recipes
+[19:00:41] [Server thread/INFO]: Loaded 1272 advancements
+[19:00:53] [Server thread/INFO]: [Techyte: Set [ambianceLoop] for Manager to 0]
+[19:01:36] [Server thread/INFO]: [Techyte: Reloading!]
+[19:01:36] [Server thread/INFO]: Loaded 7 recipes
+[19:01:36] [Server thread/INFO]: Loaded 1272 advancements
+[19:02:15] [Server thread/INFO]: [Techyte: Killed 3 entities]
+[19:02:21] [Server thread/INFO]: [Techyte: Killed Armor Stand]
+[19:03:02] [Server thread/INFO]: [Techyte: Reloading!]
+[19:03:02] [Server thread/INFO]: Loaded 7 recipes
+[19:03:02] [Server thread/INFO]: Loaded 1272 advancements
+[19:03:28] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[19:03:29] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[19:05:38] [Server thread/INFO]: [Techyte: Reloading!]
+[19:05:38] [Server thread/INFO]: Loaded 7 recipes
+[19:05:38] [Server thread/INFO]: Loaded 1272 advancements
+[19:06:45] [Server thread/INFO]: [Techyte: Set [shieldsOn] for Manager to 0]
+[19:07:33] [Server thread/INFO]: [Techyte: Reloading!]
+[19:07:34] [Server thread/INFO]: Loaded 7 recipes
+[19:07:34] [Server thread/INFO]: Loaded 1272 advancements
+[19:09:27] [Server thread/INFO]: [Techyte: Set [maxCompletedTasks] for Manager to 0]
+[19:09:43] [Server thread/INFO]: [Techyte: Reloading!]
+[19:09:43] [Server thread/INFO]: Loaded 7 recipes
+[19:09:43] [Server thread/INFO]: Loaded 1272 advancements
+[19:16:36] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[19:16:45] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[19:16:46] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[19:17:13] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[19:17:21] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[19:18:12] [Server thread/INFO]: [Techyte: Gave 1 [Empty Map] to Techyte]
+[19:18:23] [Server thread/INFO]: [Techyte: Gave 1 [Map] to Techyte]
+[19:19:14] [Server thread/INFO]: [Techyte: Gave 1 [Map] to Techyte]
+[19:20:00] [Server thread/INFO]: [Techyte: Gave 1 [Map] to Techyte]
+[19:22:21] [Server thread/INFO]: [Techyte: Reloading!]
+[19:22:22] [Server thread/INFO]: Loaded 7 recipes
+[19:22:22] [Server thread/INFO]: Loaded 1272 advancements
+[19:22:24] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[19:22:29] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[19:26:16] [Server thread/INFO]: [Techyte: Reloading!]
+[19:26:16] [Server thread/INFO]: Loaded 7 recipes
+[19:26:16] [Server thread/INFO]: Loaded 1272 advancements
+[19:26:35] [Server thread/INFO]: [Techyte: Removed Techyte from any team]
+[19:26:39] [Server thread/INFO]: [Techyte: Added Techyte to team [Alive]]
+[19:31:19] [Server thread/INFO]: [Techyte: Replaced a slot on 2 entities with [Map]]
+[19:32:09] [Server thread/INFO]: [Techyte: Reloading!]
+[19:32:09] [Server thread/INFO]: Loaded 7 recipes
+[19:32:09] [Server thread/INFO]: Loaded 1272 advancements
+[19:33:05] [Server thread/INFO]: [Techyte: Reloading!]
+[19:33:05] [Server thread/INFO]: Loaded 7 recipes
+[19:33:05] [Server thread/ERROR]: Failed to load function amongus:sabotages/buttons/comms
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Incorrect argument for command at position 102: ...matches 0 <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Incorrect argument for command at position 102: ...matches 0 <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[19:33:05] [Server thread/INFO]: Loaded 1272 advancements
+[19:33:12] [Server thread/INFO]: [Techyte: Reloading!]
+[19:33:12] [Server thread/INFO]: Loaded 7 recipes
+[19:33:12] [Server thread/INFO]: Loaded 1272 advancements
+[19:33:30] [Server thread/INFO]: [Techyte: Reloading!]
+[19:33:30] [Server thread/INFO]: Loaded 7 recipes
+[19:33:30] [Server thread/INFO]: Loaded 1272 advancements
+[19:35:14] [Server thread/INFO]: [Techyte: Reloading!]
+[19:35:14] [Server thread/INFO]: Loaded 7 recipes
+[19:35:14] [Server thread/INFO]: Loaded 1272 advancements
+[19:37:39] [Server thread/INFO]: [Techyte: Reloading!]
+[19:37:40] [Server thread/INFO]: Loaded 7 recipes
+[19:37:40] [Server thread/INFO]: Loaded 1272 advancements
+[19:38:07] [Server thread/INFO]: [Techyte: Reloading!]
+[19:38:07] [Server thread/INFO]: Loaded 7 recipes
+[19:38:07] [Server thread/INFO]: Loaded 1272 advancements
+[19:38:32] [Server thread/INFO]: [Techyte: Reloading!]
+[19:38:32] [Server thread/INFO]: Loaded 7 recipes
+[19:38:32] [Server thread/INFO]: Loaded 1272 advancements
+[19:40:50] [Server thread/INFO]: [Techyte: Reloading!]
+[19:40:50] [Server thread/INFO]: Loaded 7 recipes
+[19:40:50] [Server thread/INFO]: Loaded 1272 advancements
+[19:43:02] [User Authenticator #21/INFO]: UUID of player realmrfidget is a56cb71f-b662-48f5-a4b0-22e534a9eaa6
+[19:43:02] [Server thread/INFO]: realmrfidget[/192.168.1.55:65416] logged in with entity id 2811 at (8.494842993645342, -60.0, 7.210713470865198)
+[19:43:02] [Server thread/INFO]: realmrfidget joined the game
+[19:43:06] [Server thread/INFO]: [Techyte: Reloading!]
+[19:43:06] [Server thread/INFO]: Loaded 7 recipes
+[19:43:06] [Server thread/INFO]: Loaded 1272 advancements
+[19:43:09] [Server thread/INFO]: <Techyte> oh hi
+[19:43:12] [Server thread/INFO]: <realmrfidget> hi
+[19:43:25] [Server thread/INFO]: [Techyte: Reloading!]
+[19:43:25] [Server thread/INFO]: Loaded 7 recipes
+[19:43:25] [Server thread/INFO]: Loaded 1272 advancements
+[19:43:36] [Server thread/INFO]: [Techyte: Reloading!]
+[19:43:36] [Server thread/INFO]: Loaded 7 recipes
+[19:43:36] [Server thread/INFO]: Loaded 1272 advancements
+[19:43:45] [Server thread/INFO]: [Techyte: Reloading!]
+[19:43:46] [Server thread/INFO]: Loaded 7 recipes
+[19:43:46] [Server thread/INFO]: Loaded 1272 advancements
+[19:43:52] [Server thread/INFO]: <Techyte> u wanna play a round?
+[19:43:57] [Server thread/INFO]: <realmrfidget> yea sure
+[19:44:03] [Server thread/INFO]: <Techyte> hang on
+[19:44:18] [Server thread/INFO]: <realmrfidget> should we ask everyone else if they want to?
+[19:44:18] [Server thread/INFO]: [Techyte: Removed tag 'admin_swipe_card' from realmrfidget]
+[19:44:22] [Server thread/INFO]: [Techyte: Removed tag 'cafeteria_empty_garbage' from realmrfidget]
+[19:44:23] [Server thread/INFO]: <Techyte> yeah
+[19:44:26] [Server thread/INFO]: <realmrfidget> ok
+[19:44:26] [Server thread/INFO]: [Techyte: Removed tag 'communications_fix' from realmrfidget]
+[19:44:28] [Server thread/INFO]: [Techyte: Removed tag 'inWeaponsAsteroids' from realmrfidget]
+[19:44:31] [Server thread/INFO]: [Techyte: Removed tag 'medbay_inspect_samples' from realmrfidget]
+[19:44:33] [Server thread/INFO]: [Techyte: Removed tag 'navigation_chart_course' from realmrfidget]
+[19:44:36] [Server thread/INFO]: [Techyte: Removed tag 'security_fix_wiring' from realmrfidget]
+[19:44:48] [Server thread/INFO]: [Techyte: Reloading!]
+[19:44:48] [Server thread/INFO]: Loaded 7 recipes
+[19:44:48] [Server thread/INFO]: Loaded 1272 advancements
+[19:44:58] [Server thread/INFO]: Keefe_Sencen lost connection: Disconnected
+[19:44:58] [Server thread/INFO]: Keefe_Sencen left the game
+[19:45:11] [Server thread/INFO]: <realmrfidget> george is going to soon
+[19:45:16] [Server thread/INFO]: <Techyte> k
+[19:45:18] [Server thread/INFO]: <realmrfidget> but freyr doesnt want to
+[19:47:44] [Server thread/INFO]: realmrfidget lost connection: Disconnected
+[19:47:44] [Server thread/INFO]: realmrfidget left the game
+[19:59:06] [Server thread/INFO]: [Techyte: Reloading!]
+[19:59:06] [Server thread/INFO]: Loaded 7 recipes
+[19:59:06] [Server thread/INFO]: Loaded 1272 advancements
+[20:00:20] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:00:22] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:01:05] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:01:07] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:01:24] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:01:25] [Server thread/INFO]: [Techyte: Set own game mode to Survival Mode]
+[20:01:26] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:01:28] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:02:38] [Server thread/INFO]: [Techyte: Set [numberOfPlayers] for math to 4]
+[20:03:44] [Server thread/INFO]: [Techyte: Reloading!]
+[20:03:44] [Server thread/INFO]: Loaded 7 recipes
+[20:03:44] [Server thread/INFO]: Loaded 1272 advancements
+[20:03:48] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:03:50] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:04:03] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:04:04] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:04:12] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:04:14] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:04:23] [Server thread/INFO]: [Techyte: Reloading!]
+[20:04:23] [Server thread/INFO]: Loaded 7 recipes
+[20:04:23] [Server thread/INFO]: Loaded 1272 advancements
+[20:04:32] [Server thread/INFO]: [Techyte: Reloading!]
+[20:04:32] [Server thread/INFO]: Loaded 7 recipes
+[20:04:32] [Server thread/INFO]: Loaded 1272 advancements
+[20:06:03] [Server thread/INFO]: [Techyte: Removed objective [numberOfPlayers]]
+[20:06:54] [Server thread/INFO]: [Techyte: Reloading!]
+[20:06:54] [Server thread/INFO]: Loaded 7 recipes
+[20:06:54] [Server thread/INFO]: Loaded 1272 advancements
+[20:06:57] [Server thread/INFO]: [Not Secure] [@] e
+[20:07:00] [Server thread/INFO]: [Techyte: Reloading!]
+[20:07:00] [Server thread/INFO]: Loaded 7 recipes
+[20:07:00] [Server thread/INFO]: Loaded 1272 advancements
+[20:07:50] [Server thread/INFO]: [Techyte: Reloading!]
+[20:07:51] [Server thread/INFO]: Loaded 7 recipes
+[20:07:51] [Server thread/INFO]: Loaded 1272 advancements
+[20:09:02] [Server thread/INFO]: [Techyte: Set [numOfPlayers] for math to 4]
+[20:10:35] [Server thread/INFO]: Techyte lost connection: Disconnected
+[20:10:35] [Server thread/INFO]: Techyte left the game
+[20:10:47] [Server thread/INFO]: Stopping the server
+[20:10:47] [Server thread/INFO]: Stopping server
+[20:10:47] [Server thread/INFO]: Saving players
+[20:10:47] [Server thread/INFO]: Saving worlds
+[20:10:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
+[20:10:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
+[20:10:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
+[20:10:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
+[20:10:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:10:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:10:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

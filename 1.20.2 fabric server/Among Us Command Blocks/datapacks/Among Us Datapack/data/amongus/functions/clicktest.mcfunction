@@ -8,7 +8,7 @@ execute if entity @s[nbt={SelectedItem:{tag:{tags:["StopViewingCams"]}}}] as @s 
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["CantKill"]}}}] as @s run function amongus:cantkill
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["CantVent"]}}}] as @s run function amongus:cantvent
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["LocateTaskButton"]}}}] as @s run function amongus:locatetask
-execute if entity @s[nbt={SelectedItem:{tag:{tags:["O2Button"]}}}] as @s run function amongus:locatetask
+execute if entity @s[nbt={SelectedItem:{tag:{tags:["O2Button"]}}}] as @s run function amongus:sabotages/o2
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["CommsButton"]}}}] as @s run function amongus:sabotages/comms
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["UpperEngineDoorsButton"]}}}] as @s run function amongus:sabotages/top_engine
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["LowerEngineDoorsButton"]}}}] as @s run function amongus:sabotages/bottom_engine
@@ -28,5 +28,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{tags:["StorageNonInteractable"]}}}]
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["UpperEngineNonInteractable"]}}}] as @s run function amongus:sabotages/cooldowns/upper_engine
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["CommsNonInteractable"]}}}] as @s run function amongus:sabotages/cooldowns/regular
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["NonInteractable"]}}}] run title @s actionbar {"text":"Cannot use that right now","color":"red"}
+execute if entity @s[nbt={SelectedItem:{tag:{tags:["NonInteractable"]}}}] run playsound minecraft:generic master @s
 
 scoreboard players set @s clicked 0

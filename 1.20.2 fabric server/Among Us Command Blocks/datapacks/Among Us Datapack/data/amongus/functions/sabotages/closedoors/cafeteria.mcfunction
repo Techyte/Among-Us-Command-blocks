@@ -10,3 +10,4 @@ playsound minecraft:door_close master @a -124 -3 -34 1 1 0.1
 playsound minecraft:door_close master @a -113 -3 -22 1 1 0.1
 
 schedule function amongus:sabotages/opendoors/cafeteria 200
+playsound minecraft:generic master @s

@@ -41,6 +41,7 @@ execute as @s[tag=weapons_asteroids] run summon armor_stand 0 100 0 {NoGravity:1
 execute as @s[tag=shields_prime_shields] run summon armor_stand 0 100 0 {NoGravity:1b,Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["incomplete_task"],CustomNameVisible:false,CustomName:'"Shields"'}
 execute as @s[tag=shields_accept_power] run summon armor_stand 0 100 0 {NoGravity:1b,Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["incomplete_task"],CustomNameVisible:false,CustomName:'"Shields"'}
 
+playsound minecraft:generic master @s
 tellraw @s "\n"
 execute if entity @e[tag=incomplete_task] run tellraw @s [{"text": "You have a task in: ","color": "green"},{"selector":"@e[tag=incomplete_task,sort=random,limit=1]","color": "green"}]
 execute unless entity @e[tag=incomplete_task] run tellraw @s {"text":"You have no more tasks to complete","color": "green"}
