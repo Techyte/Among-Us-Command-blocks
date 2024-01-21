@@ -27,6 +27,9 @@ execute if entity @s[nbt={SelectedItem:{tag:{tags:["SecurityNonInteractable"]}}}
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["StorageNonInteractable"]}}}] as @s run function amongus:sabotages/cooldowns/storage
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["UpperEngineNonInteractable"]}}}] as @s run function amongus:sabotages/cooldowns/upper_engine
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["CommsNonInteractable"]}}}] as @s run function amongus:sabotages/cooldowns/regular
+execute if entity @s[nbt={SelectedItem:{tag:{tags:["LightsNonInteractable"]}}}] as @s run function amongus:sabotages/cooldowns/regular
+execute if entity @s[nbt={SelectedItem:{tag:{tags:["O2NonInteractable"]}}}] as @s run function amongus:sabotages/cooldowns/regular
+execute if entity @s[nbt={SelectedItem:{tag:{tags:["ReactorNonInteractable"]}}}] as @s run function amongus:sabotages/cooldowns/regular
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["NonInteractable"]}}}] run title @s actionbar {"text":"Cannot use that right now","color":"red"}
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["NonInteractable"]}}}] run playsound minecraft:generic master @s
 

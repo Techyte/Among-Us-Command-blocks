@@ -1,1 +1,1 @@
-scoreboard players set Manager o2_sabotage -1
+scoreboard players set Manager o2_sabotage 0

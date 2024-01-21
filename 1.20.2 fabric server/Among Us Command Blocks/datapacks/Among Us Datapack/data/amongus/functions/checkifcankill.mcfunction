@@ -1,4 +1,4 @@
-execute if entity @a[tag=!Imposter,distance=..3,team=Alive,tag=!incam,tag=!inCommunicationsFix] if entity @s[tag=!Venting,tag=!inmeeting,tag=!Faking,scores={killCooldown=0}] run scoreboard players set @s InteractionAllowed 1
+execute if entity @a[tag=!Imposter,distance=..3,team=Alive,tag=!incam,tag=!inCommunicationsFix] if entity @s[tag=!Venting,tag=!inmeeting,tag=!Faking,scores={killCooldown=0},team=Alive] run scoreboard players set @s InteractionAllowed 1
 execute if entity @e[tag=dummyPlayer,tag=!Imposter,distance=..3] if entity @s[tag=!Venting,tag=!inmeeting] run scoreboard players set @s InteractionAllowed 1
 
 execute if score @s InteractionAllowed matches 1 run item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{display:{Name:'[{"text":"Kill","italic":false}]'},tags:["KillButton"],CustomModelData:1}

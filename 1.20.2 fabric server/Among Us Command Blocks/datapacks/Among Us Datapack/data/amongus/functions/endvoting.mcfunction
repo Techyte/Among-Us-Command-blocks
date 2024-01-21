@@ -62,6 +62,10 @@ execute as @a[tag=eject] if entity @a[tag=eject,tag=Imposter] run tellraw @a [{"
 execute as @a[tag=eject] if entity @a[tag=eject,tag=!Imposter] run tellraw @a [{"selector":"@s","color": "red","bold": true},{"text":" was A Crewmate","color": "red","bold": true}]
 execute as @a[tag=eject] at @s run team join Ghosts
 
-scoreboard players set Manager meetingEnding 1
+tag @a remove eject
+
+scoreboard players set Manager meetingCooldown 10
+
+scoreboard players set Manager voting 0
 
 schedule function amongus:endmeeting 20

@@ -1,0 +1,1 @@
+execute if score Manager lights_sabotage matches 1 run function amongus:sabotages/end/lights

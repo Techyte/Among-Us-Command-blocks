@@ -31,7 +31,9 @@ execute as @e[tag=KillTarget] run team join Ghosts
 execute as @e[tag=KillTarget] at @s run tag @s remove InTask
 execute as @s at @s run tp @e[tag=KillTarget] ~ ~ ~
 
-execute as @s at @s run summon minecraft:armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["body","tempbody"],DisabledSlots:4144959}
+clear @a[tag=KillTarget]
+
+execute as @s at @s run summon minecraft:armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["body","tempbody"]}
 
 execute if entity @e[tag=KillTarget,tag=red] run item replace entity @e[tag=tempbody] armor.head with minecraft:carrot_on_a_stick{CustomModelData:3}
 execute if entity @e[tag=KillTarget,tag=blue] run item replace entity @e[tag=tempbody] armor.head with minecraft:carrot_on_a_stick{CustomModelData:4}

@@ -1,2 +1,3 @@
 title @s actionbar [{"text": "Please wait ","color": "red"},{"score":{"name":"Manager","objective":"sabotageCooldown"},"color":"yellow"},{"text": " second(s)","color": "yellow"},{"text":" before sabotaging again"}]
+execute if score Manager sabotageCooldown matches 30 run title @s actionbar {"text": "Cannot call a sabotage while another is running","color": "red"}
 playsound minecraft:generic master @s

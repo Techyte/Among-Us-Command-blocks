@@ -37,6 +37,6 @@ execute as @s[tag=inStartReactor] run function amongus:tasks/reset/reactor/start
 execute as @s[tag=inReactorManifolds] run function amongus:tasks/reset/reactor/unlock_manifolds
 execute as @s[tag=inWeaponsDownload] run function amongus:tasks/reset/weapons/download
 execute as @s[tag=inWeaponsDivert] run function amongus:tasks/reset/weapons/divert_power
-execute as @s[tag=inWeaponsAsteroids] run function amongus:tasks/reset/weapons/asteroids
+execute as @s[tag=inWeaponsAsteroids] run function amongus:tasks/reset/weapons/clear_asteroids
 execute as @s[tag=inShieldsPrime] run function amongus:tasks/reset/shields/prime_shields
 execute as @s[tag=inShieldsDivert] run function amongus:tasks/reset/shields/divert_power

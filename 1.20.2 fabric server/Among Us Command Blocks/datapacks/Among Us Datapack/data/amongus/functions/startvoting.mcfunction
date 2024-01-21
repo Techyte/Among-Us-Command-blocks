@@ -8,6 +8,8 @@ scoreboard players set @a voteId -1
 tellraw @a {"text":" "}
 tellraw @a {"text":"Voting Has Begun:","bold": true}
 
+tellraw @a[team=Ghosts] {"text": "You are a ghost, you cannot vote","color": "gray","italic": true}
+
 execute as @a[team=Alive,tag=red] at @s run tellraw @a[team=Alive] [{"selector":"@s","color": "red"},{"text":" (red)"},{"text":" [VOTE]","bold": true,"color":"red","clickEvent": {"action":"run_command","value": "/trigger voteId set 0"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to vote"}}}]
 execute as @a[team=Alive,tag=blue] at @s run tellraw @a[team=Alive] [{"selector":"@s","color": "dark_blue"},{"text":" (blue)"},{"text":" [VOTE]","bold": true,"color":"dark_blue","clickEvent": {"action":"run_command","value": "/trigger voteId set 1","hoverEvent":{"action":"show_text","contents":{"text":"Click to vote"}}}}]
 execute as @a[team=Alive,tag=green] at @s run tellraw @a[team=Alive] [{"selector":"@s","color": "dark_green"},{"text":" (green)"},{"text":" [VOTE]","bold": true,"color":"dark_green","clickEvent": {"action":"run_command","value": "/trigger voteId set 2"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to vote"}}}]
@@ -30,4 +32,4 @@ tellraw @a[team=Alive] [{"text":"Vote To Skip: ","color": "yellow"},{"text":"[SK
 
 tellraw @a {"text":" "}
 
-scoreboard players set Manager voteTimer 10
+scoreboard players set Manager voteTimer 90

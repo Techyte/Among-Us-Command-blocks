@@ -1,0 +1,3 @@
+execute if score Manager sabotageCooldown matches 0 unless entity @a[tag=inmeeting] run item replace entity @s inventory.3 with minecraft:carrot_on_a_stick{display:{Name:'[{"text":"Reactor","italic":false}]'},tags:["ReactorButton"],CustomModelData:55}
+execute unless score Manager sabotageCooldown matches 0 run item replace entity @s inventory.3 with minecraft:carrot_on_a_stick{display:{Name:'[{"text":"Reactor","italic":false}]'},tags:["ReactorNonInteractable"],CustomModelData:56}
+execute if entity @a[tag=inmeeting] run item replace entity @s inventory.3 with minecraft:carrot_on_a_stick{display:{Name:'[{"text":"Reactor","italic":false}]'},tags:["ReactorNonInteractable"],CustomModelData:56}
