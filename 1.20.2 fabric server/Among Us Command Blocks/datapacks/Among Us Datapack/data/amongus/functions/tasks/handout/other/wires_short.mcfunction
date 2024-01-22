@@ -11,3 +11,5 @@ execute if score Manager randomNumber matches 3 run tag @s add navigation_fix_wi
 execute if score Manager randomNumber matches 4 run tag @s add security_fix_wiring
 
 execute if score Manager randomNumber matches 5 run tag @s add storage_fix_wiring
+
+scoreboard players set @s wiring_tasks_left 1

@@ -3,3 +3,4 @@ setblock -113 20 -149 lever[face=floor,facing=north,powered=true]
 tag @s remove inO2Divert
 tag @s remove inTask
 function amongus:backtodummyplayer
+clear @s

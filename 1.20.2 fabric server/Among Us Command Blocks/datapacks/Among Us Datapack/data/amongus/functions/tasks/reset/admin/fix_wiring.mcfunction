@@ -13,3 +13,4 @@ item replace block -112 19 -95 container.3 with magenta_concrete{CanPlaceOn:["mi
 tag @s remove inAdminWiring
 tag @s remove inTask
 function amongus:backtodummyplayer
+clear @s

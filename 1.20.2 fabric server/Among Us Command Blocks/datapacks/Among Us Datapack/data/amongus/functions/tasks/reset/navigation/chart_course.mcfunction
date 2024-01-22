@@ -7,3 +7,4 @@ setblock -102 20 -136 lever[facing=south,face=wall]
 tag @s remove inNavigationChart
 tag @s remove inTask
 function amongus:backtodummyplayer
+clear @s

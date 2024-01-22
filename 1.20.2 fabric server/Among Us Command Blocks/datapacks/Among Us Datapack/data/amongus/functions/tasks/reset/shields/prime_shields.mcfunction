@@ -11,3 +11,4 @@ setblock -132 20 -136 lever[face=wall,facing=south,powered=true]
 tag @s remove inShieldsPrime
 tag @s remove inTask
 function amongus:backtodummyplayer
+clear @s

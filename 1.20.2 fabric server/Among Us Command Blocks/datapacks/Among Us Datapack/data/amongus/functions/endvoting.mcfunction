@@ -53,7 +53,7 @@ scoreboard players operation $max votes > @a votes
 
 execute as @a if score @s votes = $max votes if score $max votes > math votes run scoreboard players add Manager votedPlayers 1
 
-execute if score Manager votedPlayers matches 1 if score Manager votedPlayers > Manager skippedPlayers as @a if score @s votes = $max votes run tag @s add eject
+execute if score Manager votedPlayers matches 1 as @a if score @s votes > Manager skippedPlayers as @a if score @s votes = $max votes run tag @s add eject
 execute if score Manager skippedPlayers > $max votes run tellraw @a {"text":"Vote skipped. No player was ejected.","color": "yellow"}
 execute if score Manager votedPlayers > math votedPlayers run tellraw @a {"text":"Vote tied. No player was ejected.","color": "yellow"}
 execute if score Manager skippedPlayers = $max votes run tellraw @a {"text":"Vote tied. No player was ejected.","color": "yellow"}

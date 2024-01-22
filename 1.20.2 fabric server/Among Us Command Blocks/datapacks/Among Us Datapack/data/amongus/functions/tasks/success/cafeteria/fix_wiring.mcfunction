@@ -1,5 +1,6 @@
 function amongus:tasks/reset/cafeteria/fix_wiring
 function amongus:tasks/killdummyplayer
+execute as @s[scores={wiring_tasks_left=1..}] run scoreboard players remove @s wiring_tasks_left 1
 execute if score @s wiring_tasks_left matches 0 run function amongus:completetask
 tag @s remove cafeteria_fix_wiring
 
@@ -19,5 +20,3 @@ execute as @s[scores={wiring_tasks_left=1..}] if score Manager randomNumber matc
 
 execute as @s[scores={wiring_tasks_left=1..}] if score Manager randomNumber matches 4 run tag @s add admin_fix_wiring
 execute as @s[scores={wiring_tasks_left=1..}] if score Manager randomNumber matches 4 run tellraw @s {"text":"The next part of this task takes place in: Admin, Fix Wiring","color": "green"}
-
-execute as @s[scores={wiring_tasks_left=1..}] run scoreboard players remove @s wiring_tasks_left 1

@@ -1,3 +1,4 @@
+execute as @a run playsound minecraft:roles_get master @s
 execute as @a run function amongus:removehavetasktags
 
 execute store result score @s noofimposters run scoreboard players get Manager noofimposters
@@ -28,5 +29,3 @@ scoreboard players set @a[tag=Imposter] storagedoors 10
 scoreboard players set @a[tag=Imposter] medbaydoors 10
 scoreboard players set @a[tag=Imposter] cafeteriadoors 10
 scoreboard players set @a[tag=Imposter] electricaldoors 10
-
-execute as @a run playsound minecraft:shhhhhhh master @s

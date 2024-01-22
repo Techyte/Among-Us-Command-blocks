@@ -3,3 +3,4 @@ clone -97 23 -124 -92 24 -126 -97 20 -126
 tag @s remove inCafeteriaGarbage
 tag @s remove inTask
 function amongus:backtodummyplayer
+clear @s

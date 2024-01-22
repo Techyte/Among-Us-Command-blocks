@@ -13,3 +13,4 @@ item replace block -113 19 -122 container.8 with red_wool
 tag @s remove inStartReactor
 tag @s remove inTask
 function amongus:backtodummyplayer
+clear @s

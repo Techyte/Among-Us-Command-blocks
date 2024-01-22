@@ -1,5 +1,5 @@
-[20:00:06] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
-[20:00:06] [main/INFO]: Loading 48 mods:
+[20:33:11] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
+[20:33:11] [main/INFO]: Loading 48 mods:
 	- carpet 1.4.121+v231011
 	- fabric-api 0.91.3+1.20.2
 	   |-- fabric-api-base 0.4.33+fce67b32a0
@@ -61,24 +61,24 @@
 	   \-- player_roles_api 1.6.7
 	- skinrestorer 1.2.4+1.20.2
 	- worldedit 7.2.17+6544-56d0383
-[20:00:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Desktop/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[20:00:06] [main/INFO]: Compatibility level set to JAVA_17
-[20:00:07] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
-[20:00:07] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
-[20:00:07] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
-[20:00:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[20:00:18] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b0eff2]
-[20:00:18] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
-[20:00:18] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:00:20] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[20:00:20] [main/INFO]: Loaded 7 recipes
-[20:00:20] [main/INFO]: Loaded 1272 advancements
-[20:00:21] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.958 ms
-[20:00:22] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[20:00:22] [Server thread/INFO]: Loading properties
-[20:00:22] [Server thread/INFO]: Default game type: ADVENTURE
-[20:00:22] [Server thread/INFO]: Generating keypair
-[20:00:22] [Server console handler/ERROR]: Exception handling console input
+[20:33:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Desktop/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[20:33:12] [main/INFO]: Compatibility level set to JAVA_17
+[20:33:12] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
+[20:33:13] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[20:33:13] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[20:33:13] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[20:33:25] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b0eff2]
+[20:33:25] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
+[20:33:25] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:33:27] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[20:33:27] [main/INFO]: Loaded 7 recipes
+[20:33:27] [main/INFO]: Loaded 1272 advancements
+[20:33:28] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.079 ms
+[20:33:29] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[20:33:29] [Server thread/INFO]: Loading properties
+[20:33:29] [Server thread/INFO]: Default game type: ADVENTURE
+[20:33:29] [Server thread/INFO]: Generating keypair
+[20:33:29] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -92,144 +92,542 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
-[20:00:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:00:22] [Server thread/INFO]: Using default channel type
-[20:00:22] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
-[20:00:22] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
-[20:00:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:00:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:00:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:00:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:00:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:00:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:00:25] [Worker-Main-7/INFO]: Preparing spawn area: 36%
-[20:00:25] [Server thread/INFO]: Time elapsed: 2795 ms
-[20:00:25] [Server thread/INFO]: Done (3.295s)! For help, type "help"
-[20:00:40] [User Authenticator #1/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
-[20:00:40] [Server thread/INFO]: Techyte[/127.0.0.1:62302] logged in with entity id 43 at (-102.47053938761266, -24.0, -11.300000011920929)
-[20:00:41] [Server thread/INFO]: Techyte joined the game
-[20:00:50] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:00:53] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:04:12] [Server thread/INFO]: [Techyte: Killed 3 entities]
-[20:04:37] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:04:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:04:49] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:04:59] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:07:34] [Server thread/INFO]: [Techyte: Gave 1 [Debug Stick] to Techyte]
-[20:09:50] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:09:55] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:10:34] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:10:38] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:11:21] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:11:31] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:12:34] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:12:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:17:24] [Server thread/INFO]: [Techyte: Executed 34 command(s) from function 'amongus:tasks/reset/storage/fix_wiring']
-[20:17:27] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:17:28] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:17:38] [Server thread/INFO]: [Techyte: Reloading!]
-[20:17:39] [Server thread/INFO]: Loaded 7 recipes
-[20:17:39] [Server thread/INFO]: Loaded 1272 advancements
-[20:17:41] [Server thread/INFO]: [Techyte: Executed 34 command(s) from function 'amongus:tasks/reset/storage/fix_wiring']
-[20:17:44] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:17:46] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:17:53] [Server thread/INFO]: [Techyte: Executed 34 command(s) from function 'amongus:tasks/reset/security/fix_wiring']
-[20:17:54] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:18:06] [Server thread/INFO]: [Techyte: Executed 34 command(s) from function 'amongus:tasks/reset/navigation/fix_wiring']
-[20:18:19] [Server thread/INFO]: [Techyte: Executed 34 command(s) from function 'amongus:tasks/reset/electrical/fix_wiring']
-[20:18:32] [Server thread/INFO]: [Techyte: Executed 34 command(s) from function 'amongus:tasks/reset/cafeteria/fix_wiring']
-[20:18:41] [Server thread/INFO]: [Techyte: Executed 34 command(s) from function 'amongus:tasks/reset/admin/fix_wiring']
-[20:18:45] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:20:23] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:20:27] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:21:05] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:21:11] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:24:20] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:24:21] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:24:36] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:25:01] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:25:11] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:25:12] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:27:25] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:27:28] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:27:42] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:27:54] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:28:09] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:28:11] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:28:31] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:28:32] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:28:34] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:28:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:28:41] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:28:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:29:53] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:29:56] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:30:42] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:30:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:30:51] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:30:53] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:32:22] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:32:24] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:32:40] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:32:43] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:33:54] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:33:56] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:33:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:33:29] [Server thread/INFO]: Using default channel type
+[20:33:29] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
+[20:33:29] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
+[20:33:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:33:32] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[20:33:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:33:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:33:32] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[20:33:32] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[20:33:32] [Worker-Main-11/INFO]: Preparing spawn area: 30%
+[20:33:33] [Server thread/INFO]: Time elapsed: 2856 ms
+[20:33:33] [Server thread/INFO]: Done (3.373s)! For help, type "help"
+[20:33:40] [User Authenticator #1/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[20:33:40] [Server thread/INFO]: Techyte[/127.0.0.1:51011] logged in with entity id 40 at (8.5, -60.0, 8.5)
+[20:33:40] [Server thread/INFO]: Techyte joined the game
+[20:33:43] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:33:51] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[20:33:52] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:33:55] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:33:59] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:34:05] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:34:06] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
 [20:34:07] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:34:09] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:34:21] [Server thread/INFO]: [Techyte: Gave 1 [Command Block] to Techyte]
-[20:35:03] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:35:14] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:35:19] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:35:21] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:42:42] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:42:43] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:44:23] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:44:25] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:44:38] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:44:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:50:34] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:50:37] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:50:46] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:50:48] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:50:50] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:50:52] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:52:06] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:52:08] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:34:08] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:34:23] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:34:47] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:34:48] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:34:51] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:34:53] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:34:55] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:35:02] [Server thread/INFO]: [Techyte: Gave 1 [Command Block] to Techyte]
+[20:35:50] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:35:51] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:35:54] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:35:55] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:36:21] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:37:34] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:37:35] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:37:37] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:37:43] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:37:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:37:45] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:37:47] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:37:50] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:37:51] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:37:53] [Server thread/INFO]: [Not Secure] [@] e
+[20:37:55] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:37:57] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:37:58] [Server thread/INFO]: [Not Secure] [@] e
+[20:38:00] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:38:01] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:38:11] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:38:13] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:38:41] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:38:45] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:39:43] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:40:00] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:40:09] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:40:15] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:40:51] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:40:54] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:41:33] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:41:40] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:42:21] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:42:24] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:42:33] [Server thread/INFO]: [Techyte: Gave 1 [Debug Stick] to Techyte]
+[20:42:33] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:42:36] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:42:44] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:42:46] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:42:48] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:42:50] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:42:51] [Server thread/INFO]: [Not Secure] [@] e
+[20:42:53] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:42:54] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:42:57] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:43:03] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:43:35] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:43:36] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:44:31] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:44:40] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:44:47] [Server thread/INFO]: [Techyte: Gave 1 [Barrier] to Techyte]
+[20:45:00] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:45:03] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:45:14] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:45:16] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:45:21] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[20:45:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:45:45] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:45:50] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:45:53] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:45:54] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:45:58] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:46:01] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:46:14] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:46:15] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:46:16] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:46:22] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:46:24] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:46:29] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:46:31] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:46:32] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:46:33] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:46:45] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:46:46] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:46:47] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:46:50] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:46:58] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:01] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:05] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:06] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:07] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:08] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:13] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:19] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:20] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:21] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:25] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:26] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:28] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:28] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:30] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:33] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:40] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:43] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:49] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:52] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:53] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:55] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:56] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:47:58] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:47:59] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:02] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:03] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:05] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:07] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:09] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:10] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:16] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:17] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:18] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:19] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:21] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:21] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:23] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:24] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:26] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:27] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:29] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:31] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:33] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:48:34] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:48:45] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:50:37] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:50:40] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:52:36] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:52:37] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:52:43] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:52:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:52:53] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:52:54] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:53:03] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:53:05] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:53:12] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:53:13] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:53:19] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:53:26] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
 [20:53:46] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:53:49] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:54:06] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:54:20] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:54:42] [Server thread/INFO]: [Techyte: Applied effect Night Vision to Techyte]
-[20:55:00] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[20:55:04] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[20:55:12] [Server thread/INFO]: [Techyte: Removed every effect from Techyte]
-[20:57:59] [Server thread/INFO]: [Techyte: Set [discussTimer] for Manager to 0]
-[20:58:33] [Server thread/INFO]: [Techyte: Reloading!]
-[20:58:33] [Server thread/INFO]: Loaded 7 recipes
-[20:58:33] [Server thread/INFO]: Loaded 1272 advancements
-[20:58:46] [Server thread/INFO]: [Techyte: Added tag 'navigation_fix_wiring' to Techyte]
-[20:59:03] [Server thread/INFO]: [Techyte: Executed 177 command(s) from function 'amongus:checkifcallmeeting']
-[20:59:17] [Server thread/INFO]: [Techyte: Set [discussTimer] for Manager to 0]
-[20:59:42] [Server thread/INFO]: [Techyte: Added tag 'electrical_fix_wiring' to Techyte]
-[20:59:46] [Server thread/INFO]: [Techyte: Added tag 'electrical_divert_power' to Techyte]
-[20:59:55] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
-[21:00:09] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[21:00:17] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
-[21:01:09] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[21:04:36] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
-[21:04:37] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[21:04:38] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
-[21:06:14] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[21:06:14] [Server thread/INFO]: Techyte lost connection: Disconnected
-[21:06:14] [Server thread/INFO]: Techyte left the game
-[21:06:25] [Server thread/INFO]: Stopping the server
-[21:06:25] [Server thread/INFO]: Stopping server
-[21:06:25] [Server thread/INFO]: Saving players
-[21:06:25] [Server thread/INFO]: Saving worlds
-[21:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
-[21:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
-[21:06:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
-[21:06:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
-[21:06:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:06:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:06:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:53:47] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:53:55] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:53:57] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:54:08] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:54:10] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:54:16] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:54:24] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:54:42] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:54:55] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:54:57] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:55:17] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:55:26] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:55:35] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:55:38] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:55:40] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:55:50] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:00] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:00] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:10] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:12] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:12] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:13] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:21] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:22] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:23] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:24] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:25] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:26] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:27] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:28] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:32] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:34] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:36] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:37] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:40] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:41] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:42] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:43] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:44] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:45] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:47] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:49] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:56:49] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:56:53] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:57:16] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:57:18] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:57:38] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:57:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:57:53] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:57:54] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:58:03] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:58:04] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:58:11] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:58:13] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:58:20] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:58:21] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:58:26] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:58:32] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:58:48] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:58:49] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:58:50] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:58:52] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:59:07] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:59:08] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:59:37] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[20:59:38] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[20:59:48] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:00:30] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:00:32] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:00:41] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:01:01] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:01:19] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:08:09] [Server thread/INFO]: [Techyte: Reloading!]
+[21:08:10] [Server thread/INFO]: Loaded 7 recipes
+[21:08:10] [Server thread/INFO]: Loaded 1272 advancements
+[21:08:29] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:08:45] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:09:23] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:09:38] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:10:56] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:10:58] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:12:37] [Server thread/INFO]: [Techyte: Reloading!]
+[21:12:37] [Server thread/INFO]: Loaded 7 recipes
+[21:12:37] [Server thread/INFO]: Loaded 1272 advancements
+[21:12:41] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:12:50] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:13:40] [Server thread/INFO]: [Techyte: Reloading!]
+[21:13:40] [Server thread/INFO]: Loaded 7 recipes
+[21:13:40] [Server thread/INFO]: Loaded 1272 advancements
+[21:15:54] [Server thread/INFO]: [Techyte: Reloading!]
+[21:15:55] [Server thread/INFO]: Loaded 7 recipes
+[21:15:55] [Server thread/INFO]: Loaded 1272 advancements
+[21:16:04] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:16:07] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:16:14] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:16:48] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:19:56] [Server thread/INFO]: [Techyte: Set [completedTasks] for Manager to 0]
+[21:22:36] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:22:40] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:23:00] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:23:02] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:23:10] [Server thread/INFO]: <Techyte> -92 20 -99
+[21:23:11] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:23:12] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:24:04] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:24:08] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:24:19] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:24:21] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:24:23] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[21:24:25] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[21:29:24] [Server thread/INFO]: [Techyte: Created new objective [cardSwipeDirection]]
+[21:29:58] [Server thread/INFO]: [Techyte: Set [cardSwipeDirection] for Manager to 0]
+[21:36:02] [Server thread/INFO]: [Techyte: Reloading!]
+[21:36:02] [Server thread/INFO]: Loaded 7 recipes
+[21:36:02] [Server thread/INFO]: Loaded 1272 advancements
+[21:36:13] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:39:01] [Server thread/INFO]: [Techyte: Reloading!]
+[21:39:01] [Server thread/INFO]: Loaded 7 recipes
+[21:39:01] [Server thread/INFO]: Loaded 1272 advancements
+[21:39:04] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:18] [Server thread/INFO]: [Techyte: Reloading!]
+[21:42:18] [Server thread/INFO]: Loaded 7 recipes
+[21:42:18] [Server thread/INFO]: Loaded 1272 advancements
+[21:42:23] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:24] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:25] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:25] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:31] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:32] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:32] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:33] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:34] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:42:35] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:22] [Server thread/INFO]: [Techyte: Reloading!]
+[21:43:22] [Server thread/INFO]: Loaded 7 recipes
+[21:43:22] [Server thread/INFO]: Loaded 1272 advancements
+[21:43:25] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:29] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:30] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:30] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:31] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:32] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:33] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:37] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:38] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:39] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:39] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:39] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:40] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:40] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:40] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:41] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:41] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:43:42] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:45:14] [Server thread/INFO]: [Techyte: Reloading!]
+[21:45:14] [Server thread/INFO]: Loaded 7 recipes
+[21:45:14] [Server thread/INFO]: Loaded 1272 advancements
+[21:45:16] [Server thread/INFO]: [Techyte: Executed 20 command(s) from function 'amongus:cardswipebackward']
+[21:45:19] [Server thread/INFO]: [Techyte: Executed 20 command(s) from function 'amongus:cardswipebackward']
+[21:45:22] [Server thread/INFO]: [Techyte: Executed 20 command(s) from function 'amongus:cardswipebackward']
+[21:46:40] [Server thread/INFO]: [Techyte: Reloading!]
+[21:46:40] [Server thread/INFO]: Loaded 7 recipes
+[21:46:41] [Server thread/INFO]: Loaded 1272 advancements
+[21:46:43] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:47:23] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:47:24] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:47:25] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:48:28] [Server thread/INFO]: [Techyte: Changed the block at -93, 20, -103]
+[21:48:40] [Server thread/INFO]: [Techyte: Reloading!]
+[21:48:40] [Server thread/INFO]: Loaded 7 recipes
+[21:48:40] [Server thread/INFO]: Loaded 1272 advancements
+[21:48:45] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:48:47] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:49:01] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:49:03] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:49:06] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:49:06] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:49:07] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:49:25] [Server thread/INFO]: [Techyte: Reloading!]
+[21:49:25] [Server thread/INFO]: Loaded 7 recipes
+[21:49:25] [Server thread/INFO]: Loaded 1272 advancements
+[21:49:27] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:49:37] [Server thread/INFO]: [Techyte: Changed the block at -92, 20, -103]
+[21:49:52] [Server thread/INFO]: [Techyte: Reloading!]
+[21:49:52] [Server thread/INFO]: Loaded 7 recipes
+[21:49:52] [Server thread/INFO]: Loaded 1272 advancements
+[21:49:54] [Server thread/INFO]: [Techyte: Executed 20 command(s) from function 'amongus:cardswipebackward']
+[21:49:58] [Server thread/INFO]: [Techyte: Reloading!]
+[21:49:58] [Server thread/INFO]: Loaded 7 recipes
+[21:49:58] [Server thread/INFO]: Loaded 1272 advancements
+[21:50:01] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:50:16] [Server thread/INFO]: [Techyte: Reloading!]
+[21:50:16] [Server thread/INFO]: Loaded 7 recipes
+[21:50:16] [Server thread/INFO]: Loaded 1272 advancements
+[21:50:19] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:50:20] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[21:50:45] [Server thread/INFO]: [Techyte: Reloading!]
+[21:50:45] [Server thread/INFO]: Loaded 7 recipes
+[21:50:45] [Server thread/INFO]: Loaded 1272 advancements
+[21:50:47] [Server thread/INFO]: [Techyte: Executed 19 command(s) from function 'amongus:cardswipebackward']
+[21:50:48] [Server thread/INFO]: [Techyte: Executed 19 command(s) from function 'amongus:cardswipebackward']
+[21:55:40] [Server thread/INFO]: [Techyte: Reloading!]
+[21:55:40] [Server thread/INFO]: Loaded 7 recipes
+[21:55:40] [Server thread/INFO]: Loaded 1272 advancements
+[21:55:46] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:55:48] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:55:52] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:55:53] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:55:53] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:55:54] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:55:55] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:56:58] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:57:02] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:57:03] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:57:03] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:57:58] [Server thread/INFO]: [Techyte: Reloading!]
+[21:57:58] [Server thread/INFO]: Loaded 7 recipes
+[21:57:58] [Server thread/INFO]: Loaded 1272 advancements
+[21:58:00] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:02] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:04] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:05] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:05] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:05] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:06] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:06] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:08] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:08] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:08] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:09] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:09] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:32] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:34] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:34] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:36] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:38] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:39] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:39] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:40] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:41] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:41] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:43] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:43] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:58:44] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[21:59:14] [Server thread/INFO]: [Techyte: Executed 19 command(s) from function 'amongus:cardswipebackward']
+[21:59:15] [Server thread/INFO]: [Techyte: Executed 19 command(s) from function 'amongus:cardswipebackward']
+[21:59:19] [Server thread/INFO]: [Techyte: Executed 19 command(s) from function 'amongus:cardswipebackward']
+[21:59:20] [Server thread/INFO]: [Techyte: Executed 19 command(s) from function 'amongus:cardswipebackward']
+[22:00:01] [Server thread/INFO]: [Techyte: Reloading!]
+[22:00:01] [Server thread/INFO]: Loaded 7 recipes
+[22:00:01] [Server thread/INFO]: Loaded 1272 advancements
+[22:00:04] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[22:00:06] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipebackward']
+[22:00:09] [Server thread/INFO]: [Techyte: Executed 21 command(s) from function 'amongus:cardswipeforward']
+[22:01:39] [Server thread/INFO]: [Techyte: Reloading!]
+[22:01:39] [Server thread/INFO]: Loaded 7 recipes
+[22:01:39] [Server thread/INFO]: Loaded 1272 advancements
+[22:01:48] [Server thread/INFO]: [Techyte: Reloading!]
+[22:01:48] [Server thread/INFO]: Loaded 7 recipes
+[22:01:48] [Server thread/INFO]: Loaded 1272 advancements
+[22:01:49] [Server thread/INFO]: [Techyte: Reloading!]
+[22:01:50] [Server thread/INFO]: Loaded 7 recipes
+[22:01:50] [Server thread/INFO]: Loaded 1272 advancements
+[22:01:54] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:01:54] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:01:55] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:01:55] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:01:56] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:02:23] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:08] [Server thread/INFO]: [Techyte: Reloading!]
+[22:03:09] [Server thread/INFO]: Loaded 7 recipes
+[22:03:09] [Server thread/INFO]: Loaded 1272 advancements
+[22:03:14] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:15] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:15] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:16] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:16] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:17] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:17] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:17] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:18] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:18] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:19] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:19] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:20] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:21] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:21] [Server thread/INFO]: [Techyte: Executed 46 command(s) from function 'amongus:movecardswipeblock']
+[22:03:22] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:25] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:25] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:26] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:26] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:27] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:27] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:27] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:28] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:28] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:29] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:29] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:30] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:31] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:31] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:31] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:32] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:33] [Server thread/INFO]: [Techyte: Executed 24 command(s) from function 'amongus:movecardswipeblock']
+[22:03:33] [Server thread/INFO]: [Techyte: Executed 46 command(s) from function 'amongus:movecardswipeblock']
+[22:04:36] [Server thread/INFO]: [Techyte: Created new objective [done]]
+[22:05:04] [Server thread/INFO]: [Techyte: Reloading!]
+[22:05:04] [Server thread/INFO]: Loaded 7 recipes
+[22:05:04] [Server thread/INFO]: Loaded 1272 advancements
+[22:05:12] [Server thread/INFO]: [Techyte: Set [done] for Manager to 0]
+[22:05:24] [Server thread/INFO]: [Techyte: Set [cardSwipeDirection] for Manager to 0]
+[22:05:27] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:27] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:28] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:28] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:29] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:29] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:29] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:30] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:30] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:30] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:31] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:31] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:32] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:32] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:32] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:33] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:33] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:34] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:34] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:35] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:35] [Server thread/INFO]: [Techyte: Executed 26 command(s) from function 'amongus:movecardswipeblock']
+[22:05:36] [Server thread/INFO]: [Techyte: Executed 25 command(s) from function 'amongus:movecardswipeblock']
+[22:05:41] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[22:05:50] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[22:06:31] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[22:06:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[22:07:08] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[22:07:10] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[22:07:41] [Server thread/INFO]: [Not Secure] [@] e
+[22:07:46] [Server thread/INFO]: [Not Secure] [@] e
+[22:07:57] [Server thread/INFO]: [Not Secure] [@] e
+[22:08:02] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[22:08:08] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[22:08:11] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[22:08:13] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[22:08:17] [Server thread/INFO]: [Not Secure] [@] e
+[22:08:19] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[22:08:21] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[22:08:23] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[22:08:25] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[22:08:26] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[22:08:27] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[22:08:33] [Server thread/INFO]: [Not Secure] [@] e
+[22:08:37] [Server thread/INFO]: Techyte lost connection: Disconnected
+[22:08:37] [Server thread/INFO]: Techyte left the game
+[22:08:41] [Server thread/INFO]: Stopping the server
+[22:08:41] [Server thread/INFO]: Stopping server
+[22:08:41] [Server thread/INFO]: Saving players
+[22:08:41] [Server thread/INFO]: Saving worlds
+[22:08:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
+[22:08:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
+[22:08:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
+[22:08:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
+[22:08:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:08:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:08:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

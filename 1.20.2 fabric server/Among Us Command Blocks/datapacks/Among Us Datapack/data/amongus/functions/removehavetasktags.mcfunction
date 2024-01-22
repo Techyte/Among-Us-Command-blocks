@@ -48,3 +48,5 @@ tag @a remove inTask
 tag @a remove Faking
 tag @a remove communications_fix
 tag @a remove inCommunicationsFix
+tag @a remove admin_fix_o2
+tag @a remove o2_fix_o2
