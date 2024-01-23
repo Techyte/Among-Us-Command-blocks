@@ -7,8 +7,8 @@ scoreboard players set Manager o2_fix 0
 scoreboard players set Manager admin_fix 0
 scoreboard players set Manager sabotageCooldown 30
 
-tag @a add admin_fix_o2
-tag @a add o2_fix_o2
+tag @a[team=Alive] add admin_fix_o2
+tag @a[team=Alive] add o2_fix_o2
 
 worldborder set 500
 scoreboard players set Manager o2Timer 30

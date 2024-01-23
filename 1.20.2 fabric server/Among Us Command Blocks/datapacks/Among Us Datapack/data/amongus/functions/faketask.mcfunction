@@ -6,13 +6,8 @@ execute as @s[tag=!Faking] run effect give @s slowness infinite 255 true
 execute as @s[tag=!Faking] run item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{display:{Name:'[{"text":"Stop Faking","italic":false}]'},tags:["StopFakingButton"],CustomModelData:44}
 execute as @s[tag=!Faking] run tag @s add Faking
 
-execute as @s[tag=Faking,tag=!changed] run effect clear @s invisibility
-execute as @s[tag=Faking,tag=!changed] run function amongus:removetasktags
-execute as @s[tag=Faking,tag=!changed] run function amongus:tasks/killdummyplayer
-execute as @s[tag=Faking,tag=!changed] run tag @s remove inTask
-execute as @s[tag=Faking,tag=!changed] run effect clear @s slowness
-execute as @s[tag=Faking,tag=!changed] run item replace entity @s hotbar.2 with air
-execute as @s[tag=Faking,tag=!changed] run tag @s remove Faking
+execute as @s[tag=Faking,tag=!changed] run tp @s -87 19 -97
+execute as @s[tag=Faking,tag=!changed] run schedule function amongus:stopfakingtask 2
 
 playsound minecraft:generic master @s
 tag @s remove changed

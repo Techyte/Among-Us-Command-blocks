@@ -1,0 +1,1 @@
+item replace entity @s hotbar.3 with carrot_on_a_stick{CustomModelData:44,tags:["StopViewingCams"],display:{Name:'{"text":"Stop","italic":false}'}}

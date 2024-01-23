@@ -64,6 +64,8 @@ execute as @a[tag=eject] at @s run team join Ghosts
 
 tag @a remove eject
 
+clear @a
+
 scoreboard players set Manager meetingCooldown 10
 
 scoreboard players set Manager voting 0

@@ -35,3 +35,26 @@ execute if entity @s[tag=Imposter,nbt={SelectedItem:{tag:{tags:["CantVent"]}}}] 
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["VentButton"]}}}] unless score @s currentSlot matches 1 run item replace entity @s weapon with air
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["ReportButton"]}}}] unless score @s currentSlot matches 8 run item replace entity @s weapon with air
 execute if entity @s[nbt={SelectedItem:{tag:{tags:["NonInteractable"]}}}] unless score @s currentSlot matches 8 unless score @s currentSlot matches 1 unless score @s currentSlot matches 0 run item replace entity @s weapon with air
+
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["CafeteriaDoorsButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["CafeteriaNonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["ElectricalDoorsButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["ElectricalNonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["LowerEngineDoorsButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["LowerEngineNonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["MedbayDoorsButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["MedbayNonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["SecurityDoorsButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["SecurityNonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["StorageDoorsButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["StorageNonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["UpperEngineDoorsButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["UpperEngineNonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["CommsButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["CommsNonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["LightsButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["LightsNonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["O2Button"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["O2NonInteractable"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["ReactorButton"]}}}] run item replace entity @s weapon with air
+execute as @s[tag=!Imposter] if entity @s[nbt={SelectedItem:{tag:{tags:["ReactorNonInteractable"]}}}] run item replace entity @s weapon with air

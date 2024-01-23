@@ -40,3 +40,5 @@ execute as @s[tag=inWeaponsDivert] run function amongus:tasks/reset/weapons/dive
 execute as @s[tag=inWeaponsAsteroids] run function amongus:tasks/reset/weapons/clear_asteroids
 execute as @s[tag=inShieldsPrime] run function amongus:tasks/reset/shields/prime_shields
 execute as @s[tag=inShieldsDivert] run function amongus:tasks/reset/shields/divert_power
+
+function amongus:tasks/killdummyplayer

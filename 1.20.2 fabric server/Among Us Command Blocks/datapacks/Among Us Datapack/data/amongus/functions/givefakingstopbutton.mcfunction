@@ -1,0 +1,1 @@
+item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{display:{Name:'[{"text":"Stop Faking","italic":false}]'},tags:["StopFakingButton"],CustomModelData:44}

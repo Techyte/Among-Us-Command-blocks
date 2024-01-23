@@ -1,0 +1,1 @@
+item replace entity @s hotbar.2 with carrot_on_a_stick{CustomModelData:21,tags:["CamMoveButton"],display:{Name:'{"text":"Move","italic":false}'}}

@@ -10,3 +10,5 @@ function amongus:tasks/killdummyplayer
 function amongus:testforsamecolour
 
 scoreboard players set Manager ambianceLoop 0
+
+tellraw @s {"text":"'/trigger help' to get help","color": "gold","bold": true}

@@ -8,6 +8,7 @@ execute if entity @e[tag=task_handout,tag=taskToAdd,tag=stabilize_steering] run 
 execute if entity @e[tag=task_handout,tag=taskToAdd,tag=unlock_manifolds] run tag @s add reactor_unlock_manifolds
 execute if entity @e[tag=task_handout,tag=taskToAdd,tag=upload_data] run function amongus:tasks/handout/other/upload
 execute if entity @e[tag=task_handout,tag=taskToAdd,tag=fix_wiring] run function amongus:tasks/handout/other/wires_short
+execute if entity @e[tag=task_handout,tag=taskToAdd,tag=prime_shields] run tag @s add shields_prime_shields
 
 kill @e[tag=taskToAdd]
 

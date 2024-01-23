@@ -20,7 +20,7 @@ execute as @e[tag=targetventpoint] at @s run setblock ~ ~-1 ~ minecraft:iron_tra
 execute as @a[distance=..5] run playsound minecraft:vent master @s ~ ~ ~ 0.5
 schedule function amongus:resetvent 5
 
-give @s carrot_on_a_stick{CustomModelData:21,tags:["VentMoveButton"],display:{Name:'{"text":"Move","italic":false}'}}
+item replace entity @s hotbar.2 with carrot_on_a_stick{CustomModelData:21,tags:["VentMoveButton"],display:{Name:'{"text":"Move","italic":false}'}}
 effect give @s minecraft:invisibility infinite 255 true
 
 tag @s remove WantToChangeVentState
