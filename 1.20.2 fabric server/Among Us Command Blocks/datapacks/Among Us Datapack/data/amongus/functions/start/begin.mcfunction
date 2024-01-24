@@ -29,3 +29,5 @@ scoreboard players set @a[tag=Imposter] storagedoors 10
 scoreboard players set @a[tag=Imposter] medbaydoors 10
 scoreboard players set @a[tag=Imposter] cafeteriadoors 10
 scoreboard players set @a[tag=Imposter] electricaldoors 10
+
+scoreboard players set Manager gameStarted 1

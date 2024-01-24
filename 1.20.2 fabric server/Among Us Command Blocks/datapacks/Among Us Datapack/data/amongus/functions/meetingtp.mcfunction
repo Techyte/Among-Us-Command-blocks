@@ -21,7 +21,7 @@ tag @a[tag=tabletp] add inmeeting
 tag @a[tag=tabletp] remove tabletp
 execute as @p[tag=!inmeeting] at @s run tag @s add tabletp
 tp @a[tag=tabletp] @e[tag=meetingpoint6,limit=1]
-tag @a[tag=tabletp] add atttable
+tag @a[tag=tabletp] add attable
 tag @a[tag=tabletp] remove tabletp
 execute as @p[tag=!inmeeting] at @s run tag @s add tabletp
 tp @a[tag=tabletp] @e[tag=meetingpoint7,limit=1]

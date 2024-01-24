@@ -22,3 +22,5 @@ scoreboard players set Manager completedTasks 0
 
 setblock -145 -3 -54 air
 setblock -146 -3 -53 air
+
+scoreboard players set Manager gameStarted 0
