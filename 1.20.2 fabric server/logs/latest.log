@@ -1,5 +1,5 @@
-[13:49:53] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
-[13:49:53] [main/INFO]: Loading 48 mods:
+[17:36:21] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
+[17:36:22] [main/INFO]: Loading 48 mods:
 	- carpet 1.4.121+v231011
 	- fabric-api 0.91.3+1.20.2
 	   |-- fabric-api-base 0.4.33+fce67b32a0
@@ -61,24 +61,24 @@
 	   \-- player_roles_api 1.6.7
 	- skinrestorer 1.2.4+1.20.2
 	- worldedit 7.2.17+6544-56d0383
-[13:49:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Desktop/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[13:49:54] [main/INFO]: Compatibility level set to JAVA_17
-[13:49:54] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
-[13:49:54] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
-[13:49:54] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
-[13:49:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[13:50:05] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b0eff2]
-[13:50:05] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
-[13:50:05] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:50:07] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[13:50:07] [main/INFO]: Loaded 7 recipes
-[13:50:08] [main/INFO]: Loaded 1272 advancements
-[13:50:08] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.967 ms
-[13:50:09] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[13:50:09] [Server thread/INFO]: Loading properties
-[13:50:09] [Server thread/INFO]: Default game type: ADVENTURE
-[13:50:09] [Server thread/INFO]: Generating keypair
-[13:50:09] [Server console handler/ERROR]: Exception handling console input
+[17:36:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Desktop/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:36:22] [main/INFO]: Compatibility level set to JAVA_17
+[17:36:22] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
+[17:36:23] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[17:36:23] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[17:36:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[17:36:34] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4aa42910]
+[17:36:34] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
+[17:36:34] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:36:36] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[17:36:37] [main/INFO]: Loaded 7 recipes
+[17:36:37] [main/INFO]: Loaded 1272 advancements
+[17:36:38] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.243 ms
+[17:36:38] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[17:36:38] [Server thread/INFO]: Loading properties
+[17:36:38] [Server thread/INFO]: Default game type: ADVENTURE
+[17:36:38] [Server thread/INFO]: Generating keypair
+[17:36:38] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -92,155 +92,41 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
-[13:50:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:50:09] [Server thread/INFO]: Using default channel type
-[13:50:09] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
-[13:50:09] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
-[13:50:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:50:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:50:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:50:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:50:12] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[13:50:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:50:12] [Worker-Main-11/INFO]: Preparing spawn area: 37%
-[13:50:12] [Server thread/INFO]: Time elapsed: 2748 ms
-[13:50:12] [Server thread/INFO]: Done (3.265s)! For help, type "help"
-[13:50:21] [User Authenticator #1/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
-[13:50:21] [Server thread/INFO]: Techyte[/127.0.0.1:52815] logged in with entity id 39 at (-123.97591880451633, -4.0, -29.129918596676056)
-[13:50:21] [Server thread/INFO]: Techyte joined the game
-[13:50:24] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:50:29] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
-[13:50:30] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:50:31] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:50:32] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:50:38] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:50:57] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:51:00] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:51:46] [Server thread/INFO]: [Techyte: Created new objective [gameStarted]]
-[13:51:54] [Server thread/INFO]: [Techyte: Set [gameStarted] for Manager to 0]
-[13:52:31] [Server thread/INFO]: [Techyte: Reloading!]
-[13:52:31] [Server thread/INFO]: Loaded 7 recipes
-[13:52:31] [Server thread/INFO]: Loaded 1272 advancements
-[13:52:35] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:52:39] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:53:06] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:53:07] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:53:38] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:53:41] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:54:41] [Server thread/INFO]: [Techyte: Reloading!]
-[13:54:41] [Server thread/INFO]: Loaded 7 recipes
-[13:54:41] [Server thread/INFO]: Loaded 1272 advancements
-[13:55:48] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:55:57] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:56:09] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:56:14] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:56:22] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:56:30] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:56:36] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:56:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:56:58] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[13:57:07] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[13:58:16] [Server thread/INFO]: [Techyte: Removed Techyte from any team]
-[13:58:21] [Server thread/INFO]: [Techyte: Removed tag 'atttable' from Techyte]
-[13:59:28] [Server thread/INFO]: [Techyte: Reloading!]
-[13:59:28] [Server thread/INFO]: Loaded 7 recipes
-[13:59:28] [Server thread/INFO]: Loaded 1272 advancements
-[14:02:55] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[14:02:57] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[14:03:12] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[14:03:14] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[14:05:47] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[14:05:55] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[14:05:58] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[14:06:00] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[14:06:03] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[14:06:04] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[14:08:11] [Server thread/INFO]: [Techyte: Gamerule reducedDebugInfo is now set to: true]
-[14:10:42] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[14:10:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[14:10:53] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[14:10:57] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:14:12] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[16:14:34] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:15:44] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
-[16:16:10] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:18:04] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
-[16:18:05] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:18:06] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[16:21:10] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:21:45] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[16:21:54] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:21:59] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[16:22:02] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:22:14] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[16:22:15] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:50:21] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[16:50:22] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:51:46] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[16:51:59] [Server thread/INFO]: [Techyte: Changed the block at 2, -59, 16]
-[16:52:02] [Server thread/INFO]: [Techyte: Changed the block at 3, -59, 17]
-[16:52:03] [Server thread/INFO]: [Techyte: Changed the block at 4, -59, 17]
-[16:52:05] [Server thread/INFO]: [Techyte: Changed the block at 5, -59, 17]
-[16:52:07] [Server thread/INFO]: [Techyte: Changed the block at 11, -59, 17]
-[16:52:09] [Server thread/INFO]: [Techyte: Changed the block at 12, -59, 17]
-[16:52:10] [Server thread/INFO]: [Techyte: Changed the block at 13, -59, 17]
-[16:52:13] [Server thread/INFO]: [Techyte: Changed the block at 14, -59, 16]
-[16:52:15] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:55:20] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[16:55:44] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:55:48] [Server thread/INFO]: [Techyte: Changed the block at -6, -60, 7]
-[16:55:52] [Server thread/INFO]: [Techyte: Changed the block at -7, -60, 8]
-[16:55:54] [Server thread/INFO]: [Techyte: Changed the block at -8, -60, 7]
-[16:55:56] [Server thread/INFO]: [Techyte: Changed the block at -7, -60, 6]
-[16:55:58] [Server thread/INFO]: [Techyte: Changed the block at -7, -62, 7]
-[16:56:03] [Server thread/INFO]: [Techyte: Changed the block at -7, -62, 7]
-[16:56:06] [Server thread/INFO]: [Techyte: Changed the block at -7, -61, 7]
-[16:56:10] [Server thread/INFO]: [Techyte: Changed the block at -7, -59, 7]
-[16:57:19] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[16:57:20] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[16:59:42] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:00:07] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:00:32] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:00:37] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:00:49] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:00:51] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:00:57] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:00:58] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:01:14] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:01:16] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:01:34] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:01:35] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:02:12] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:02:31] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:02:47] [Server thread/INFO]: [Techyte: Gave 1 [Empty Map] to Techyte]
-[17:02:53] [Server thread/INFO]: [Techyte: Gave 1 [Map] to Techyte]
-[17:03:20] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:04:36] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:06:15] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:06:18] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:06:24] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:06:25] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:06:27] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:06:31] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:06:41] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:06:43] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:07:58] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:08:00] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:11:28] [Server thread/INFO]: [Techyte: Reloading!]
-[17:11:28] [Server thread/INFO]: Loaded 7 recipes
-[17:11:28] [Server thread/INFO]: Loaded 1272 advancements
-[17:11:51] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[17:12:12] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[17:13:04] [WorldEdit Task Executor - 0/INFO]: Techyte saved C:\Users\Mr. Monster\Desktop\Among-Us-Command-blocks\1.20.2 fabric server\config\worldedit\schematics\friends_skeld.schem
-[17:13:53] [WorldEdit Task Executor - 0/INFO]: Techyte saved C:\Users\Mr. Monster\Desktop\Among-Us-Command-blocks\1.20.2 fabric server\config\worldedit\schematics\friends_skeld.schem (overwriting previous file)
-[17:19:29] [Server thread/INFO]: Stopping the server
-[17:19:29] [Server thread/INFO]: Stopping server
-[17:19:29] [Server thread/INFO]: Saving players
-[17:19:29] [Server thread/INFO]: Saving worlds
-[17:19:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
-[17:19:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
-[17:19:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
-[17:19:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
-[17:19:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:19:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:19:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:36:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:36:39] [Server thread/INFO]: Using default channel type
+[17:36:39] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
+[17:36:39] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
+[17:36:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:36:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:36:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:36:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:36:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:36:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:36:42] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[17:36:42] [Worker-Main-1/INFO]: Preparing spawn area: 57%
+[17:36:43] [Server thread/INFO]: Time elapsed: 3222 ms
+[17:36:43] [Server thread/INFO]: Done (3.766s)! For help, type "help"
+[17:36:49] [User Authenticator #1/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[17:36:49] [Server thread/INFO]: Techyte[/127.0.0.1:55522] logged in with entity id 34 at (-114.73948847009324, 3.65973458814997, -74.34992617376325)
+[17:36:49] [Server thread/INFO]: Techyte joined the game
+[17:38:09] [Server thread/ERROR]: POI data mismatch: never registered at class_2338{x=-141, y=-5, z=-45}
+[17:38:11] [Server thread/INFO]: [Techyte: Set own game mode to Survival Mode]
+[17:38:12] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:38:12] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:38:14] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:38:18] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[17:38:40] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[17:39:12] [Server thread/INFO]: [Techyte: Gamerule reducedDebugInfo is now set to: false]
+[17:40:05] [Server thread/INFO]: Techyte lost connection: Disconnected
+[17:40:05] [Server thread/INFO]: Techyte left the game
+[17:40:07] [Server thread/INFO]: Stopping the server
+[17:40:07] [Server thread/INFO]: Stopping server
+[17:40:07] [Server thread/INFO]: Saving players
+[17:40:07] [Server thread/INFO]: Saving worlds
+[17:40:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
+[17:40:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
+[17:40:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
+[17:40:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
+[17:40:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:40:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:40:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
