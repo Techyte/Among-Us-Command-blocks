@@ -1,7 +1,7 @@
-fill -128 -2 -48 -128 -4 -50 air
-fill -123 -2 -41 -125 -4 -41 air
-fill -116 -2 -55 -116 -4 -53 air
+fill -127 -2 3 -127 -4 1 air
+fill -120 -2 -11 -118 -4 -11 air
+fill -115 -2 -4 -115 -4 -2 air
 
-playsound minecraft:door_open master @a -128 -3 -49 1 1 0.1
-playsound minecraft:door_open master @a -124 -3 -41 1 1 0.1
-playsound minecraft:door_open master @a -116 -3 -54 1 1 0.1
+playsound minecraft:door_open master @a -127 -3 2 1 1 0.1
+playsound minecraft:door_open master @a -119 -3 -11 1 1 0.1
+playsound minecraft:door_open master @a -115 -3 -3 1 1 0.1

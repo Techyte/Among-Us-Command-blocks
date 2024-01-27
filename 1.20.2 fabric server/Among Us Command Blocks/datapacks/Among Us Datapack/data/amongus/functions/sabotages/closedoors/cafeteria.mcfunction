@@ -1,13 +1,13 @@
 item replace entity @s weapon with air
 scoreboard players set Manager cafeteriadoors 30
 
-fill -114 -2 -23 -114 -4 -21 smooth_stone
-fill -125 -2 -34 -123 -4 -34 smooth_stone
-fill -135 -2 -21 -135 -4 -23 smooth_stone
+fill -129 -2 -29 -129 -4 -31 smooth_stone
+fill -118 -2 -18 -120 -4 -18 smooth_stone
+fill -108 -2 -31 -108 -4 -29 smooth_stone
 
-playsound minecraft:door_close master @a -135 -3 -22 1 1 0.1
-playsound minecraft:door_close master @a -124 -3 -34 1 1 0.1
-playsound minecraft:door_close master @a -113 -3 -22 1 1 0.1
+playsound minecraft:door_close master @a -129 -3 -30 1 1 0.1
+playsound minecraft:door_close master @a -119 -3 -18 1 1 0.1
+playsound minecraft:door_close master @a -108 -3 -30 1 1 0.1
 
 schedule function amongus:sabotages/opendoors/cafeteria 200
 playsound minecraft:generic master @s

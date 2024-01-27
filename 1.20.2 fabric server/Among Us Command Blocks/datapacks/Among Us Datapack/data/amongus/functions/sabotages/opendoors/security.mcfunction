@@ -1,3 +1,3 @@
-fill -93 -2 -34 -93 -4 -36 air
+fill -150 -2 -18 -150 -4 -16 air
 
-playsound minecraft:door_open master @a -93 -3 -35 1 1 0.1
+playsound minecraft:door_open master @a -150 -3 -17 1 1 0.1
