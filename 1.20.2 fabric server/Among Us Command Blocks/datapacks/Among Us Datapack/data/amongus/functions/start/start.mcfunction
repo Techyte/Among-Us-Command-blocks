@@ -1,5 +1,5 @@
 tag @a add playing
-title @a[tag=playing] title {"text": "You are an...","color": "yellow"}
+title @a[tag=playing] title {"text": "Shhhhhhhhhh!","color": "yellow"}
 
 function amongus:meetingtp
 effect clear @a slowness

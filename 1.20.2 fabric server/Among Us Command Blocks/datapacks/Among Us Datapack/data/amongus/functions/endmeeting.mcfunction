@@ -7,7 +7,6 @@ effect clear @a
 scoreboard players set Manager skippedPlayers 0
 scoreboard players set Manager votedPlayers 0
 scoreboard players set @a votes 0
-scoreboard players set @a meetings 1
 
 scoreboard players set @a[tag=Imposter] ventCooldown 15
 scoreboard players set @a[tag=Imposter] killCooldown 25

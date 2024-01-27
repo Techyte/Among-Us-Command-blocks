@@ -1,4 +1,4 @@
-clone -113 2 -37 -111 3 -36 -113 -3 -37
+clone -130 2 -15 -132 3 -16 -132 -3 -16
 stopsound @s master
 tag @s remove inTask
 tag @s remove inMedbayScan
