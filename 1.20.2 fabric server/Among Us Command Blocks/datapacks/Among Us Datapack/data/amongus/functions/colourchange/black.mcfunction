@@ -1,6 +1,5 @@
 tellraw @s {"text":"You are now the colour Black!","color":"black"}
 tag @s add black
-skin set web classic "https://imgur.com/ev0xPFo"
 tag @s remove blue
 tag @s remove banana
 tag @s remove red

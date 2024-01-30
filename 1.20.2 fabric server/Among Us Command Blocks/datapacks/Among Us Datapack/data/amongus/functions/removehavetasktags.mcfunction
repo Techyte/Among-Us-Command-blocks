@@ -51,3 +51,8 @@ tag @a remove inCommunicationsFix
 tag @a remove admin_fix_o2
 tag @a remove o2_fix_o2
 tag @a remove attable
+tag @a remove cam1
+tag @a remove cam2
+tag @a remove cam3
+tag @a remove cam4
+effect clear @a

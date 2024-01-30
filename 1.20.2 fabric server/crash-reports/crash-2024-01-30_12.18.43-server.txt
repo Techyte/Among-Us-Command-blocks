@@ -1,0 +1,103 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2024-01-30 12:18:43
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:263)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.2
+	Minecraft Version ID: 1.20.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.5, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 118292528 bytes (112 MiB) / 463470592 bytes (442 MiB) up to 4282384384 bytes (4084 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 2600 Six-Core Processor            
+	Identifier: AuthenticAMD Family 23 Model 8 Stepping 2
+	Microarchitecture: Zen+
+	Frequency (GHz): 3.39
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce GTX 1650
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f82
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.4633
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 27080.81
+	Virtual memory used (MB): 13081.91
+	Swap memory total (MB): 10752.00
+	Swap memory used (MB): 11.36
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		carpet: Carpet Mod 1.4.121+v231011
+		fabric-api: Fabric API 0.91.3+1.20.2
+			fabric-api-base: Fabric API Base 0.4.33+fce67b32a0
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.42+b1792f7da0
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.14+b1792f7da0
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.12+73761d2ea0
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.1+73761d2ea0
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.37+f71b366fa0
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.16+b1792f7da0
+			fabric-commands-v0: Fabric Commands (v0) 0.2.54+df3654b3a0
+			fabric-containers-v0: Fabric Containers (v0) 0.1.79+df3654b3a0
+			fabric-content-registries-v0: Fabric Content Registries (v0) 5.0.5+b1792f7da0
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.8+b1792f7da0
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.20+f4b7e424a0
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 13.1.9+b1792f7da0
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.57+b1792f7da0
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.26+b1792f7da0
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.10+b1792f7da0
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.69+df3654b3a0
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.42+a44e16a6a0
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.33+b1792f7da0
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.15+e3d2bf3fa0
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.27+b1792f7da0
+			fabric-loot-api-v2: Fabric Loot API (v2) 2.1.1+3ba460fba0
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.2+e3d2bf3fa0
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.55+f4b7e424a0
+			fabric-networking-api-v1: Fabric Networking API (v1) 3.1.3+b8b4f0e5a0
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 12.1.2+2ff98d3ba0
+			fabric-particles-v1: Fabric Particles (v1) 1.1.4+f4b7e424a0
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 2.0.12+52b3ebe5a0
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 4.0.10+b1792f7da0
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.39+73761d2ea0
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.30+f4b7e424a0
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.11+239dafd8a0
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.12+b1792f7da0
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.45+b1792f7da0
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.12+4944b5a5a0
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 5.0.3+fce67b32a0
+		fabricloader: Fabric Loader 0.15.5
+			mixinextras: MixinExtras 0.3.2
+		java: Java HotSpot(TM) 64-Bit Server VM 17
+		lithium: Lithium 0.12.0
+		minecraft: Minecraft 1.20.2
+		player_roles: Player Roles 1.6.7
+			more_codecs: More Codecs 0.3.3+1.20.2
+			player_roles_api: Player Roles API 1.6.7
+		skinrestorer: Skin Restorer 1.2.4+1.20.2
+		worldedit: WorldEdit 7.2.17+6544-56d0383
+	Server Running: true
+	Data Packs: vanilla, fabric, file/Among Us Datapack (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)

@@ -21,8 +21,8 @@ function amongus:sabotages/end_quiet/reactor
 
 scoreboard players set Manager completedTasks 0
 
-setblock -98 -3 -2 air
-setblock -97 -3 -1 air
+setblock -98 -3 2 air
+setblock -97 -3 1 air
 scoreboard players set Manager shieldsOn 0
 
 scoreboard players set Manager gameStarted 0

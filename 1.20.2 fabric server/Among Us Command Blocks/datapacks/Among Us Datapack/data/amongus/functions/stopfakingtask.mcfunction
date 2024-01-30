@@ -1,6 +1,6 @@
 execute as @a[tag=Faking] run effect clear @s invisibility
-execute as @a[tag=Faking] run function amongus:removetasktags
 execute as @a[tag=Faking] run function amongus:backtodummyplayer
+execute as @a[tag=Faking] run function amongus:removetasktags
 execute as @a[tag=Faking] run function amongus:tasks/killdummyplayer
 execute as @a[tag=Faking] run tag @s remove inTask
 execute as @a[tag=Faking] run effect clear @s slowness

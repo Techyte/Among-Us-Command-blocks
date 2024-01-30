@@ -12,7 +12,7 @@ execute as @e[tag=ventpoint11] at @s run tp @a[scores={ventnumber=11}] ~ ~ ~ ~ ~
 execute as @e[tag=ventpoint12] at @s run tp @a[scores={ventnumber=12}] ~ ~ ~ ~ ~
 execute as @e[tag=ventpoint13] at @s run tp @a[scores={ventnumber=13}] ~ ~ ~ ~ ~
 execute as @e[tag=ventpoint14] at @s run tp @a[scores={ventnumber=14}] ~ ~ ~ ~ ~
-execute as @e[tag=campoint1] at @s run tp @p[tag=cam1] ~ ~ ~ ~ ~
-execute as @e[tag=campoint2] at @s run tp @p[tag=cam2] ~ ~ ~ ~ ~
-execute as @e[tag=campoint3] at @s run tp @p[tag=cam3] ~ ~ ~ ~ ~
-execute as @e[tag=campoint4] at @s run tp @p[tag=cam4] ~ ~ ~ ~ ~
+execute as @e[tag=campoint1] at @s run tp @a[tag=cam1] ~ ~ ~ ~ ~
+execute as @e[tag=campoint2] at @s run tp @a[tag=cam2] ~ ~ ~ ~ ~
+execute as @e[tag=campoint3] at @s run tp @a[tag=cam3] ~ ~ ~ ~ ~
+execute as @e[tag=campoint4] at @s run tp @a[tag=cam4] ~ ~ ~ ~ ~
