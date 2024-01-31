@@ -1,5 +1,5 @@
-[12:05:22] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
-[12:05:22] [main/INFO]: Loading 47 mods:
+[12:13:47] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
+[12:13:47] [main/INFO]: Loading 47 mods:
 	- carpet 1.4.121+v231011
 	- fabric-api 0.91.3+1.20.2
 	   |-- fabric-api-base 0.4.33+fce67b32a0
@@ -60,25 +60,25 @@
 	   |-- more_codecs 0.3.3+1.20.2
 	   \-- player_roles_api 1.6.7
 	- worldedit 7.2.17+6544-56d0383
-[12:05:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Documents/Coding/Minecraft%20Mods/Command%20Block%20Stuff/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[12:05:22] [main/INFO]: Compatibility level set to JAVA_17
-[12:05:23] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
-[12:05:23] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
-[12:05:23] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
-[12:05:24] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[12:05:37] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7acd041f]
-[12:05:37] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
-[12:05:37] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:05:37] [main/WARN]: Missing metadata in pack file/Among Us Datapack.zip
-[12:05:39] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[12:05:39] [main/INFO]: Loaded 7 recipes
-[12:05:40] [main/INFO]: Loaded 1272 advancements
-[12:05:40] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.392 ms
-[12:05:41] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[12:05:41] [Server thread/INFO]: Loading properties
-[12:05:41] [Server thread/INFO]: Default game type: ADVENTURE
-[12:05:41] [Server thread/INFO]: Generating keypair
-[12:05:41] [Server console handler/ERROR]: Exception handling console input
+[12:13:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Documents/Coding/Minecraft%20Mods/Command%20Block%20Stuff/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[12:13:48] [main/INFO]: Compatibility level set to JAVA_17
+[12:13:48] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
+[12:13:49] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[12:13:49] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[12:13:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[12:14:02] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7acd041f]
+[12:14:02] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
+[12:14:02] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:14:02] [main/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[12:14:04] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[12:14:04] [main/INFO]: Loaded 7 recipes
+[12:14:05] [main/INFO]: Loaded 1272 advancements
+[12:14:05] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.210 ms
+[12:14:06] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[12:14:06] [Server thread/INFO]: Loading properties
+[12:14:06] [Server thread/INFO]: Default game type: ADVENTURE
+[12:14:06] [Server thread/INFO]: Generating keypair
+[12:14:06] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -92,43 +92,175 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
-[12:05:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:05:41] [Server thread/INFO]: Using default channel type
-[12:05:42] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
-[12:05:42] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
-[12:05:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:05:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[12:05:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[12:05:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[12:05:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[12:05:44] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[12:05:45] [Worker-Main-1/INFO]: Preparing spawn area: 16%
-[12:05:45] [Server thread/INFO]: Time elapsed: 2973 ms
-[12:05:45] [Server thread/INFO]: Done (3.565s)! For help, type "help"
-[12:09:52] [User Authenticator #1/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
-[12:09:55] [Server thread/INFO]: Techyte[/127.0.0.1:61958] logged in with entity id 34 at (-115.54766965637563, 22.173331903891487, -16.09785728271711)
-[12:09:55] [Server thread/INFO]: Techyte joined the game
-[12:09:58] [Server thread/INFO]: Player Techyte joined with a matching carpet client
-[12:10:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2064ms or 41 ticks behind
-[12:10:31] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
-[12:10:41] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
-[12:11:00] [User Authenticator #2/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
-[12:11:00] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:62050] logged in with entity id 35 at (6.155247810092569, -59.9375, 9.418111025977977)
-[12:11:00] [Server thread/INFO]: Keefe_Sencen joined the game
-[12:11:04] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
-[12:11:10] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
-[12:11:14] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
-[12:11:15] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
-[12:11:17] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Adventure Mode]
-[12:11:34] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
-[12:13:20] [Server thread/INFO]: Stopping the server
-[12:13:21] [Server thread/INFO]: Stopping server
-[12:13:21] [Server thread/INFO]: Saving players
-[12:13:21] [Server thread/INFO]: Saving worlds
-[12:13:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
-[12:13:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
-[12:13:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
-[12:13:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
-[12:13:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:13:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:13:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:14:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:14:06] [Server thread/INFO]: Using default channel type
+[12:14:07] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
+[12:14:07] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
+[12:14:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:14:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:14:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:14:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:14:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:14:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:14:10] [Worker-Main-7/INFO]: Preparing spawn area: 8%
+[12:14:10] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[12:14:10] [Server thread/INFO]: Time elapsed: 3106 ms
+[12:14:10] [Server thread/INFO]: Done (3.726s)! For help, type "help"
+[12:14:21] [User Authenticator #1/INFO]: UUID of player Keefe_Sencen is 80329742-7dbd-4adb-8ff7-3646c8de63d1
+[12:14:21] [Server thread/INFO]: Keefe_Sencen[/127.0.0.1:62216] logged in with entity id 34 at (-115.20752699357784, -4.0, -26.247647978865768)
+[12:14:21] [Server thread/INFO]: Keefe_Sencen joined the game
+[12:14:23] [User Authenticator #2/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[12:14:23] [Server thread/INFO]: Techyte[/127.0.0.1:62219] logged in with entity id 35 at (-120.00302471815938, -4.0, -18.977230194705054)
+[12:14:23] [Server thread/INFO]: Techyte joined the game
+[12:14:24] [Server thread/INFO]: Player Techyte joined with a matching carpet client
+[12:15:02] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[12:15:04] [Server thread/INFO]: [Techyte: Set own game mode to Survival Mode]
+[12:15:04] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[12:15:46] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[12:15:46] [Server thread/INFO]: [Techyte: Reloading!]
+[12:15:47] [Server thread/INFO]: Loaded 7 recipes
+[12:15:47] [Server thread/INFO]: Loaded 1272 advancements
+[12:19:12] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[12:19:12] [Server thread/INFO]: [Techyte: Reloading!]
+[12:19:12] [Server thread/INFO]: Loaded 7 recipes
+[12:19:12] [Server thread/INFO]: Loaded 1272 advancements
+[12:22:11] [Server thread/INFO]: [Techyte: Added tag 'playing' to Techyte]
+[12:23:34] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[12:23:34] [Server thread/INFO]: [Techyte: Reloading!]
+[12:23:34] [Server thread/INFO]: Loaded 7 recipes
+[12:23:34] [Server thread/INFO]: Loaded 1272 advancements
+[12:23:48] [Server thread/INFO]: [Techyte: Removed 2 members from any team]
+[12:23:50] [Server thread/INFO]: [Techyte: Removed team [Alive]]
+[12:23:54] [Server thread/INFO]: [Techyte: Removed team [Ghosts]]
+[12:24:03] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[12:24:08] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[12:25:43] [Server thread/INFO]: [Techyte: Created team [Red]]
+[12:25:50] [Server thread/INFO]: [Techyte: Collision rule for team [Red] is now "Never"]
+[12:26:03] [Server thread/INFO]: [Techyte: Nametag visibility for team [Red] is now "Never"]
+[12:27:03] [Server thread/INFO]: [Techyte: Updated the color for team [Red] to red]
+[12:27:11] [Server thread/INFO]: [Techyte: Created team [Blue]]
+[12:27:19] [Server thread/INFO]: [Techyte: Collision rule for team [Blue] is now "Never"]
+[12:27:24] [Server thread/INFO]: [Techyte: Nametag visibility for team [Blue] is now "Never"]
+[12:27:33] [Server thread/INFO]: [Techyte: Updated the color for team [Blue] to aqua]
+[12:27:41] [Server thread/INFO]: [Techyte: Updated the color for team [Blue] to dark_aqua]
+[12:27:45] [Server thread/INFO]: [Techyte: Updated the color for team [Blue] to aqua]
+[12:27:56] [Server thread/INFO]: [Techyte: Created team [Green]]
+[12:28:03] [Server thread/INFO]: [Techyte: Collision rule for team [Green] is now "Never"]
+[12:28:08] [Server thread/INFO]: [Techyte: Nametag visibility for team [Green] is now "Never"]
+[12:28:13] [Server thread/INFO]: [Techyte: Updated the color for team [Green] to dark_green]
+[12:28:22] [Server thread/INFO]: [Techyte: Updated the color for team [Green] to green]
+[12:28:27] [Server thread/INFO]: [Techyte: Updated the color for team [Green] to dark_green]
+[12:28:33] [Server thread/INFO]: [Techyte: Created team [Pink]]
+[12:28:39] [Server thread/INFO]: [Techyte: Collision rule for team [Pink] is now "Never"]
+[12:28:48] [Server thread/INFO]: [Techyte: Nametag visibility for team [Pink] is now "Never"]
+[12:28:55] [Server thread/INFO]: [Techyte: Updated the color for team [Pink] to light_purple]
+[12:29:17] [Server thread/INFO]: [Techyte: Created team [Orange]]
+[12:29:24] [Server thread/INFO]: [Techyte: Nametag visibility for team [Orange] is now "Never"]
+[12:29:36] [Server thread/INFO]: [Techyte: Collision rule for team [Orange] is now "Never"]
+[12:33:44] [Server thread/INFO]: [Techyte: Updated the color for team [Orange] to gold]
+[12:34:01] [Server thread/INFO]: [Techyte: Created team [Yellow]]
+[12:34:06] [Server thread/INFO]: [Techyte: Collision rule for team [Yellow] is now "Never"]
+[12:34:10] [Server thread/INFO]: [Techyte: Nametag visibility for team [Yellow] is now "Never"]
+[12:34:23] [Server thread/INFO]: [Techyte: Updated the color for team [Yellow] to yellow]
+[12:34:31] [Server thread/INFO]: [Techyte: Created team [Black]]
+[12:34:39] [Server thread/INFO]: [Techyte: Collision rule for team [Black] is now "Never"]
+[12:34:44] [Server thread/INFO]: [Techyte: Nametag visibility for team [Black] is now "Never"]
+[12:34:50] [Server thread/INFO]: [Techyte: Updated the color for team [Black] to black]
+[12:34:57] [Server thread/INFO]: [Techyte: Created team [White]]
+[12:35:03] [Server thread/INFO]: [Techyte: Collision rule for team [White] is now "Never"]
+[12:35:06] [Server thread/INFO]: [Techyte: Nametag visibility for team [White] is now "Never"]
+[12:35:10] [Server thread/INFO]: [Techyte: Updated the color for team [White] to white]
+[12:35:15] [Server thread/INFO]: [Techyte: Created team [Purple]]
+[12:35:21] [Server thread/INFO]: [Techyte: Collision rule for team [Purple] is now "Never"]
+[12:35:26] [Server thread/INFO]: [Techyte: Nametag visibility for team [Purple] is now "Never"]
+[12:35:32] [Server thread/INFO]: [Techyte: Updated the color for team [Purple] to dark_purple]
+[12:35:37] [Server thread/INFO]: [Techyte: Created team [Brown]]
+[12:35:42] [Server thread/INFO]: [Techyte: Collision rule for team [Brown] is now "Never"]
+[12:35:48] [Server thread/INFO]: [Techyte: Nametag visibility for team [Brown] is now "Never"]
+[12:35:53] [Server thread/INFO]: [Techyte: Updated the color for team [Brown] to dark_red]
+[12:36:01] [Server thread/INFO]: [Techyte: Created team [Cyan]]
+[12:36:06] [Server thread/INFO]: [Techyte: Collision rule for team [Cyan] is now "Never"]
+[12:36:10] [Server thread/INFO]: [Techyte: Nametag visibility for team [Cyan] is now "Never"]
+[12:36:20] [Server thread/INFO]: [Techyte: Updated the color for team [Cyan] to blue]
+[12:36:33] [Server thread/INFO]: [Techyte: Updated the color for team [Cyan] to dark_blue]
+[12:36:38] [Server thread/INFO]: [Techyte: Updated the color for team [Cyan] to dark_aqua]
+[12:36:45] [Server thread/INFO]: [Techyte: Updated the color for team [Cyan] to aqua]
+[12:37:04] [Server thread/INFO]: [Techyte: Updated the color for team [Blue] to dark_aqua]
+[12:37:12] [Server thread/INFO]: [Techyte: Updated the color for team [Blue] to blue]
+[12:37:32] [Server thread/INFO]: [Techyte: Created team [Lime]]
+[12:37:55] [Server thread/INFO]: [Techyte: Nametag visibility for team [Lime] is now "Never"]
+[12:38:00] [Server thread/INFO]: [Techyte: Collision rule for team [Lime] is now "Never"]
+[12:38:10] [Server thread/INFO]: [Techyte: Updated the color for team [Lime] to green]
+[12:38:22] [Server thread/INFO]: [Techyte: Created team [Maroon]]
+[12:38:29] [Server thread/INFO]: [Techyte: Collision rule for team [Maroon] is now "Never"]
+[12:38:34] [Server thread/INFO]: [Techyte: Nametag visibility for team [Maroon] is now "Never"]
+[12:38:40] [Server thread/INFO]: [Techyte: Updated the color for team [Maroon] to dark_red]
+[12:38:47] [Server thread/INFO]: [Techyte: Created team [Rose]]
+[12:38:54] [Server thread/INFO]: [Techyte: Collision rule for team [Rose] is now "Never"]
+[12:38:58] [Server thread/INFO]: [Techyte: Nametag visibility for team [Rose] is now "Never"]
+[12:39:05] [Server thread/INFO]: [Techyte: Updated the color for team [Rose] to light_purple]
+[12:39:13] [Server thread/INFO]: [Techyte: Created team [Banana]]
+[12:39:19] [Server thread/INFO]: [Techyte: Collision rule for team [Banana] is now "Never"]
+[12:39:23] [Server thread/INFO]: [Techyte: Nametag visibility for team [Banana] is now "Never"]
+[12:39:31] [Server thread/INFO]: [Techyte: Updated the color for team [Banana] to yellow]
+[12:39:42] [Server thread/INFO]: [Techyte: Created team [Grey]]
+[12:39:49] [Server thread/INFO]: [Techyte: Collision rule for team [Grey] is now "Never"]
+[12:39:53] [Server thread/INFO]: [Techyte: Nametag visibility for team [Grey] is now "Never"]
+[12:39:58] [Server thread/INFO]: [Techyte: Updated the color for team [Grey] to gray]
+[12:40:04] [Server thread/INFO]: [Techyte: Created team [Tan]]
+[12:40:10] [Server thread/INFO]: [Techyte: Collision rule for team [Tan] is now "Never"]
+[12:40:13] [Server thread/INFO]: [Techyte: Nametag visibility for team [Tan] is now "Never"]
+[12:40:24] [Server thread/INFO]: [Techyte: Updated the color for team [Tan] to gray]
+[12:40:33] [Server thread/INFO]: [Techyte: Created team [Coral]]
+[12:40:39] [Server thread/INFO]: [Techyte: Collision rule for team [Coral] is now "Never"]
+[12:40:45] [Server thread/INFO]: [Techyte: Nametag visibility for team [Coral] is now "Never"]
+[12:40:48] [Server thread/INFO]: [Techyte: Updated the color for team [Coral] to light_purple]
+[13:03:11] [Server thread/INFO]: [Techyte: Removed 2 members from any team]
+[13:03:14] [Server thread/INFO]: [Techyte: Removed tag 'playing' from 2 entities]
+[13:03:16] [Server thread/INFO]: [Techyte: Removed 2 item(s) from player Techyte]
+[13:04:45] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[13:04:48] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[13:20:07] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[13:20:07] [Server thread/INFO]: [Techyte: Reloading!]
+[13:20:07] [Server thread/INFO]: Loaded 7 recipes
+[13:20:07] [Server thread/INFO]: Loaded 1272 advancements
+[13:21:10] [Server thread/INFO]: [Techyte: Added tag 'Alive' to Techyte]
+[13:21:15] [Server thread/INFO]: [Techyte: Added tag 'playing' to Techyte]
+[13:21:21] [Server thread/INFO]: [Techyte: Added tag 'Imposter' to Techyte]
+[13:21:59] [Server thread/INFO]: [Techyte: Team [Banana] can no longer see invisible teammates]
+[13:22:05] [Server thread/INFO]: [Techyte: Team [Black] can no longer see invisible teammates]
+[13:22:09] [Server thread/INFO]: [Techyte: Team [Blue] can no longer see invisible teammates]
+[13:22:14] [Server thread/INFO]: [Techyte: Team [Brown] can no longer see invisible teammates]
+[13:22:20] [Server thread/INFO]: [Techyte: Team [Coral] can no longer see invisible teammates]
+[13:22:26] [Server thread/INFO]: [Techyte: Team [Cyan] can no longer see invisible teammates]
+[13:22:32] [Server thread/INFO]: [Techyte: Team [Green] can no longer see invisible teammates]
+[13:22:38] [Server thread/INFO]: [Techyte: Team [Grey] can no longer see invisible teammates]
+[13:22:43] [Server thread/INFO]: [Techyte: Team [Lime] can no longer see invisible teammates]
+[13:22:48] [Server thread/INFO]: [Techyte: Team [Maroon] can no longer see invisible teammates]
+[13:22:56] [Server thread/INFO]: [Techyte: Team [Orange] can no longer see invisible teammates]
+[13:23:03] [Server thread/INFO]: [Techyte: Team [Pink] can no longer see invisible teammates]
+[13:23:08] [Server thread/INFO]: [Techyte: Team [Purple] can no longer see invisible teammates]
+[13:23:15] [Server thread/INFO]: [Techyte: Team [Red] can no longer see invisible teammates]
+[13:23:19] [Server thread/INFO]: [Techyte: Team [Rose] can no longer see invisible teammates]
+[13:23:26] [Server thread/INFO]: [Techyte: Team [Tan] can no longer see invisible teammates]
+[13:23:29] [Server thread/INFO]: [Techyte: Team [White] can no longer see invisible teammates]
+[13:23:34] [Server thread/INFO]: [Techyte: Team [Yellow] can no longer see invisible teammates]
+[13:23:37] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[13:23:55] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Spectator Mode]
+[13:24:06] [Server thread/INFO]: [Keefe_Sencen: Set own game mode to Creative Mode]
+[13:25:02] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[13:27:41] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[13:27:41] [Server thread/INFO]: [Techyte: Reloading!]
+[13:27:41] [Server thread/INFO]: Loaded 7 recipes
+[13:27:41] [Server thread/INFO]: Loaded 1272 advancements
+[13:28:04] [Server thread/INFO]: Stopping the server
+[13:28:04] [Server thread/INFO]: Stopping server
+[13:28:04] [Server thread/INFO]: Saving players
+[13:28:04] [Server thread/INFO]: Saving worlds
+[13:28:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
+[13:28:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
+[13:28:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
+[13:28:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
+[13:28:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:28:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:28:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

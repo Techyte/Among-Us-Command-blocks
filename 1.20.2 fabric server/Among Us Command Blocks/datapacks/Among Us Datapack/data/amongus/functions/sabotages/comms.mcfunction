@@ -6,4 +6,4 @@ scoreboard players set Manager comms_sabotage 1
 scoreboard players set Manager sabotageCooldown 30
 
 playsound minecraft:generic master @s
-tag @a[team=Alive] add communications_fix
+tag @a[tag=Alive] add communications_fix

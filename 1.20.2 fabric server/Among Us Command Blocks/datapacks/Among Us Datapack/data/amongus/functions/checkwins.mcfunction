@@ -1,7 +1,7 @@
 execute if score Manager completedTasks = Manager maxCompletedTasks run function amongus:end/crewmates_win_tasks
 
-execute store result score Manager currentImposters if entity @a[tag=Imposter,team=Alive]
-execute store result score Manager currentCrewmates if entity @a[tag=!Imposter,team=Alive]
+execute store result score Manager currentImposters if entity @a[tag=Imposter,tag=Alive]
+execute store result score Manager currentCrewmates if entity @a[tag=!Imposter,tag=Alive]
 
 execute if score Manager currentImposters >= Manager currentCrewmates run function amongus:end/imposters_win
 

@@ -1,4 +1,21 @@
-team modify Alive nametagVisibility never
+team modify Red nametagVisibility never
+team modify Blue nametagVisibility never
+team modify Green nametagVisibility never
+team modify Pink nametagVisibility never
+team modify Orange nametagVisibility never
+team modify Yellow nametagVisibility never
+team modify Black nametagVisibility never
+team modify White nametagVisibility never
+team modify Purple nametagVisibility never
+team modify Brown nametagVisibility never
+team modify Cyan nametagVisibility never
+team modify Lime nametagVisibility never
+team modify Maroon nametagVisibility never
+team modify Rose nametagVisibility never
+team modify Banana nametagVisibility never
+team modify Grey nametagVisibility never
+team modify Tan nametagVisibility never
+team modify Coral nametagVisibility never
 
 tag @a remove inmeeting
 tag @a remove voteConfirmed

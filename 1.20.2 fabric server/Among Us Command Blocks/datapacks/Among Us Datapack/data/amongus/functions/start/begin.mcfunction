@@ -29,7 +29,8 @@ tellraw @a[tag=Imposter] [{"text":"Imposters are: ","color": "red"},{"selector":
 title @a[tag=!Imposter] title {"text": "Crewmate","color": "aqua"}
 title @a[tag=Imposter] title {"text": "Imposter","color": "red"}
 
-team join Alive @a
+tag @a add Alive
+tag @a remove Ghosts
 
 execute store result score @a meetings run scoreboard players get Manager meetings
 

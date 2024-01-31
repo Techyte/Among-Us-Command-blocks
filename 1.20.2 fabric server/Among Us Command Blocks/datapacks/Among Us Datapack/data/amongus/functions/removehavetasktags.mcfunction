@@ -41,6 +41,8 @@ execute as @s[tag=weapons_asteroids] run tag @s remove weapons_asteroids
 execute as @s[tag=shields_prime_shields] run tag @s remove shields_prime_shields
 execute as @s[tag=shields_accept_power] run tag @s remove shields_accept_power
 function amongus:removetasktags
+tag @s remove Alive
+tag @s remove Ghosts
 tag @a remove Imposter
 tag @a remove Venting
 tag @a remove incam

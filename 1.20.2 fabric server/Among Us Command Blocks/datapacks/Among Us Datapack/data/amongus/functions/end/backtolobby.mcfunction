@@ -12,7 +12,6 @@ effect give @a blindness 4 255 true
 execute as @a run function amongus:removehavetasktags
 kill @e[tag=body]
 kill @e[tag=dummyPlayer]
-team leave @a
 
 function amongus:sabotages/end_quiet/comms
 function amongus:sabotages/end_quiet/lights
