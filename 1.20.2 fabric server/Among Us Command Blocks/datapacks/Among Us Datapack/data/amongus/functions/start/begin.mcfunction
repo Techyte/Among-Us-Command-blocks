@@ -1,4 +1,3 @@
-execute as @a run playsound minecraft:roles_get master @s
 execute as @a run function amongus:removehavetasktags
 
 execute store result score Manager numOfPlayers if entity @a

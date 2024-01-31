@@ -55,3 +55,8 @@ bossbar set minecraft:sabotagetimer players @a[tag=Imposter]
 
 execute as @a[tag=pumpkinClear] unless score @s pumpkinclear matches 0 at @s run scoreboard players remove @s pumpkinclear 1
 execute as @a[tag=resetpressed] unless score @s resetbuttonpressed matches 0 at @s run scoreboard players remove @s resetbuttonpressed 1
+
+execute as @e[tag=campoint1] if entity @a[tag=cam1] at @s run particle dust 1 0.13 0.15 1 ~ ~1.5 ~ 0 0 0 0 1 normal @a[tag=!cam1]
+execute as @e[tag=campoint2] if entity @a[tag=cam2] at @s run particle dust 1 0.13 0.15 1 ~ ~1.5 ~ 0 0 0 0 1 normal @a[tag=!cam2]
+execute as @e[tag=campoint3] if entity @a[tag=cam3] at @s run particle dust 1 0.13 0.15 1 ~ ~1.5 ~ 0 0 0 0 1 normal @a[tag=!cam3]
+execute as @e[tag=campoint4] if entity @a[tag=cam4] at @s run particle dust 1 0.13 0.15 1 ~ ~1.5 ~ 0 0 0 0 1 normal @a[tag=!cam4]

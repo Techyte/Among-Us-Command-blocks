@@ -1,3 +1,4 @@
+execute as @a run playsound minecraft:roles_get master @s
 tag @a add playing
 title @a[tag=playing] title {"text": "Shhhhhhhhhh!","color": "yellow"}
 

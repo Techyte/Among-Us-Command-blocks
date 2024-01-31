@@ -1,3 +1,4 @@
+tellraw @s {"text":"Tasks:","color": "yellow","bold": true}
 execute as @s[tag=admin_swipe_card] run tellraw @s {"text":"- Swipe Card","color": "yellow"}
 execute as @s[tag=admin_fix_wiring] run tellraw @s {"text":"- Fix Wiring, Admin","color": "yellow"}
 execute as @s[tag=cafeteria_download] run tellraw @s {"text":"- Download Data, Cafeteria","color": "yellow"}
