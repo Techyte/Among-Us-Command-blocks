@@ -43,18 +43,37 @@ execute as @s[tag=shields_accept_power] run tag @s remove shields_accept_power
 function amongus:removetasktags
 tag @s remove Alive
 tag @s remove Ghosts
-tag @a remove Imposter
-tag @a remove Venting
-tag @a remove incam
-tag @a remove inTask
-tag @a remove Faking
-tag @a remove communications_fix
-tag @a remove inCommunicationsFix
-tag @a remove admin_fix_o2
-tag @a remove o2_fix_o2
-tag @a remove attable
-tag @a remove cam1
-tag @a remove cam2
-tag @a remove cam3
-tag @a remove cam4
-effect clear @a
+tag @s remove Imposter
+tag @s remove Venting
+tag @s remove incam
+tag @s remove inTask
+tag @s remove Faking
+tag @s remove communications_fix
+tag @s remove inCommunicationsFix
+tag @s remove admin_fix_o2
+tag @s remove o2_fix_o2
+tag @s remove attable
+tag @s remove cam1
+tag @s remove cam2
+tag @s remove cam3
+tag @s remove cam4
+effect clear @s
+
+tag @s remove black
+tag @s remove blue
+tag @s remove banana
+tag @s remove red
+tag @s remove brown
+tag @s remove coral
+tag @s remove cyan
+tag @s remove green
+tag @s remove grey
+tag @s remove lime
+tag @s remove maroon
+tag @s remove orange
+tag @s remove pink
+tag @s remove purple
+tag @s remove rose
+tag @s remove tan
+tag @s remove white
+tag @s remove yellow

@@ -26,3 +26,5 @@ execute as @s[tag=reactor_unlock_manifolds] run tellraw @s {"text":"- Unlock Man
 execute as @s[tag=weapons_download] run tellraw @s {"text":"- Download Data, Weapons","color": "yellow"}
 execute as @s[tag=weapons_asteroids] run tellraw @s {"text":"- Clear Asteroids","color": "yellow"}
 execute as @s[tag=shields_prime_shields] run tellraw @s {"text":"- Prime Shields","color": "yellow"}
+
+execute as @s[tag=Imposter] run tellraw @s [{"text":"Imposters are: ","color": "red"},{"selector":"@a[tag=Imposter]","color": "red"}]

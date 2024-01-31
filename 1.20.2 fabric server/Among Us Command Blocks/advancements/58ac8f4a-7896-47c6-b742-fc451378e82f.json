@@ -2081,12 +2081,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2024-01-31 19:31:37 +1100"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_planks": "2024-01-31 19:14:07 +1100"
@@ -2108,6 +2102,12 @@
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_planks": "2024-01-31 19:14:07 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-01-31 19:31:37 +1100"
     },
     "done": true
   },
