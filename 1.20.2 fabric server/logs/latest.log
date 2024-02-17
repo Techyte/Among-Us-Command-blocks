@@ -1,5 +1,5 @@
-[18:14:24] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
-[18:14:25] [main/INFO]: Loading 47 mods:
+[14:20:56] [main/INFO]: Loading Minecraft 1.20.2 with Fabric Loader 0.15.5
+[14:20:56] [main/INFO]: Loading 47 mods:
 	- carpet 1.4.121+v231011
 	- fabric-api 0.91.3+1.20.2
 	   |-- fabric-api-base 0.4.33+fce67b32a0
@@ -60,25 +60,25 @@
 	   |-- more_codecs 0.3.3+1.20.2
 	   \-- player_roles_api 1.6.7
 	- worldedit 7.2.17+6544-56d0383
-[18:14:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Documents/Coding/Minecraft%20Mods/Command%20Block%20Stuff/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[18:14:25] [main/INFO]: Compatibility level set to JAVA_17
-[18:14:25] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
-[18:14:26] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
-[18:14:26] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
-[18:14:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[18:14:40] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7acd041f]
-[18:14:40] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
-[18:14:40] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:14:41] [main/WARN]: Missing metadata in pack file/Among Us Datapack.zip
-[18:14:42] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[18:14:43] [main/INFO]: Loaded 7 recipes
-[18:14:43] [main/INFO]: Loaded 1272 advancements
-[18:14:43] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.776 ms
-[18:14:44] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[18:14:44] [Server thread/INFO]: Loading properties
-[18:14:44] [Server thread/INFO]: Default game type: ADVENTURE
-[18:14:44] [Server thread/INFO]: Generating keypair
-[18:14:44] [Server console handler/ERROR]: Exception handling console input
+[14:20:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Mr.%20Monster/Documents/Coding/Minecraft%20Mods/Command%20Block%20Stuff/Among-Us-Command-blocks/1.20.2%20fabric%20server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[14:20:57] [main/INFO]: Compatibility level set to JAVA_17
+[14:20:57] [main/INFO]: Loaded configuration file for Lithium: 125 options available, 1 override(s) found
+[14:20:57] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[14:20:58] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[14:20:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[14:21:12] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4d4315be]
+[14:21:12] [main/INFO]: WorldEdit for Fabric (version 7.2.17+6544-56d0383) is loaded
+[14:21:12] [main/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:21:12] [main/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[14:21:13] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[14:21:14] [main/INFO]: Loaded 7 recipes
+[14:21:14] [main/INFO]: Loaded 1272 advancements
+[14:21:15] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.224 ms
+[14:21:16] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[14:21:16] [Server thread/INFO]: Loading properties
+[14:21:16] [Server thread/INFO]: Default game type: ADVENTURE
+[14:21:16] [Server thread/INFO]: Generating keypair
+[14:21:16] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -92,16 +92,113 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
-[18:14:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:14:44] [Server thread/INFO]: Using default channel type
-[18:14:45] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
-[18:14:45] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
-[18:14:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:14:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:14:47] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[18:14:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:14:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:14:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:14:48] [Worker-Main-3/INFO]: Preparing spawn area: 15%
-[18:14:48] [Server thread/INFO]: Time elapsed: 2993 ms
-[18:14:48] [Server thread/INFO]: Done (3.577s)! For help, type "help"
+[14:21:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:21:16] [Server thread/INFO]: Using default channel type
+[14:21:16] [Server thread/INFO]: Preparing level "Among Us Command Blocks"
+[14:21:16] [Server thread/INFO]: [CM] Loaded 1 settings from carpet.conf
+[14:21:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:21:19] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:21:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[14:21:19] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:21:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[14:21:19] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:21:19] [Worker-Main-6/INFO]: Preparing spawn area: 25%
+[14:21:20] [Server thread/INFO]: Time elapsed: 2847 ms
+[14:21:20] [Server thread/INFO]: Done (3.406s)! For help, type "help"
+[14:22:46] [User Authenticator #1/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[14:22:46] [Server thread/INFO]: Techyte[/127.0.0.1:63942] logged in with entity id 34 at (8.498917974702803, -59.9375, 8.457490545692679)
+[14:22:46] [Server thread/INFO]: Techyte joined the game
+[14:22:48] [Server thread/INFO]: Player Techyte joined with a matching carpet client
+[14:26:05] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[14:26:13] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[14:26:19] [Server thread/INFO]: [Techyte: Added tag 'playing' to Techyte]
+[14:26:22] [Server thread/INFO]: [Techyte: Added tag 'Alive' to Techyte]
+[15:05:49] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[15:05:49] [Server thread/INFO]: [Techyte: Reloading!]
+[15:05:49] [Server thread/INFO]: Loaded 7 recipes
+[15:05:49] [Server thread/INFO]: Loaded 1272 advancements
+[15:06:01] [Server thread/INFO]: [Techyte: Set [meetings] for Techyte to 1]
+[15:06:10] [Server thread/INFO]: [Techyte: Set [discussTimer] for Manager to 0]
+[15:06:59] [Server thread/INFO]: [Techyte: Set [ambianceLoop] for Manager to 0]
+[15:08:52] [Server thread/INFO]: [Techyte: Gamerule sendCommandFeedback is now set to: true]
+[15:08:54] [Server thread/INFO]: [Techyte: Gamerule sendCommandFeedback is now set to: true]
+[15:09:14] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[15:09:14] [Server thread/INFO]: [Techyte: Reloading!]
+[15:09:14] [Server thread/INFO]: Loaded 7 recipes
+[15:09:14] [Server thread/INFO]: Loaded 1272 advancements
+[15:10:00] [Server thread/INFO]: [Techyte: Set [discussing] for Manager to 0]
+[15:10:04] [Server thread/INFO]: [Techyte: Set [voting] for Manager to 0]
+[15:10:27] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[15:10:27] [Server thread/INFO]: [Techyte: Reloading!]
+[15:10:27] [Server thread/INFO]: Loaded 7 recipes
+[15:10:27] [Server thread/INFO]: Loaded 1272 advancements
+[15:10:36] [Server thread/INFO]: [Techyte: Set [meetings] for Techyte to 1]
+[15:10:45] [Server thread/INFO]: [Techyte: Set [discussTimer] for Manager to 0]
+[15:10:46] [Server thread/INFO]: [Techyte: Triggered [voteId] (set value to 6)]
+[15:11:32] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[15:11:32] [Server thread/INFO]: [Techyte: Reloading!]
+[15:11:33] [Server thread/INFO]: Loaded 7 recipes
+[15:11:33] [Server thread/INFO]: Loaded 1272 advancements
+[15:11:40] [Server thread/INFO]: [Techyte: Removed tag 'Ghosts' from Techyte]
+[15:11:43] [Server thread/INFO]: [Techyte: Added tag 'Alive' to Techyte]
+[15:11:46] [Server thread/INFO]: [Techyte: Removed every effect from Techyte]
+[15:11:48] [Server thread/INFO]: [Techyte: Removed 3 item(s) from player Techyte]
+[15:11:53] [Server thread/INFO]: [Techyte: Set [meetings] for Techyte to 1]
+[15:11:58] [Server thread/INFO]: [Techyte: Set [discussTimer] for Manager to 0]
+[15:12:02] [Server thread/INFO]: [Techyte: Triggered [voteId] (set value to 18)]
+[15:13:14] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[15:13:15] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[15:14:07] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[15:14:07] [Server thread/INFO]: [Techyte: Reloading!]
+[15:14:08] [Server thread/INFO]: Loaded 7 recipes
+[15:14:08] [Server thread/INFO]: Loaded 1272 advancements
+[15:14:08] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[15:14:10] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[15:14:15] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[15:15:12] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[15:16:00] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[15:16:00] [Server thread/INFO]: [Techyte: Reloading!]
+[15:16:01] [Server thread/INFO]: Loaded 7 recipes
+[15:16:01] [Server thread/INFO]: Loaded 1272 advancements
+[15:17:09] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[15:17:09] [Server thread/INFO]: [Techyte: Reloading!]
+[15:17:09] [Server thread/INFO]: Loaded 7 recipes
+[15:17:09] [Server thread/INFO]: Loaded 1272 advancements
+[15:17:41] [Server thread/INFO]: [Techyte: Added tag 'Imposter' to Techyte]
+[15:17:46] [Server thread/INFO]: [Techyte: Summoned new Armor Stand]
+[15:17:49] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[15:18:27] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[15:18:28] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[15:19:02] [Server thread/WARN]: Missing metadata in pack file/Among Us Datapack.zip
+[15:19:02] [Server thread/INFO]: [Techyte: Reloading!]
+[15:19:02] [Server thread/INFO]: Loaded 7 recipes
+[15:19:02] [Server thread/INFO]: Loaded 1272 advancements
+[15:19:09] [Server thread/INFO]: [Techyte: Summoned new Armor Stand]
+[15:20:06] [Server thread/INFO]: [Techyte: Summoned new Armor Stand]
+[15:20:15] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[15:20:21] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[15:21:06] [Server thread/INFO]: Techyte lost connection: Disconnected
+[15:21:06] [Server thread/INFO]: Techyte left the game
+[15:21:09] [User Authenticator #2/INFO]: UUID of player Techyte is 58ac8f4a-7896-47c6-b742-fc451378e82f
+[15:21:10] [Server thread/INFO]: Techyte[/127.0.0.1:64161] logged in with entity id 41 at (-143.30000001192093, -4.0, -17.57763380126808)
+[15:21:10] [Server thread/INFO]: Techyte joined the game
+[15:21:11] [Server thread/INFO]: Player Techyte joined with a matching carpet client
+[15:21:12] [Server thread/INFO]: [Techyte: Set own game mode to Spectator Mode]
+[15:21:20] [Server thread/INFO]: [Techyte: Set own game mode to Creative Mode]
+[15:21:24] [Server thread/INFO]: [Techyte: Set own game mode to Adventure Mode]
+[15:21:28] [Server thread/INFO]: [Techyte: Added tag 'Imposter' to Techyte]
+[15:21:31] [Server thread/INFO]: [Techyte: Added tag 'playing' to Techyte]
+[15:21:33] [Server thread/INFO]: [Techyte: Added tag 'Alive' to Techyte]
+[15:21:43] [Server thread/INFO]: Techyte lost connection: Disconnected
+[15:21:43] [Server thread/INFO]: Techyte left the game
+[15:37:26] [Server thread/INFO]: Stopping the server
+[15:37:26] [Server thread/INFO]: Stopping server
+[15:37:26] [Server thread/INFO]: Saving players
+[15:37:26] [Server thread/INFO]: Saving worlds
+[15:37:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:overworld
+[15:37:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_nether
+[15:37:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Among Us Command Blocks]'/minecraft:the_end
+[15:37:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (Among Us Command Blocks): All chunks are saved
+[15:37:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:37:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:37:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -31,3 +31,11 @@ scoreboard players set @a[tag=Imposter] killCooldown 25
 scoreboard players set Manager meetingEnding 0
 scoreboard players set Manager voting 0
 scoreboard players set Manager discussing 0
+
+clear @a
+
+scoreboard players set Manager meetingCooldown 10
+
+scoreboard players set Manager voting 0
+
+gamerule sendCommandFeedback true

@@ -54,23 +54,14 @@ scoreboard players operation $max votes > @a votes
 execute as @a if score @s votes = $max votes if score $max votes > math votes run scoreboard players add Manager votedPlayers 1
 
 execute if score Manager votedPlayers matches 1 as @a if score @s votes > Manager skippedPlayers as @a if score @s votes = $max votes run tag @s add eject
-execute if score Manager skippedPlayers > $max votes run tellraw @a {"text":"Vote skipped. No player was ejected.","color": "yellow"}
-execute if score Manager votedPlayers > math votedPlayers run tellraw @a {"text":"Vote tied. No player was ejected.","color": "yellow"}
-execute if score Manager skippedPlayers = $max votes run tellraw @a {"text":"Vote tied. No player was ejected.","color": "yellow"}
+execute if score Manager skippedPlayers > $max votes run function amongus:voteskipped
+execute if score Manager votedPlayers > math votedPlayers run function amongus:votetied
+execute if score Manager skippedPlayers = $max votes run function amongus:votetied
 
-execute as @a[tag=eject] if entity @a[tag=eject,tag=Imposter] run tellraw @a [{"selector":"@s","color": "dark_green","bold": true},{"text":" was An Imposter","color": "dark_green","bold": true}]
-execute as @a[tag=eject] if entity @a[tag=eject,tag=!Imposter] run tellraw @a [{"selector":"@s","color": "red","bold": true},{"text":" was A Crewmate","color": "red","bold": true}]
-execute as @a[tag=eject] at @s run tag @s add Ghosts
-execute as @a[tag=eject] at @s run tag @s remove Alive
+execute as @a[tag=eject] run function amongus:playervotedoff
 
-tag @a remove eject
-
-clear @a
+scoreboard players set Manager discussing 0
 
 scoreboard players set Manager meetingCooldown 10
 
 scoreboard players set Manager voting 0
-
-schedule function amongus:endmeeting 20
-
-gamerule sendCommandFeedback true

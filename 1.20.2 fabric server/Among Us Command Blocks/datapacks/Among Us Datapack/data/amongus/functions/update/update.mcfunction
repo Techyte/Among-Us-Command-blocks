@@ -1,7 +1,8 @@
 scoreboard players enable @a help
 execute as @a[scores={help=1..}] run function amongus:help
 execute as @a[scores={quits=1..}] run function amongus:left
-execute if score Manager gameStarted matches 1 run function amongus:checkwins
+
+#execute if score Manager gameStarted matches 1 run function amongus:checkwins
 execute if score Manager discussTimer matches 0 if entity @a[tag=inmeeting] if score Manager voting matches 0 if score Manager discussing matches 1 run function amongus:startvoting
 execute if entity @a[tag=inmeeting,limit=1] run function amongus:checkifeveryonevoted
 execute as @a run function amongus:testforplayerwithoutcolour
@@ -26,12 +27,13 @@ function amongus:colourselectchestset
 execute store result bossbar minecraft:votetimer value run scoreboard players get Manager voteTimer
 execute store result bossbar minecraft:completedtasks value run scoreboard players get Manager completedTasks
 execute as @a[scores={clicked=1..}] at @s run function amongus:clicktest
-effect give @a[team=Ghosts] minecraft:invisibility infinite 255 true
-effect clear @a[team=!Ghosts,tag=!Venting,tag=!attable,tag=!Faking,tag=!incam] minecraft:invisibility
+effect give @a[tag=Ghosts] minecraft:invisibility infinite 255 true
+effect clear @a[tag=!Ghosts,tag=!Venting,tag=!attable,tag=!Faking,tag=!incam] minecraft:invisibility
 execute as @a[tag=Alive,tag=inmeeting,scores={voteId=0..},tag=!voteConfirmed] at @s run function amongus:playervoted
 execute if score Manager lights_sabotage matches 1 run effect give @a minecraft:blindness infinite 255 true
 execute as @a[tag=Imposter] at @s run function amongus:imposter_effect
 execute as @a at @s run stopsound @s music
+item replace entity @a[tag=incam] armor.head with minecraft:player_head{display:{Name:'{"text":"Surveillance Camera"}'},SkullOwner:{Id:[I;882993504,1005276052,-1379315123,-1017807961],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIyOGY0ZWVmZjg5MWI3OGQ1MWY3NWQ4NzIyYzYyODQ4NGJhNDlkZjljOWYyMzcxODk4YzI2OTY3Mzg2In19fQ=="}]}}}
 
 execute if score Manager sabotageCooldown matches 0 run bossbar set minecraft:sabotagetimer visible false
 execute if score Manager sabotageCooldown > math sabotageCooldown if score Manager reactor_sabotage matches 0 if score Manager o2_sabotage matches 0 if score Manager lights_sabotage matches 0 if score Manager comms_sabotage matches 0 run bossbar set minecraft:sabotagetimer visible true
@@ -44,7 +46,7 @@ execute if score Manager reactorTimer > math reactorTimer run bossbar set minecr
 execute if score Manager o2Timer matches 0 run bossbar set minecraft:o2sabotage visible false
 execute if score Manager o2Timer > math o2Timer run bossbar set minecraft:o2sabotage visible true
 effect give @a[tag=Alive] minecraft:speed infinite 2 true
-effect give @a[team=Ghosts] minecraft:speed infinite 6 true
+effect give @a[tag=Ghosts] minecraft:speed infinite 6 true
 
 bossbar set minecraft:completedtasks players @a
 bossbar set minecraft:votetimer players @a

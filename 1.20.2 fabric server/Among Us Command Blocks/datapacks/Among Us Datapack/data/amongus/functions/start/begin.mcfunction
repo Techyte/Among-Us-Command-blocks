@@ -3,24 +3,25 @@ execute as @a run function amongus:removehavetasktags
 execute store result score Manager numOfPlayers if entity @a
 
 execute store result score Manager temp_imposters run scoreboard players get Manager noofimposters
+execute store result score Manager finalImposterCount run scoreboard players get Manager noofimposters
 
-execute if score Manager numOfPlayers < $highestimpcount numOfPlayers run scoreboard players set Manager noofimposters 1
-execute if score Manager numOfPlayers < $impNoCheck numOfPlayers run scoreboard players set Manager noofimposters 1
+execute if score Manager numOfPlayers < $highestimpcount numOfPlayers run scoreboard players set Manager finalImposterCount 1
+execute if score Manager numOfPlayers < $impNoCheck numOfPlayers run scoreboard players set Manager finalImposterCount 1
 
-execute if score Manager numofimposters >= $impNoCheck numOfPlayers if score Manager temp_imposters matches 2 run scoreboard players set Manager noofimposters 2
-execute if score Manager numofimposters >= $impNoCheck numOfPlayers if score Manager temp_imposters matches 3 run scoreboard players set Manager noofimposters 3
+execute if score Manager numofimposters >= $impNoCheck numOfPlayers if score Manager finalImposterCount matches 2 run scoreboard players set Manager finalImposterCount 2
+execute if score Manager numofimposters >= $impNoCheck numOfPlayers if score Manager finalImposterCount matches 3 run scoreboard players set Manager finalImposterCount 3
 
-execute if score Manager numofimposters >= #yup numofimposters run scoreboard players set Manager noofimposters 3
+execute if score Manager numofimposters >= #yup numofimposters run scoreboard players set Manager finalImposterCount 3
+
+execute store result score Manager temp_imposters run scoreboard players get Manager finalImposterCount
 
 function amongus:start/assignimposters
-
-execute store result score Manager noofimposters run scoreboard players get Manager temp_imposters
 
 tellraw @a[tag=!Imposter] {"text":"You are a crewmate! Your tasks are:","color": "yellow","bold": true}
 function amongus:tasks/handout/handouttasks
 
-execute if score Manager noofimposters matches 1 run title @a[tag=!Imposter] subtitle [{"text":"There is 1 Imposter among us!","color": "red"}]
-execute unless score Manager noofimposters matches 1 run title @a[tag=!Imposter] subtitle [{"text":"There are ","color": "red"},{"score":{"name": "Manager","objective": "noofimposters"},"color": "red"},{"text":" Imposters among us!","color": "red"}]
+execute if score Manager finalImposterCount matches 1 run title @a[tag=!Imposter] subtitle [{"text":"There is 1 Imposter among us!","color": "red"}]
+execute unless score Manager finalImposterCount matches 1 run title @a[tag=!Imposter] subtitle [{"text":"There are ","color": "red"},{"score":{"name": "Manager","objective": "finalImposterCount"},"color": "red"},{"text":" Imposters among us!","color": "red"}]
 
 title @a[tag=Imposter] actionbar [{"text":"Imposters are: ","color": "red"},{"selector":"@a[tag=Imposter]","color": "red"}]
 tellraw @a[tag=Imposter] [{"text":"Imposters are: ","color": "red"},{"selector":"@a[tag=Imposter]","color": "red"}]

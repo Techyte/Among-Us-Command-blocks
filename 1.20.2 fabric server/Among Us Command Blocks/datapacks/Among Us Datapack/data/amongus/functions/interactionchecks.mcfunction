@@ -2,6 +2,9 @@ execute as @s[tag=Imposter,tag=Alive] at @s run function amongus:checkifcankill
 execute as @s[tag=Imposter,tag=Alive] at @s run function amongus:checkifcanvent
 execute as @s[tag=Alive] at @s run function amongus:checkifcanreport
 execute as @s[tag=!Imposter] at @s run function amongus:checkifcanlocate
+
+execute as @s[tag=Imposter] at @s run function amongus:sabotages/checkifusesabotage
+
 execute as @s[tag=Imposter] at @s run function amongus:sabotages/buttons/doors
 execute as @s[tag=Imposter] at @s run function amongus:sabotages/buttons/comms
 execute as @s[tag=Imposter] at @s run function amongus:sabotages/buttons/lights
