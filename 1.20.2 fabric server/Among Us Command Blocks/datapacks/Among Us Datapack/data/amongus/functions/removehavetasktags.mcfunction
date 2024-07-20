@@ -57,6 +57,8 @@ tag @s remove cam1
 tag @s remove cam2
 tag @s remove cam3
 tag @s remove cam4
+tag @s remove inmeeting
+tag @s remove voteConfirmed
 effect clear @s
 
 tag @s remove black

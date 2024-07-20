@@ -5,4 +5,6 @@ title @a subtitle {"text":"Sabotage was left to long","color": "red","bold": tru
 
 tellraw @a [{"text":"Imposters Were: ","color": "red","bold": true},{"selector":"@a[tag=Imposter]","color": "red","bold": true}]
 
+scoreboard players add Imposters Wins 1
+
 function amongus:end/backtolobby

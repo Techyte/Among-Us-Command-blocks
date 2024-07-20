@@ -2,6 +2,7 @@ title @a times 0 30t 0
 title @a title [{"text":"Emergency Meeting!","color":"red","bold": true}]
 
 scoreboard players remove @s meetings 1
+kill @e[tag=body]
 
 tellraw @a " "
 tellraw @s [{"text":"You have ","color": "green"},{"score":{"name":"@s","objective":"meetings"},"color":"yellow"},{"text":" meeting(s) left"}]

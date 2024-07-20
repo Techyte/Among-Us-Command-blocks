@@ -29,7 +29,7 @@ kill @e[tag=tempKillTarget]
 execute as @s run tp @s @e[tag=KillTarget,limit=1]
 execute as @e[tag=KillTarget] run tag @s add Ghosts
 execute as @e[tag=KillTarget] run tag @s remove Alive
-execute as @e[tag=KillTarget] at @s run tag @s remove InTask
+execute as @e[tag=KillTarget] at @s run tag @s remove inTask
 execute as @s at @s run tp @e[tag=KillTarget] ~ ~ ~
 
 clear @a[tag=KillTarget]

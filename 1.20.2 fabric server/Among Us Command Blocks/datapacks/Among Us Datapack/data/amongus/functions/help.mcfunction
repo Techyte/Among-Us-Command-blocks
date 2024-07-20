@@ -2,6 +2,7 @@ scoreboard players set @s help 0
 execute as @s[tag=!playing] run tellraw @s {"text":"When the game begins you will be assigned as a Crewmate or an Imposter.","color": "yellow"}
 execute as @s[tag=!playing] run tellraw @s {"text":"As an Imposter your objective is to get rid of the Crewmates by either killing them, voting them off or sabotaging some critical system to kill them all.","color": "yellow"}
 execute as @s[tag=!playing] run tellraw @s {"text":"As a Crewmate your job is to find and vote off the Imposters through deduction. You also have tasks that you must complete, once every Crewmate has completed all their tasks, the Crewmates win.","color": "yellow"}
+execute as @s[tag=!playing] run tellraw @s {"text":"Ideal at brightness 10.","color": "yellow","bold": true}
 
 execute as @s[tag=playing,tag=Imposter] run tellraw @s {"text":"You are an Imposter","color": "yellow","bold": true}
 execute as @s[tag=playing,tag=Imposter] run tellraw @s {"text":"Your Objective is to kill, sabotage and deceive all the crewmates. To kill someone, go up to them and use your kill button.","color": "yellow"}

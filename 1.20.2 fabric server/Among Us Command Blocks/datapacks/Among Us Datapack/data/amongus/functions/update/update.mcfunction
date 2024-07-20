@@ -2,7 +2,7 @@ scoreboard players enable @a help
 execute as @a[scores={help=1..}] run function amongus:help
 execute as @a[scores={quits=1..}] run function amongus:left
 
-#execute if score Manager gameStarted matches 1 run function amongus:checkwins
+execute if score Manager gameStarted matches 1 run function amongus:checkwins
 execute if score Manager discussTimer matches 0 if entity @a[tag=inmeeting] if score Manager voting matches 0 if score Manager discussing matches 1 run function amongus:startvoting
 execute if entity @a[tag=inmeeting,limit=1] run function amongus:checkifeveryonevoted
 execute as @a run function amongus:testforplayerwithoutcolour
@@ -15,7 +15,7 @@ effect give @a minecraft:regeneration infinite 255 true
 execute as @a[tag=pumpkinClear,scores={pumpkinclear=0}] run function amongus:removecarvedpumpkin
 execute as @a run function amongus:sabotages/changenotinslot
 execute as @a at @s if entity @s[scores={hunger=8..}] run effect give @s hunger 1 80 true
-effect give @a[tag=!playing] minecraft:speed infinite 1 true
+effect give @a minecraft:speed infinite 1 true
 effect give @a minecraft:jump_boost infinite 128 true
 execute if score Manager voteTimer matches 0 if score Manager discussTimer matches 0 if entity @a[tag=inmeeting] if score Manager discussing matches 0 if score Manager voting matches 1 if score Manager meetingEnding matches 0 run function amongus:endvoting
 execute store result bossbar minecraft:discusstimer value run scoreboard players get Manager discussTimer
@@ -35,6 +35,10 @@ execute as @a[tag=Imposter] at @s run function amongus:imposter_effect
 execute as @a at @s run stopsound @s music
 item replace entity @a[tag=incam] armor.head with minecraft:player_head{display:{Name:'{"text":"Surveillance Camera"}'},SkullOwner:{Id:[I;882993504,1005276052,-1379315123,-1017807961],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIyOGY0ZWVmZjg5MWI3OGQ1MWY3NWQ4NzIyYzYyODQ4NGJhNDlkZjljOWYyMzcxODk4YzI2OTY3Mzg2In19fQ=="}]}}}
 
+scoreboard players add @a timeingame 1
+
+execute unless entity @a[tag=host] run function amongus:choosehost
+
 execute if score Manager sabotageCooldown matches 0 run bossbar set minecraft:sabotagetimer visible false
 execute if score Manager sabotageCooldown > math sabotageCooldown if score Manager reactor_sabotage matches 0 if score Manager o2_sabotage matches 0 if score Manager lights_sabotage matches 0 if score Manager comms_sabotage matches 0 run bossbar set minecraft:sabotagetimer visible true
 execute if score Manager voteTimer matches 0 run bossbar set minecraft:votetimer visible false
@@ -45,10 +49,9 @@ execute if score Manager reactorTimer matches 0 run bossbar set minecraft:reacto
 execute if score Manager reactorTimer > math reactorTimer run bossbar set minecraft:reactorsabotage visible true
 execute if score Manager o2Timer matches 0 run bossbar set minecraft:o2sabotage visible false
 execute if score Manager o2Timer > math o2Timer run bossbar set minecraft:o2sabotage visible true
-effect give @a[tag=Alive] minecraft:speed infinite 2 true
 effect give @a[tag=Ghosts] minecraft:speed infinite 6 true
 
-bossbar set minecraft:completedtasks players @a
+bossbar set minecraft:completedtasks players @a[tag=playing]
 bossbar set minecraft:votetimer players @a
 bossbar set minecraft:discusstimer players @a
 bossbar set minecraft:reactorsabotage players @a

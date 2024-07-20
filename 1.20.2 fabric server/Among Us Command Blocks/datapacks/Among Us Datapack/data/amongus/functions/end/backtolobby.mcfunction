@@ -4,6 +4,8 @@ tag @a remove playing
 clear @a
 tp @a 8 -60 8
 
+effect clear @a
+
 execute as @a run function amongus:tasks/killdummyplayer
 
 execute as @a run function amongus:removehavetasktags
