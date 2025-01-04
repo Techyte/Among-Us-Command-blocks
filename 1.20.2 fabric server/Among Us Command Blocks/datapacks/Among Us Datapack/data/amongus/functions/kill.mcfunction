@@ -1,4 +1,4 @@
-tag @p[tag=!Imposter,team=!Ghosts,distance=..3,limit=1] add KillTarget
+tag @p[tag=!Imposter,tag=!Ghosts,distance=..3,limit=1] add KillTarget
 tag @e[tag=!Imposter,tag=dummyPlayer,distance=..3,limit=1] add tempKillTarget
 
 execute if entity @e[tag=tempKillTarget,tag=dummyPlayer,tag=red] run tag @a[tag=inTask,team=Red,tag=!dummyPlayer] add KillTarget
