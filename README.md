@@ -14,7 +14,7 @@ Made in a few weeks and heavily based off of the PheonixSC [Among Us In Minecraf
 Head to the [releases](https://github.com/Techyte/Among-Us-Command-blocks/releases) page and download the world file.
 
 To find the minecraft folder follow these steps (will be needed for installation later):
-- On windows, type %appdata% into your search bar
+- On windows, type %appdata% into your search bar, open the .minecraft file
 - On Mac go to finder, hold alt, click finder -> Application Support -> Minecraft
 
 Once the world file is downloaded, Unzip and place inside the 'saves' folder inside your Minecraft folder. Opening Minecraft the world should be there. Once the world is running you can open it up to LAN for people on your network to play.
