@@ -5,13 +5,13 @@ execute store result score Manager numOfPlayers if entity @a
 execute store result score Manager temp_imposters run scoreboard players get Manager noofimposters
 execute store result score Manager finalImposterCount run scoreboard players get Manager noofimposters
 
-execute if score Manager numOfPlayers < $highestimpcount numOfPlayers run scoreboard players set Manager finalImposterCount 1
-execute if score Manager numOfPlayers < $impNoCheck numOfPlayers run scoreboard players set Manager finalImposterCount 1
+# execute if score Manager numOfPlayers < $highestimpcount numOfPlayers run scoreboard players set Manager finalImposterCount 1
+# execute if score Manager numOfPlayers < $impNoCheck numOfPlayers run scoreboard players set Manager finalImposterCount 1
 
-execute if score Manager numofimposters >= $impNoCheck numOfPlayers if score Manager finalImposterCount matches 2 run scoreboard players set Manager finalImposterCount 2
-execute if score Manager numofimposters >= $impNoCheck numOfPlayers if score Manager finalImposterCount matches 3 run scoreboard players set Manager finalImposterCount 3
+# execute if score Manager noofimposters >= $impNoCheck numOfPlayers run scoreboard players set Manager finalImposterCount 2
+# execute if score Manager noofimposters >= $impNoCheck numOfPlayers run scoreboard players set Manager finalImposterCount 3
 
-execute if score Manager numofimposters >= #yup numofimposters run scoreboard players set Manager finalImposterCount 3
+# execute if score Manager noofimposters >= #yup noofimposters run scoreboard players set Manager finalImposterCount 3
 
 execute store result score Manager temp_imposters run scoreboard players get Manager finalImposterCount
 
@@ -24,6 +24,7 @@ execute if score Manager finalImposterCount matches 1 run title @a[tag=!Imposter
 execute unless score Manager finalImposterCount matches 1 run title @a[tag=!Imposter] subtitle [{"text":"There are ","color": "red"},{"score":{"name": "Manager","objective": "finalImposterCount"},"color": "red"},{"text":" Imposters among us!","color": "red"}]
 
 title @a[tag=Imposter] actionbar [{"text":"Imposters are: ","color": "red"},{"selector":"@a[tag=Imposter]","color": "red"}]
+title @a[tag=Imposter] subtitle [{"text":"Imposters are: ","color": "red"},{"selector":"@a[tag=Imposter]","color": "red"}]
 tellraw @a[tag=Imposter] [{"text":"Imposters are: ","color": "red"},{"selector":"@a[tag=Imposter]","color": "red"}]
 
 title @a[tag=!Imposter] title {"text": "Crewmate","color": "aqua"}
