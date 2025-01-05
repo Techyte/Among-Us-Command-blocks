@@ -23,6 +23,29 @@ Once the world file is downloaded, Unzip and place inside the 'saves' folder ins
 
 I would recommend downloading the Resource pack as well to share with you and your friends.
 
+### Commands
+
+Change minimum number of players allowed to begin the game (default: 4):
+~~~
+/scoreboard players set math numOfPlayers {number}
+~~~
+Change number of imposters that will be assigned at the start of each game (default: 1):
+~~~
+/scoreboard players set Manager noofimposters {number}
+~~~
+Change number of Common Tasks handed out to cremates (default: 1):
+~~~
+/scoreboard players set Manager commontasks {number}
+~~~
+Change number of Short Tasks handed out to cremates (default: 2):
+~~~
+/scoreboard players set Manager commontasks {number}
+~~~
+Change number of Long Tasks handed out to cremates (default: 2):
+~~~
+/scoreboard players set Manager longtasks {number}
+~~~
+
 ## Setting Up with a Server
 
 You can download the server file for each version from their entry in the [Minecraft Wiki](https://minecraft.wiki/), the version for 1.20.2 can be found [here](https://minecraft.wiki/w/Java_Edition_1.20.2).
@@ -32,7 +55,6 @@ Create a foler on your desktop called 'server', move the downloaded server.jar i
 Run the server.jar again and it should open the server. Once it is open, close it and move the world file into the server folder. To enable it you will need to go into the server.properties and both change the level-name to Among Us Command Blocks and enable-command-block to true.
 
 Included in all releases is a premade server.properties file, if you want you can use this in place of the default one, it includes things like a server resource pack, automatically enabling command blocks, the correct player cap, and more.
-
 ## Version Support
 
 Currently the only supported Minecraft Version is 1.20.2, this is the minimum required version as the project requires the /random command introduced in this version.
