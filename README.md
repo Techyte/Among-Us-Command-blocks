@@ -7,7 +7,7 @@ Among Us In Minecraft is an adapted version of the video game created by Innersl
 
 ## About
 
-Made in a few weeks and heavily based off of the PheonixSC [Among Us In Minecraft](https://youtu.be/me9Tt6rK6nk?si=FWHJ7jSXu3OTtTb1), my version of Among Us In Minecraft includes things like a full recreation of the Skeld, a lobby area, an automatically replayable map, all tasks from the original game, sabotages, ect.
+Made in a few weeks and heavily based off of the PheonixSC [Among Us In Minecraft](https://youtu.be/me9Tt6rK6nk?si=FWHJ7jSXu3OTtTb1), my version of Among Us In Minecraft includes things like a full recreation of the Skeld (built by my friends), a lobby area, an automatically replayable map, all tasks from the original game, sabotages, and more!
 
 A showcase can be viewed on YouTube [here](https://youtu.be/zOq2DtjB96I?si=-OdEMwttLEOGIoHF)
 
